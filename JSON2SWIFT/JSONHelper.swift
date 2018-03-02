@@ -16,12 +16,14 @@ class JSONHelper{
     static func generateDictFrom(JSON: String) -> [String:Any]{
         var dict: [String:Any] = [:]
         let line = JSON.components(separatedBy: ",\n")
-        line.forEach{
+        let newLines = line.filter{!$0.cleaned.isEmpty}
+        newLines.forEach{
             let element = $0.components(separatedBy: ": ")
-            let key = element[0]
+            let key = element[0].cleaned
             let value = element[1]
             dict[key] = value
         }
+        
         return dict
     }
 }
