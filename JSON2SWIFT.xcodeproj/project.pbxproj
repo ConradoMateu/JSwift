@@ -18,6 +18,7 @@
 		E2B0528D20495F1D0091C024 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EFFBC12048C70300D7C943 /* Extensions.swift */; };
 		E2B0528F2049690A0091C024 /* JSONHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B0528E2049690A0091C024 /* JSONHelperTests.swift */; };
 		E2B0529120497EBC0091C024 /* FileGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B0529020497EBC0091C024 /* FileGenerator.swift */; };
+		E2B05293204A0DA60091C024 /* DictDetectot.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B05292204A0DA60091C024 /* DictDetectot.swift */; };
 		E2EFFBC02048C4C000D7C943 /* JSONHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EFFBBF2048C4C000D7C943 /* JSONHelper.swift */; };
 		E2EFFBC22048C70300D7C943 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EFFBC12048C70300D7C943 /* Extensions.swift */; };
 		E2EFFBC42048CAA200D7C943 /* PrimitiveTypeHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EFFBC32048CAA200D7C943 /* PrimitiveTypeHelperTests.swift */; };
@@ -53,6 +54,7 @@
 		E28BE5892048584F004D8275 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2B0528E2049690A0091C024 /* JSONHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONHelperTests.swift; sourceTree = "<group>"; };
 		E2B0529020497EBC0091C024 /* FileGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileGenerator.swift; sourceTree = "<group>"; };
+		E2B05292204A0DA60091C024 /* DictDetectot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictDetectot.swift; sourceTree = "<group>"; };
 		E2EFFBBF2048C4C000D7C943 /* JSONHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONHelper.swift; sourceTree = "<group>"; };
 		E2EFFBC12048C70300D7C943 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		E2EFFBC32048CAA200D7C943 /* PrimitiveTypeHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimitiveTypeHelperTests.swift; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 				E2EFFBBF2048C4C000D7C943 /* JSONHelper.swift */,
 				E2EFFBC12048C70300D7C943 /* Extensions.swift */,
 				E2B0529020497EBC0091C024 /* FileGenerator.swift */,
+				E2B05292204A0DA60091C024 /* DictDetectot.swift */,
 			);
 			path = JSON2SWIFT;
 			sourceTree = "<group>";
@@ -355,6 +358,7 @@
 				E2EFFBC22048C70300D7C943 /* Extensions.swift in Sources */,
 				E2F4FF1A20487B4300E6E7D1 /* PrimitiveTypes.swift in Sources */,
 				E28BE5752048584E004D8275 /* AppDelegate.swift in Sources */,
+				E2B05293204A0DA60091C024 /* DictDetectot.swift in Sources */,
 				E2F4FF1820487AFE00E6E7D1 /* PrimitiveTypeHelper.swift in Sources */,
 				E2EFFBC02048C4C000D7C943 /* JSONHelper.swift in Sources */,
 			);
