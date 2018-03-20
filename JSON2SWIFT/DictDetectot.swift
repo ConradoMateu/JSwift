@@ -27,15 +27,12 @@ class DictDetector {
 }
 """
         var line = json.components(separatedBy: "\n")
-
         line.removeFirst()
-
         var resDict : [String: Any] = [:]
         var afterKey = ""
         var afterInner = false
         var afterAdded = false
-        for (i, l) in line.enumerated(){
-            var enfOfInnerDict = true
+        for (_, l) in line.enumerated(){
             var element = l.components(separatedBy: ": ")
             let keyCleaned = element[0]
 
@@ -48,7 +45,7 @@ class DictDetector {
             if(afterInner || afterAdded){
                 if(afterInner){
 
-                        resDict[afterKey] = keyCleaned + ":" + value! + "\n"
+                        resDict[afterKey] = keyCleaned + ": " + value! + "\n"
 
                     afterInner = false
                     afterAdded = true
@@ -57,10 +54,8 @@ class DictDetector {
                     //If value is empty "}".componentsSeparatedBY(",n") just one item in the array
                     if(keyCleaned.contains("}")){
                         afterAdded = false
-
                     }else{
-                        
-                        resDict[afterKey] = resDict[afterKey] as! String + keyCleaned + ":" + value! + "\n"
+                        resDict[afterKey] = resDict[afterKey] as! String + keyCleaned + ": " + value! + "\n"
                         afterAdded = true
                     }
                 }
@@ -74,11 +69,7 @@ class DictDetector {
                             resDict[keyCleaned] = v.replacingOccurrences(of: "}", with: "")
                         }
                     }
-
-
                 }
-
-
             }
         }
 return resDict

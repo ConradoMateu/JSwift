@@ -18,13 +18,17 @@ class PrimitiveTypeHelper {
         }
         return res
     }
-    static func infer(type: String) -> Primitives {
-        if (type.starts(with: "\"") && type.reversed().starts(with: "\"")){
+    static func infer(type: String) -> Primitives? {
+        if (type.contains(": ") && type.contains("\n")) {
+            return Primitives.Object
+        }else if (type.starts(with: "\"") && type.reversed().starts(with: "\"")){
             return Primitives.String
         }else if(type.isNumeric){
             return numericInfer(type: type)
-        }else{
+        }else if(type.isBool()){
             return Primitives.Bool
+        }else{
+            return nil
         }
     }
 
@@ -36,18 +40,4 @@ class PrimitiveTypeHelper {
         else{ return Primitives.Int
     }
 }
-}
-
-
-extension String {
-    func toBool() -> Bool? {
-        switch self {
-        case "True", "true", "yes", "1":
-            return true
-        case "False", "false", "no", "0":
-            return false
-        default:
-            return nil
-        }
-    }
 }

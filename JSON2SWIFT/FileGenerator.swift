@@ -21,6 +21,7 @@ class FileGenerator {
                 let text = correctFormatFrom(dict: dict)
                 // writing to disk
                 try text.write(to: fileURL, atomically: false, encoding: .utf8)
+                
                 print("saving was successful")
                 // any code posterior code goes here
                 // reading from disk
@@ -35,7 +36,13 @@ class FileGenerator {
     static func correctFormatFrom(dict:[String:Any])-> String{
         var res = ""
         dict.forEach{
-            res.append("\($0): \($1)? \n")
+            if let a = $1 as? Primitives{
+                let hey = "let \($0): \(a)? \n"
+                res.append(hey)
+            }else{
+                res.append("let \($0.cleaned): \($0.cleaned.capitalized) \n")
+            }
+
         }
         return res
     }

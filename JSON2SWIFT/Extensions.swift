@@ -15,12 +15,40 @@ extension String {
 
     var cleaned: String{
         return self.replacingOccurrences(of: "\t", with:"")
-            .replacingOccurrences(of: " ", with: "")
+            
             .replacingOccurrences(of: "\"", with: "")
             .replacingOccurrences(of: "\n", with: "")
         .replacingOccurrences(of: ",", with: "")
- 
     }
+
+    var firsLetterCapitalized: String{
+        return prefix(1).uppercased() + dropFirst()
+    }
+
+    func toBool() -> Bool? {
+        switch self {
+        case "True", "true", "yes", "1":
+            return true
+        case "False", "false", "no", "0":
+            return false
+        default:
+            return nil
+        }
+    }
+
+    func isBool() -> Bool {
+        if let _ = self.toBool(){
+            return true
+        }else{
+            return false
+        }
+    }
+
+    func isObject() -> Bool{
+        return self == Primitives.Object.rawValue
+    }
+
+
 
 
 }

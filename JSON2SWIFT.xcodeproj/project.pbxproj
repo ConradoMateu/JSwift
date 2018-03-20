@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4E55BB14A6E562220EBAC7D4 /* Pods_JSON2SWIFT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B99A3C73041DDEA664E59EEE /* Pods_JSON2SWIFT.framework */; };
+		E26A38352060479E0034EA77 /* DictDetectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26A38342060479E0034EA77 /* DictDetectorTests.swift */; };
+		E26A38372060843F0034EA77 /* ObjectTypeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26A38362060843F0034EA77 /* ObjectTypeHelper.swift */; };
 		E28BE5752048584E004D8275 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28BE5742048584E004D8275 /* AppDelegate.swift */; };
 		E28BE5772048584E004D8275 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28BE5762048584E004D8275 /* ViewController.swift */; };
 		E28BE5792048584E004D8275 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E28BE5782048584E004D8275 /* Assets.xcassets */; };
@@ -43,6 +45,8 @@
 		987D263EE57B2EB8EAE31DAD /* Pods-JSON2SWIFT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSON2SWIFT.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JSON2SWIFT/Pods-JSON2SWIFT.debug.xcconfig"; sourceTree = "<group>"; };
 		B4E7B52971762DDFF750DC0E /* Pods-JSON2SWIFTTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSON2SWIFTTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSON2SWIFTTests/Pods-JSON2SWIFTTests.release.xcconfig"; sourceTree = "<group>"; };
 		B99A3C73041DDEA664E59EEE /* Pods_JSON2SWIFT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSON2SWIFT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E26A38342060479E0034EA77 /* DictDetectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictDetectorTests.swift; sourceTree = "<group>"; };
+		E26A38362060843F0034EA77 /* ObjectTypeHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectTypeHelper.swift; sourceTree = "<group>"; };
 		E28BE5712048584E004D8275 /* JSON2SWIFT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSON2SWIFT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E28BE5742048584E004D8275 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E28BE5762048584E004D8275 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -138,6 +142,7 @@
 				E2EFFBC12048C70300D7C943 /* Extensions.swift */,
 				E2B0529020497EBC0091C024 /* FileGenerator.swift */,
 				E2B05292204A0DA60091C024 /* DictDetectot.swift */,
+				E26A38362060843F0034EA77 /* ObjectTypeHelper.swift */,
 			);
 			path = JSON2SWIFT;
 			sourceTree = "<group>";
@@ -148,6 +153,7 @@
 				E28BE5892048584F004D8275 /* Info.plist */,
 				E2EFFBC32048CAA200D7C943 /* PrimitiveTypeHelperTests.swift */,
 				E2B0528E2049690A0091C024 /* JSONHelperTests.swift */,
+				E26A38342060479E0034EA77 /* DictDetectorTests.swift */,
 			);
 			path = JSON2SWIFTTests;
 			sourceTree = "<group>";
@@ -357,6 +363,7 @@
 				E2B0529120497EBC0091C024 /* FileGenerator.swift in Sources */,
 				E2EFFBC22048C70300D7C943 /* Extensions.swift in Sources */,
 				E2F4FF1A20487B4300E6E7D1 /* PrimitiveTypes.swift in Sources */,
+				E26A38372060843F0034EA77 /* ObjectTypeHelper.swift in Sources */,
 				E28BE5752048584E004D8275 /* AppDelegate.swift in Sources */,
 				E2B05293204A0DA60091C024 /* DictDetectot.swift in Sources */,
 				E2F4FF1820487AFE00E6E7D1 /* PrimitiveTypeHelper.swift in Sources */,
@@ -371,6 +378,7 @@
 				E2B0528F2049690A0091C024 /* JSONHelperTests.swift in Sources */,
 				E2B0528D20495F1D0091C024 /* Extensions.swift in Sources */,
 				E2B0528B20495F190091C024 /* PrimitiveTypes.swift in Sources */,
+				E26A38352060479E0034EA77 /* DictDetectorTests.swift in Sources */,
 				E2EFFBC42048CAA200D7C943 /* PrimitiveTypeHelperTests.swift in Sources */,
 				E2B0528A20495F0D0091C024 /* PrimitiveTypeHelper.swift in Sources */,
 				E2B0528C20495F1B0091C024 /* JSONHelper.swift in Sources */,
