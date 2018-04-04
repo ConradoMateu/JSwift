@@ -8,12 +8,11 @@
 
 import Foundation
 
-enum Primitives: String{
-    case Double
-    case Int
-    case String
-    case Bool
-    case Object
+enum Primitives: String {
+    case double
+    case int
+    case string
+    case bool
+    case object
 }
-
 

@@ -11,8 +11,8 @@ import Nimble
 @testable import JSON2SWIFT
 
 class PrimitiveTypeHelperTests: XCTestCase {
-    var dict: [String:Any] = [:]
-    var dictResult: [String:Any] = [:]
+    var dict: [String: Any] = [:]
+    var dictResult: [String: Any] = [:]
 
     override func setUp() {
         super.setUp()
@@ -21,55 +21,54 @@ class PrimitiveTypeHelperTests: XCTestCase {
                     "isStudent": "true",
                     "age": "21",
                     "averageGrade": "9.9"]
-        dictResult = ["name": Primitives.String,
-                         "surname": Primitives.String,
-                         "isStudent": Primitives.Bool,
-                         "age": Primitives.Int,
-                         "averageGrade": Primitives.Double]
+        dictResult = ["name": Primitives.string,
+                         "surname": Primitives.string,
+                         "isStudent": Primitives.bool,
+                         "age": Primitives.int,
+                         "averageGrade": Primitives.double]
     }
 
-    func testNumericInferShouldReturnDoubleIfTheStringContainsADot(){
+    func testNumericInferShouldReturnDoubleIfTheStringContainsADot() {
         let stringToInfer = "34.234"
         let infer = PrimitiveTypeHelper.numericInfer(type: stringToInfer)
-        expect(infer).to(equal(Primitives.Double))
+        expect(infer).to(equal(Primitives.double))
     }
 
-    func testNumericInferShouldReturnIntIfTheStringDoesNotContainsADot(){
+    func testNumericInferShouldReturnIntIfTheStringDoesNotContainsADot() {
         let stringToInfer = "34234"
         let infer = PrimitiveTypeHelper.numericInfer(type: stringToInfer)
-        expect(infer).to(equal(Primitives.Int))
+        expect(infer).to(equal(Primitives.int))
     }
 
-    func testInferShouldReturnStringIfContainsQuotes(){
+    func testInferShouldReturnStringIfContainsQuotes() {
         let stringToInfer = "\"I am a string\""
         let infer = PrimitiveTypeHelper.infer(type: stringToInfer)
-        expect(infer).to(equal(Primitives.String))
+        expect(infer).to(equal(Primitives.string))
     }
 
-    func testInferShouldReturnBool(){
+    func testInferShouldReturnBool() {
         let stringToInfer = "true"
         let infer = PrimitiveTypeHelper.infer(type: stringToInfer)
-        expect(infer).to(equal(Primitives.Bool))
+        expect(infer).to(equal(Primitives.bool))
     }
 
-    func testInferShouldReturnDoubleIfTheStringContainsADot(){
+    func testInferShouldReturnDoubleIfTheStringContainsADot() {
         let stringToInfer = "34.234"
         let infer = PrimitiveTypeHelper.infer(type: stringToInfer)
-        expect(infer).to(equal(Primitives.Double))
+        expect(infer).to(equal(Primitives.double))
     }
 
-    func testInferShouldReturnIntIfTheStringDoesNotContainsADot(){
+    func testInferShouldReturnIntIfTheStringDoesNotContainsADot() {
         let stringToInfer = "34234"
         let infer = PrimitiveTypeHelper.infer(type: stringToInfer)
-        expect(infer).to(equal(Primitives.Int))
+        expect(infer).to(equal(Primitives.int))
     }
 
-    func testPrimitiveValuesFromTransformedDictionary(){
+    func testPrimitiveValuesFromTransformedDictionary() {
         let transformedDict = PrimitiveTypeHelper.transform(dict: dict)
-        for (key,value) in transformedDict{
+        for (key, value) in transformedDict {
             expect(value as! Primitives == self.dictResult[key] as! Primitives).to(beTrue())
         }
     }
 }
-
 

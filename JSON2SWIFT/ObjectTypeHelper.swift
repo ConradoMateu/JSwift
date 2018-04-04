@@ -10,11 +10,11 @@ import Foundation
 
 class ObjectTypeHelper {
 
-    static func transformObjectsFrom(dict: [String:Any]) -> [String:Any]{
+    static func transformObjectsFrom(dict: [String: Any]) -> [String: Any] {
         var resDict = dict
-        resDict.forEach{
+        resDict.forEach {
             let primitiveValue =  $0.value as! Primitives
-            if primitiveValue == Primitives.Object{
+            if primitiveValue == Primitives.object {
                 resDict[$0.key] = $0.key.firsLetterCapitalized
             }
         }

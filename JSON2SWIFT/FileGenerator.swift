@@ -9,7 +9,7 @@
 import Foundation
 
 class FileGenerator {
-    static func generaterFrom(dict: [String:Any], name: String){
+    static func generaterFrom(dict: [String: Any], name: String) {
         do {
             // get the documents folder url
             if let documentDirectory =
@@ -21,7 +21,7 @@ class FileGenerator {
                 let text = correctFormatFrom(dict: dict)
                 // writing to disk
                 try text.write(to: fileURL, atomically: false, encoding: .utf8)
-                
+
                 print("saving was successful")
                 // any code posterior code goes here
                 // reading from disk
@@ -33,13 +33,13 @@ class FileGenerator {
         }
     }
 
-    static func correctFormatFrom(dict:[String:Any])-> String{
+    static func correctFormatFrom(dict: [String: Any]) -> String {
         var res = ""
-        dict.forEach{
-            if let a = $1 as? Primitives{
+        dict.forEach {
+            if let a = $1 as? Primitives {
                 let hey = "let \($0): \(a)? \n"
                 res.append(hey)
-            }else{
+            } else {
                 res.append("let \($0.cleaned): \($0.cleaned.capitalized) \n")
             }
 
