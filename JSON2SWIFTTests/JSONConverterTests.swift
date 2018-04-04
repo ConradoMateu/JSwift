@@ -34,11 +34,9 @@ class JSONConverterTests: XCTestCase {
     }
 
     func testDictionaryGeneratedShouldBeEqualToGiven() {
-        let res = JSONConverter().ConvertJSONFrom(dict: dictDetectorRes?.resDict as! [String : String])
+        let res = JSONConverter().convertJSONFrom(dict: dictDetectorRes?.resDict as! [String: String])
         let dictDetectorForConvertedJSON = DictDetector()
         dictDetectorForConvertedJSON.addToDictFrom(json: res)
-        print(dictDetectorForConvertedJSON.resDict)
-        print(self.dictDetectorRes!.resDict)
         expect(dictDetectorForConvertedJSON.resDict as NSDictionary == self.dictDetectorRes!.resDict as NSDictionary).to(beTrue())
     }
 

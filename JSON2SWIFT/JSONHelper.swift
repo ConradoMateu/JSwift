@@ -8,29 +8,28 @@
 
 import Foundation
 
-
-class JSONHelper{
+class JSONHelper {
     // Input --> { "name": Conrado, "surname": Mateu Gisbert}
     // line = "name": Conrado
     // Output --> dict["name"] = Conrado
-    static func generateDictFrom(JSON: String) -> [String:Any]{
-        var dict: [String:Any] = [:]
+    static func generateDictFrom(JSON: String) -> [String: Any] {
+        var dict: [String: Any] = [:]
         let line = JSON.components(separatedBy: "\n")
-        let newLines = line.filter{!$0.cleaned.isEmpty  && !($0 == "{") && !($0 == "}")}
-        newLines.forEach{
+        let newLines = line.filter {!$0.cleaned.isEmpty  && !($0 == "{") && !($0 == "}")}
+        newLines.forEach {
             let element = $0.components(separatedBy: ": ")
             let key = element[0].cleaned
             let value = element[1].dropLast()
             dict[key] = value
         }
-        
+
         return dict
     }
 
-    static func generateDictFrom(String: String) -> [String:Any]{
-        var dict: [String:Any] = [:]
-        let lines = String.components(separatedBy: "\n")
-        lines.forEach{
+    static func generateDictFrom(string: String) -> [String: Any] {
+        var dict: [String: Any] = [:]
+        let lines = string.components(separatedBy: "\n")
+        lines.forEach {
             var element = $0.components(separatedBy: ": ")
             let key = element[0].cleaned
             let value = element[1].cleanValue()

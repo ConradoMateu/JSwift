@@ -8,21 +8,21 @@
 
 import Foundation
 class JSONConverter {
-    func ConvertJSONFrom(dict: [String:String]) -> String {
+    func convertJSONFrom(dict: [String: String]) -> String {
         var res = """
 {\n
 """
-        dict.forEach{
-            if PrimitiveTypeHelper.infer(type: $1 ) == .Object{
+        dict.forEach {
+            if PrimitiveTypeHelper.infer(type: $1 ) == .object {
                 res.append(buildInnerDictFrom(key: $0, value: $1))
-            }else{
+            } else {
                 res.append("\($0): \($1),\n")
             }
         }
         res.append("}")
         return res
 }
-    func buildInnerDictFrom(key: String, value: String) -> String{
+    func buildInnerDictFrom(key: String, value: String) -> String {
         var res = """
 \(key): {\n
 """

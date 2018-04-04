@@ -13,23 +13,21 @@ extension String {
         return Set(self).isSubset(of: nums)
     }
 
-    var cleaned: String{
-        return self.replacingOccurrences(of: "\t", with:"")
-            
+    var cleaned: String {
+        return self.replacingOccurrences(of: "\t", with: "")
+
             .replacingOccurrences(of: "\"", with: "")
             .replacingOccurrences(of: "\n", with: "")
         .replacingOccurrences(of: ",", with: "")
         .replacingOccurrences(of: " ", with: "")
     }
 
-
-
-    var firsLetterCapitalized: String{
+    var firsLetterCapitalized: String {
         return prefix(1).uppercased() + dropFirst()
     }
 
-    func cleanValue() -> String{
-        var res = self.replacingOccurrences(of: "\t", with:"")
+    func cleanValue() -> String {
+        var res = self.replacingOccurrences(of: "\t", with: "")
             .replacingOccurrences(of: "\n", with: "")
         if res.last == " " {
             res = String(res.dropLast())
@@ -52,19 +50,16 @@ extension String {
     }
 
     func isBool() -> Bool {
-        if let _ = self.toBool(){
+        if let _ = self.toBool() {
             return true
-        }else{
+        } else {
             return false
         }
     }
 
-    func isObject() -> Bool{
-        return self == Primitives.Object.rawValue
+    func isObject() -> Bool {
+        return self == Primitives.object.rawValue
     }
-
-
-
 
 }
 

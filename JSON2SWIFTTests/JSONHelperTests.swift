@@ -12,7 +12,7 @@ import Nimble
 
 class JSONHelperTests: XCTestCase {
     var json: String = ""
-    var dictResult: [String:Any] = [:]
+    var dictResult: [String: Any] = [:]
 
     override func setUp() {
         super.setUp()
@@ -22,12 +22,11 @@ class JSONHelperTests: XCTestCase {
             "age": 21,
         }
         """
-        dictResult = ["name": "\"Conrado\"","age": "21"]
+        dictResult = ["name": "\"Conrado\"", "age": "21"]
     }
 
     func testGenerateDictFromJSON() {
         let generatedDict = JSONHelper.generateDictFrom(JSON: json)
-        print(generatedDict)
         expect(generatedDict as NSDictionary == self.dictResult as NSDictionary).to(beTrue())
     }
 }
