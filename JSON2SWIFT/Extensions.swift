@@ -19,10 +19,25 @@ extension String {
             .replacingOccurrences(of: "\"", with: "")
             .replacingOccurrences(of: "\n", with: "")
         .replacingOccurrences(of: ",", with: "")
+        .replacingOccurrences(of: " ", with: "")
     }
+
+
 
     var firsLetterCapitalized: String{
         return prefix(1).uppercased() + dropFirst()
+    }
+
+    func cleanValue() -> String{
+        var res = self.replacingOccurrences(of: "\t", with:"")
+            .replacingOccurrences(of: "\n", with: "")
+        if res.last == " " {
+            res = String(res.dropLast())
+        }
+        if res.last == "," {
+            res = String(res.dropLast())
+        }
+                return res
     }
 
     func toBool() -> Bool? {

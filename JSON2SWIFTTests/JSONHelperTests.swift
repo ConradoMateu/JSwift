@@ -8,6 +8,7 @@
 
 import XCTest
 import Nimble
+@testable import JSON2SWIFT
 
 class JSONHelperTests: XCTestCase {
     var json: String = ""
@@ -27,7 +28,7 @@ class JSONHelperTests: XCTestCase {
     func testGenerateDictFromJSON() {
         let generatedDict = JSONHelper.generateDictFrom(JSON: json)
         print(generatedDict)
-        expect(generatedDict as NSDictionary == self.dictResult as! NSDictionary).to(beTrue())
+        expect(generatedDict as NSDictionary == self.dictResult as NSDictionary).to(beTrue())
     }
 }
 

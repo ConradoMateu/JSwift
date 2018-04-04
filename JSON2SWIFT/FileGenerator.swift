@@ -9,14 +9,14 @@
 import Foundation
 
 class FileGenerator {
-    static func generaterFrom(dict: [String:Any]){
+    static func generaterFrom(dict: [String:Any], name: String){
         do {
             // get the documents folder url
             if let documentDirectory =
 
                 FileManager.default.urls(for: .downloadsDirectory, in: .userDomainMask).first {
                 // create the destination url for the text file to be saved
-                let fileURL = documentDirectory.appendingPathComponent("test.txt")
+                let fileURL = documentDirectory.appendingPathComponent(name + ".txt")
                 // define the string/text to be saved
                 let text = correctFormatFrom(dict: dict)
                 // writing to disk

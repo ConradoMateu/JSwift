@@ -8,6 +8,7 @@
 
 import XCTest
 import Nimble
+@testable import JSON2SWIFT
 
 class PrimitiveTypeHelperTests: XCTestCase {
     var dict: [String:Any] = [:]

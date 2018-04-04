@@ -8,68 +8,49 @@
 
 import Foundation
 
-class NewDictDetector {
+class DictDetector {
     var resDict: [String:Any] = [:]
-    let json = """
-{
-"itemId": 55449983,
-"upc": {
-"categoryPath": "Video Games/Nintendo Switch/Nintendo Switch Consoles",
-"shortDescription": "Nintendo Switch is a unique hybrid system that blurs the line between console gaming and mobile play. With its modular "
-},
-"dsad": 243324234234,
-"3432": {
-"23432444": "Video Games/Nintendo Switch/Nintendo Switch Consoles",
-"4234234": "Nintendo Switch is a unique hybrid system that blurs the line between console gaming and mobile play. With its modular "
-},
-}
-"""
 
-    func getIndexedFrom(){
+    func addToDictFrom(json: String){
         var line = json.components(separatedBy: "\n")
         line.removeFirst()
         line.removeLast()
         indexDetector(arr: line,index: 0)
     }
 
-    func addToDictFrom(array: [String], indexes: Int...){
-        indexes.forEach{
-            let element = array[$0].components(separatedBy: ": ")
+    func addToDictFrom(array: [String], index: Int){
+            let element = array[index].components(separatedBy: ": ")
             let keyCleaned = element[0]
             var value = ""
-            if element.count != 1{
-                value = element[1].cleaned
+            if element.count > 0{
+                value = element[1].cleanValue()
             }
             self.resDict[keyCleaned] = value
-        }
     }
 
     func addToDictFrom(key: String, array: [String], indexes: Int...) {
         var value = ""
-        indexes.forEach{value = value + array[$0] + "\n"}
+        indexes.forEach{value = value + array[$0] + " \n"}
         resDict[key]  = value
     }
 
     func indexDetector(arr: [String], index:Int){
         let value = arr[index]
             if(value.contains(": {")){
-                let begining = index
-                var encontrado = false
                 var current = index
-                while(!encontrado){
+                var found = false
+                while(!found){
                     current = current+1
                     if(arr[current].contains("},")){
-                        encontrado = true
+                        found = true
                         let key = value.components(separatedBy: ": ").first
-                        addToDictFrom(key:key!, array: arr, indexes: begining+1,current-1)
+                        addToDictFrom(key:key!, array: arr, indexes: index+1,current-1)
                         if(current+1<arr.count){indexDetector(arr: arr,index: current+1)}
                     }
                 }
             }else{
-                addToDictFrom(array: arr, indexes: index)
+                addToDictFrom(array: arr, index: index)
                 if(index+1<arr.count){indexDetector(arr: arr,index: index+1)}
             }
-
     }
-
 }
