@@ -20,4 +20,11 @@ class ObjectTypeHelper {
         }
         return resDict
     }
+
+    static func newClassFrom(string: String) {
+        let newDict = JSONHelper.generateDictFrom(string: string)
+        let dict = PrimitiveTypeHelper.transform(dict: newDict)
+        FileGenerator.generaterFrom(dict: dict, name: "Example")
+
+    }
 }
