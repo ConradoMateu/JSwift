@@ -22,7 +22,7 @@ class DictDetector {
     func addToDictFrom(array: [String], index: Int) {
 //        let element = array[index].split(separator: ":", maxSplits: 1, omittingEmptySubsequences: true)
         let element = array[index].components(separatedBy: ": ")
-            let keyCleaned = String(element[0])
+            let keyCleaned = String(element[0]).cleaned
             var value = ""
             if element.count > 1 {
                 value = String(element[1]).cleanValue()
@@ -74,7 +74,7 @@ class DictDetector {
                 }
                 current += 1
             }
-            while !arr[current].contains("]"){current += 1}
+            while !arr[current].contains("]\n") || !arr[current].contains("],\n") {current += 1}
             if(current+1<arr.count) {indexDetector(arr: arr, index: current+1, isFirst: false)}
         }else{
             addToDictFrom(array: arr, index: index)

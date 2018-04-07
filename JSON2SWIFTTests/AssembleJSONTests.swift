@@ -14,16 +14,29 @@ class AssembleJSONTests: XCTestCase {
     let json = """
 {
 "itemId": 55449983,
-"1": {
-"thumbnail": "http://somefoto.com/thumbnail",
-"medium": "http://somefoto.com/medium"
-},
+"children": [
+    {
+        "id": "1334134_4533160_6262436",
+        "name": "All Beading and Jewelry Making",
+        "path": "Arts, Crafts & Sewing/Beading & Jewelry Making/All Beading and Jewelry Making"
+    },
+    {
+        "id": "1334134_4533160_6862723",
+        "name": "Beading Findings and Components",
+        "path": "Arts, Crafts & Sewing/Beading & Jewelry Making/Beading Findings and Components"
+    },
+    {
+    "id": "1334134_4533160_9799323",
+    "name": "Beading Supplies",
+    "path": "Arts, Crafts & Sewing/Beading & Jewelry Making/Beading Supplies"
+    }
+]
 "2": {
-"como": "http://somefoto.com/thumbnail",
-"3": {
-"cfdfsomo": "http://somefoto.com/thumbnail",
-"essdfdsftas": "http://somefoto.com/medium"
-},
+    "como": "http://somefoto.com/thumbnail",
+    "3": {
+        "cfdfsomo": "http://somefoto.com/thumbnail",
+        "essdfdsftas": "http://somefoto.com/medium"
+    },
 },
 "price": 1234
 }
