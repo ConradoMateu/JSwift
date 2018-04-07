@@ -36,9 +36,9 @@ class FileGenerator {
     static func correctFormatFrom(dict: [String: Any]) -> String {
         var res = ""
         dict.forEach {
-            if let a = $1 as? Primitives {
-                let hey = "let \($0): \(a)? \n"
-                res.append(hey)
+            if let primitive = $1 as? Primitives {
+                let value = "let \($0.cleaned): \(primitive.rawValue.capitalized)? \n"
+                res.append(value)
             } else {
                 res.append("let \($0.cleaned): \($0.cleaned.capitalized) \n")
             }
