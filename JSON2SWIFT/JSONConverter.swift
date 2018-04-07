@@ -33,11 +33,11 @@ class JSONConverter {
         line.forEach {
             let string = $0 as String
             var element = string.components(separatedBy: ": ")
-            res.append("\(element[0].cleaned): \(element[1].cleanValue()),\n")
+            res.append("\(element[0]): \(element[1].cleanValue()),\n")
         }
         let string = last as! String
         var element = string.components(separatedBy: ": ")
-        res.append("\(element[0].cleaned): \(element[1].cleanValue())\n")
+        res.append("\(element[0]): \(element[1].cleanValue())\n")
         res.append("},\n")
         return res
     }
