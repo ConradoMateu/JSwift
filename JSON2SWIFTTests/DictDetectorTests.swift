@@ -42,7 +42,7 @@ class DictDetectorTests: XCTestCase {
     func testShouldAddToDictFromKey() {
         let key = "name"
         let value = "Conrado \nMateu \n"
-        dictDetector.addToDictFrom(key: key, array: arr, indexes: 1, 2)
+        dictDetector.addToDictFrom(key: key, array: arr, indexes: 1, 2, isArray: false)
         expect(self.dictDetector.resDict[key] as? String).to(equal(value))
     }
 

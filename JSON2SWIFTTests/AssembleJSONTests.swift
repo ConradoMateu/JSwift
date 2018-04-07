@@ -31,9 +31,9 @@ class AssembleJSONTests: XCTestCase {
     "path": "Arts, Crafts & Sewing/Beading & Jewelry Making/Beading Supplies"
     }
 ]
-"2": {
+"Test1": {
     "como": "http://somefoto.com/thumbnail",
-    "3": {
+    "Test2": {
         "cfdfsomo": "http://somefoto.com/thumbnail",
         "essdfdsftas": "http://somefoto.com/medium"
     },
@@ -55,7 +55,7 @@ class AssembleJSONTests: XCTestCase {
     func testShouldAssembleTheExactNumberOfFiles() {
         let assembler = Assembler()
         assembler.assemble(json: json, name: "Main")
-        expect(assembler.counter).to(equal(4))
+        expect(assembler.counter).to(equal(3))
     }
 
 }

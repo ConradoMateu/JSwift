@@ -15,7 +15,6 @@ extension String {
 
     var cleaned: String {
         return self.replacingOccurrences(of: "\t", with: "")
-
             .replacingOccurrences(of: "\"", with: "")
             .replacingOccurrences(of: "\n", with: "")
         .replacingOccurrences(of: ",", with: "")
@@ -29,6 +28,7 @@ extension String {
     func cleanValue() -> String {
         var res = self.replacingOccurrences(of: "\t", with: "")
             .replacingOccurrences(of: "\n", with: "")
+            .replacingOccurrences(of: "##isArray##", with: "")
         if res.last == " " {
             res = String(res.dropLast())
         }

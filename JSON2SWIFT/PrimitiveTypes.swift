@@ -14,6 +14,7 @@ enum Primitives: String {
     case string
     case bool
     case object
+    case array
 }
 
 extension Primitives {

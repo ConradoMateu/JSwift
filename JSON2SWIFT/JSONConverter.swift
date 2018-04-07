@@ -13,7 +13,8 @@ class JSONConverter {
 {\n
 """
         dict.forEach {
-            if PrimitiveTypeHelper.infer(type: $1 ) == .object {
+            let inferedType = PrimitiveTypeHelper.infer(type: $1 )
+            if  inferedType == .object || inferedType == .array {
                 res.append(buildInnerDictFrom(key: $0, value: $1))
             } else {
                 res.append("\($0): \($1),\n")
@@ -32,11 +33,11 @@ class JSONConverter {
         line.forEach {
             let string = $0 as String
             var element = string.components(separatedBy: ": ")
-            res.append("\(element[0]): \(element[1].cleanValue()),\n")
+            res.append("\(element[0].cleaned): \(element[1].cleanValue()),\n")
         }
         let string = last as! String
         var element = string.components(separatedBy: ": ")
-        res.append("\(element[0]): \(element[1].cleanValue())\n")
+        res.append("\(element[0].cleaned): \(element[1].cleanValue())\n")
         res.append("},\n")
         return res
     }

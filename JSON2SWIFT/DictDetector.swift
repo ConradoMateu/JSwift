@@ -31,8 +31,9 @@ class DictDetector {
 
     }
 
-    func addToDictFrom(key: String, array: [String], indexes: Int...) {
+    func addToDictFrom(key: String, array: [String], indexes: Int..., isArray: Bool) {
         var value = ""
+        if(isArray){value.append("##isArray##")}
         for index in indexes.first!...indexes.last! {
             value += array[index] + " \n"
         }
@@ -56,7 +57,7 @@ class DictDetector {
                     } else if(arr[current].contains("},")) {
                         let lastOpenBrace = openBraces.removeLast()
                         let key = value.components(separatedBy: ": ").first
-                        if(openBraces.isEmpty) {addToDictFrom(key: key!, array: arr, indexes: lastOpenBrace+1, current-1)}
+                        if(openBraces.isEmpty) {addToDictFrom(key: key!, array: arr, indexes: lastOpenBrace+1, current-1, isArray: false)}
                         if(current+1<arr.count) {indexDetector(arr: arr, index: current+1, isFirst: false)}
                     }
                 }
@@ -70,11 +71,11 @@ class DictDetector {
                 }else if(arr[current].contains("},")){
                     let key = value.components(separatedBy: ": ").first
                     found = true
-                    addToDictFrom(key: key!, array: arr, indexes: opener+1, current-1)
+                    addToDictFrom(key: key!, array: arr, indexes: opener+1, current-1,isArray: true)
                 }
                 current += 1
             }
-            while !arr[current].contains("]\n") || !arr[current].contains("],\n") {current += 1}
+            while !(arr[current] == "]") {current += 1}
             if(current+1<arr.count) {indexDetector(arr: arr, index: current+1, isFirst: false)}
         }else{
             addToDictFrom(array: arr, index: index)

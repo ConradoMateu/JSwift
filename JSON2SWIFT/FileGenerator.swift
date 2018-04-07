@@ -16,11 +16,20 @@ class FileGenerator {
 
                 FileManager.default.urls(for: .downloadsDirectory, in: .userDomainMask).first {
                 // create the destination url for the text file to be saved
-                let fileURL = documentDirectory.appendingPathComponent(name + ".txt")
+                let fileURL = documentDirectory.appendingPathComponent(name.capitalized + ".swift")
                 // define the string/text to be saved
                 let text = correctFormatFrom(dict: dict)
                 // writing to disk
-                try text.write(to: fileURL, atomically: false, encoding: .utf8)
+
+                let completeText = """
+struct \(name): Codable {
+\(text)
+\(getCodingKeys(dict: dict))
+}
+"""
+
+
+                try completeText.write(to: fileURL, atomically: false, encoding: .utf8)
 
                 print("saving was successful")
                 // any code posterior code goes here
@@ -36,14 +45,29 @@ class FileGenerator {
     static func correctFormatFrom(dict: [String: Any]) -> String {
         var res = ""
         dict.forEach {
-            if let primitive = $1 as? Primitives {
-                let value = "let \($0.cleaned): \(primitive.rawValue.capitalized)? \n"
+            let primitive = $1 as? Primitives
+            if primitive == .object {
+                let value = "\tlet \($0.cleaned): \($0.cleaned.capitalized)?\n"
                 res.append(value)
-            } else {
-                res.append("let \($0.cleaned): \($0.cleaned.capitalized) \n")
+            } else if  primitive == .array{
+                let value = "\tlet \($0.cleaned): [\($0.cleaned.capitalized)]?\n"
+                res.append(value)
+            }else {
+                res.append("\tlet \($0.cleaned): \(($1 as! Primitives).rawValue.cleaned.capitalized)?\n")
             }
 
         }
+        return res
+    }
+
+    static func getCodingKeys(dict:[String:Any]) -> String{
+        var res = """
+\tenum CodingKeys: String, CodingKey {\n
+"""
+        dict.forEach {
+            res.append("\t\tcase \($0.key.cleaned)\n")
+        }
+        res.append("\t}\n")
         return res
     }
 }
