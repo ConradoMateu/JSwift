@@ -42,13 +42,13 @@ class DictDetectorTests: XCTestCase {
     func testShouldAddToDictFromKey() {
         let key = "name"
         let value = "Conrado \nMateu \n"
-        dictDetector.addToDictFrom(key: key, array: arr, indexes: 1, 2)
+        dictDetector.addToDictFrom(key: key, array: arr, indexes: 1, 2, isArray: false)
         expect(self.dictDetector.resDict[key] as? String).to(equal(value))
     }
 
     func testShouldAddValuesToDictWhenHasSubcategories() {
         let arrWithSubcategories = ["\"image\": {", "\"Games\": \"Arcade\",", "\"TV\": \"Sony\"", "},"]
-        dictDetector.indexDetector(arr: arrWithSubcategories, index: 0)
+        dictDetector.indexDetector(arr: arrWithSubcategories, index: 0, isFirst: true)
         expect(self.dictDetector.resDict.keys.first).to(equal("\"image\""))
         expect(self.dictDetector.resDict.values.first as? String).to(equal("\"Games\": \"Arcade\", \n\"TV\": \"Sony\" \n"))
     }
