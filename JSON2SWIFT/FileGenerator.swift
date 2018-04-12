@@ -9,14 +9,12 @@
 import Foundation
 
 class FileGenerator {
-    static func generaterFrom(dict: [String: Any], name: String) {
+    static func generaterFrom(dict: [String: Any], name: String, directory: URL) {
         do {
             // get the documents folder url
-            if let documentDirectory =
 
-                FileManager.default.urls(for: .downloadsDirectory, in: .userDomainMask).first {
                 // create the destination url for the text file to be saved
-                let fileURL = documentDirectory.appendingPathComponent(name.capitalized + ".swift")
+                let fileURL = directory.appendingPathComponent(name.capitalized + ".swift")
                 // define the string/text to be saved
                 let text = correctFormatFrom(dict: dict)
                 // writing to disk
@@ -36,7 +34,7 @@ struct \(name): Codable {
                 // reading from disk
                 let savedText = try String(contentsOf: fileURL)
                 print("savedText:", savedText)   // "Hello World !!!\n"
-            }
+
         } catch {
             print("error:", error)
         }

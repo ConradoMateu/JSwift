@@ -9,16 +9,17 @@
 import Cocoa
 
 class ViewController: NSViewController {
-
+    @IBOutlet weak var JSONField: NSTextField!
+    @IBOutlet weak var pathField: NSTextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
     }
 
-    override var representedObject: Any? {
-        didSet {
-        // Update the view, if already loaded.
-        }
+    @IBAction func convertJSON(_ sender: Any) {
+        let URL = PathFinder.execute()
+        Assembler().assemble(json: JSONField.stringValue, name: "Main", directory: URL!)
     }
 
 }
