@@ -12,6 +12,7 @@
 		E2302D5E2072EB8700EA83B2 /* JSONConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2302D5D2072EB8700EA83B2 /* JSONConverterTests.swift */; };
 		E23BBE61207BD3C90093D091 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2772C7B20791E06004BE3E5 /* Cocoa.framework */; };
 		E23BBE6B207BD3C90093D091 /* JSON2SWIFT-EditorExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E23BBE60207BD3C80093D091 /* JSON2SWIFT-EditorExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E261719B207F85D900ED74C8 /* SwiftGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E261719A207F85D900ED74C8 /* SwiftGenerator.swift */; };
 		E2677E7C207F7F9400315A03 /* PathFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2677E7B207F7F9400315A03 /* PathFinder.swift */; };
 		E2677E7D207F7F9400315A03 /* PathFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2677E7B207F7F9400315A03 /* PathFinder.swift */; };
 		E26987E02077C740003613B3 /* Assembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26987DF2077C740003613B3 /* Assembler.swift */; };
@@ -80,6 +81,7 @@
 		E2302D5B2072E10600EA83B2 /* JSONConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONConverter.swift; sourceTree = "<group>"; };
 		E2302D5D2072EB8700EA83B2 /* JSONConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONConverterTests.swift; sourceTree = "<group>"; };
 		E23BBE60207BD3C80093D091 /* JSON2SWIFT-EditorExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "JSON2SWIFT-EditorExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E261719A207F85D900ED74C8 /* SwiftGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGenerator.swift; sourceTree = "<group>"; };
 		E2677E7B207F7F9400315A03 /* PathFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathFinder.swift; sourceTree = "<group>"; };
 		E26987DF2077C740003613B3 /* Assembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assembler.swift; sourceTree = "<group>"; };
 		E26A38342060479E0034EA77 /* DictDetectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictDetectorTests.swift; sourceTree = "<group>"; };
@@ -193,6 +195,7 @@
 				E2302D5B2072E10600EA83B2 /* JSONConverter.swift */,
 				E26987DF2077C740003613B3 /* Assembler.swift */,
 				E2677E7B207F7F9400315A03 /* PathFinder.swift */,
+				E261719A207F85D900ED74C8 /* SwiftGenerator.swift */,
 			);
 			path = JSON2SWIFT;
 			sourceTree = "<group>";
@@ -483,6 +486,7 @@
 				E2F4FF1820487AFE00E6E7D1 /* PrimitiveTypeHelper.swift in Sources */,
 				E2A9512F206854C200E80E22 /* DictDetector.swift in Sources */,
 				E2EFFBC02048C4C000D7C943 /* JSONHelper.swift in Sources */,
+				E261719B207F85D900ED74C8 /* SwiftGenerator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
