@@ -14,7 +14,7 @@ class SwiftGenerator {
         struct \(name): Codable {
         \(getVariablesFrom(dict: dict))
         \(getCodingKeys(dict: dict))
-        }
+        }\n
         """
         if let path = path {
             FileGenerator.generaterFrom(name: name, text: completeText, directory: path)
@@ -29,10 +29,10 @@ class SwiftGenerator {
             if primitive == .object {
                 let value = "\tlet \($0.cleaned): \($0.cleaned.capitalized)?\n"
                 res.append(value)
-            } else if  primitive == .array{
+            } else if  primitive == .array {
                 let value = "\tlet \($0.cleaned): [\($0.cleaned.capitalized)]?\n"
                 res.append(value)
-            }else {
+            } else {
                 res.append("\tlet \($0.cleaned): \(($1 as! Primitives).rawValue.cleaned.capitalized)?\n")
             }
 
@@ -40,7 +40,7 @@ class SwiftGenerator {
         return res
     }
 
-    private static func getCodingKeys(dict:[String:Any]) -> String{
+    private static func getCodingKeys(dict: [String: Any]) -> String {
         var res = """
 \tenum CodingKeys: String, CodingKey {\n
 """

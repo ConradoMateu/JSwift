@@ -33,7 +33,7 @@ class DictDetector {
 
     func addToDictFrom(key: String, array: [String], indexes: Int..., isArray: Bool) {
         var value = ""
-        if(isArray){value.append("##isArray##")}
+        if(isArray) {value.append("##isArray##")}
         for index in indexes.first!...indexes.last! {
             value += array[index] + " \n"
         }
@@ -62,22 +62,22 @@ class DictDetector {
                     }
                 }
             }
-        } else if(value.contains(": [")){
+        } else if(value.contains(": [")) {
             var current = index
             var found = false
             var opener = -1
-            while !found{
-                if(arr[current].contains("{")){opener = current
-                }else if(arr[current].contains("},")){
+            while !found {
+                if(arr[current].contains("{")) {opener = current
+                } else if(arr[current].contains("},")) {
                     let key = value.components(separatedBy: ": ").first
                     found = true
-                    addToDictFrom(key: key!, array: arr, indexes: opener+1, current-1,isArray: true)
+                    addToDictFrom(key: key!, array: arr, indexes: opener+1, current-1, isArray: true)
                 }
                 current += 1
             }
             while !(arr[current] == "]") {current += 1}
             if(current+1<arr.count) {indexDetector(arr: arr, index: current+1, isFirst: false)}
-        }else{
+        } else {
             addToDictFrom(array: arr, index: index)
             if(index+1<arr.count) {indexDetector(arr: arr, index: index+1, isFirst: false)}
             }

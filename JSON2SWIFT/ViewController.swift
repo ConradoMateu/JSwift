@@ -7,19 +7,27 @@
 //
 
 import Cocoa
+import Bond
 
-class ViewController: NSViewController {
-    @IBOutlet weak var JSONField: NSTextField!
-    @IBOutlet weak var pathField: NSTextField!
-    
+class ViewController: NSViewController, NSTextFieldDelegate {
+    @IBOutlet weak var JSONTextField: NSTextField!
+    @IBOutlet weak var resultField: NSTextField!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        JSONTextField.reactive.editingString.observeNext { text in
+            if !text.isEmpty {
+                let assembler = Assembler()
+                assembler.assemble(json: text, name: "Main", directory: nil)
+                self.resultField.stringValue = assembler.completeRes
+            }
+        }
     }
 
     @IBAction func convertJSON(_ sender: Any) {
-        let URL = PathFinder.execute()
-        Assembler().assemble(json: JSONField.stringValue, name: "Main", directory: URL!)
+        if !JSONTextField.stringValue.isEmpty {
+            let URL = PathFinder.execute()
+            Assembler().assemble(json: JSONTextField.stringValue, name: "Main", directory: URL!)
+        }
     }
 
 }

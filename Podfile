@@ -4,8 +4,8 @@
 target 'JSON2SWIFT' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
-
   # Pods for JSON2SWIFT
+  pod 'Bond'
 
   target 'JSON2SWIFTTests' do
     inherit! :search_paths

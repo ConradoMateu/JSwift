@@ -9,11 +9,10 @@
 import Foundation
 import Cocoa
 
-
 class PathFinder {
-    static func execute() -> URL?{
+    static func execute() -> URL? {
         let dialog = NSOpenPanel()
-        dialog.title                   = "Choose a Directory";
+        dialog.title                   = "Choose a Directory"
         dialog.showsResizeIndicator    = true
         dialog.showsHiddenFiles        = false
         dialog.canChooseDirectories    = true

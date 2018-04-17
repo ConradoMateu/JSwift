@@ -18,10 +18,9 @@ class PrimitiveTypeHelper {
         return res
     }
     static func infer(type: String) -> Primitives? {
-        if(type.contains("##isArray##")){
+        if(type.contains("##isArray##")) {
             return Primitives.array
-        }
-        else if (type.contains(": ") && type.contains("\n")) {
+        } else if (type.contains(": ") && type.contains("\n")) {
             return Primitives.object
         } else if (type.starts(with: "\"") && type.reversed().starts(with: "\"")) {
             return Primitives.string

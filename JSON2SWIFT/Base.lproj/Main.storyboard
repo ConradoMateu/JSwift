@@ -687,8 +687,7 @@
                 <windowController id="B8D-0N-5wS" sceneMemberID="viewController">
                     <window key="window" title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
                         <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
-                        <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-                        <rect key="contentRect" x="196" y="240" width="480" height="270"/>
+                        <rect key="contentRect" x="20" y="20" width="1440" height="900"/>
                         <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
                         <connections>
                             <outlet property="delegate" destination="B8D-0N-5wS" id="98r-iN-zZc"/>
@@ -707,21 +706,22 @@
             <objects>
                 <viewController id="XfG-lQ-9wD" customClass="ViewController" customModule="JSON2SWIFT" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" wantsLayer="YES" id="m2S-Jp-Qdl">
-                        <rect key="frame" x="0.0" y="0.0" width="960" height="800"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1440" height="900"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UUT-lH-JMW">
-                                <rect key="frame" x="20" y="20" width="518" height="760"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="KfR-f6-L7x">
+                            <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="UUT-lH-JMW">
+                                <rect key="frame" x="0.0" y="0.0" width="720" height="900"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="900" id="vwX-Sg-BdW"/>
+                                </constraints>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" drawsBackground="YES" id="KfR-f6-L7x">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="backgroundColor" name="knobColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="A63-cX-72J">
-                                <rect key="frame" x="464" y="-7" width="89" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="A63-cX-72J">
+                                <rect key="frame" x="1357" y="870" width="89" height="32"/>
                                 <buttonCell key="cell" type="push" title="Convert" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="YT1-OW-04P">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -730,24 +730,36 @@
                                     <action selector="convertJSON:" target="XfG-lQ-9wD" id="sNM-uO-IJH"/>
                                 </connections>
                             </button>
-                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="62S-Lt-4P2">
-                                <rect key="frame" x="546" y="20" width="394" height="760"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="x7o-hw-2nb">
+                            <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="62S-Lt-4P2">
+                                <rect key="frame" x="720" y="0.0" width="720" height="900"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" drawsBackground="YES" id="x7o-hw-2nb">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
                         </subviews>
+                        <constraints>
+                            <constraint firstItem="62S-Lt-4P2" firstAttribute="width" secondItem="UUT-lH-JMW" secondAttribute="width" id="2xK-QL-d1n"/>
+                            <constraint firstItem="UUT-lH-JMW" firstAttribute="top" secondItem="A63-cX-72J" secondAttribute="top" constant="-2" id="9fL-lf-gjw"/>
+                            <constraint firstAttribute="trailing" secondItem="A63-cX-72J" secondAttribute="trailing" id="Cic-FL-1ZE"/>
+                            <constraint firstItem="UUT-lH-JMW" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" id="HMY-Zz-E3l"/>
+                            <constraint firstItem="62S-Lt-4P2" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" id="PWk-rR-bgr"/>
+                            <constraint firstItem="UUT-lH-JMW" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" id="Xrn-Oy-4fv"/>
+                            <constraint firstItem="62S-Lt-4P2" firstAttribute="height" secondItem="UUT-lH-JMW" secondAttribute="height" id="hRq-nn-YQC"/>
+                            <constraint firstItem="A63-cX-72J" firstAttribute="trailing" secondItem="62S-Lt-4P2" secondAttribute="trailing" id="kSL-Ek-OeQ"/>
+                            <constraint firstItem="62S-Lt-4P2" firstAttribute="leading" secondItem="UUT-lH-JMW" secondAttribute="trailing" id="p3O-0l-Agb"/>
+                            <constraint firstItem="UUT-lH-JMW" firstAttribute="baseline" secondItem="62S-Lt-4P2" secondAttribute="baseline" id="uuK-ce-9sa"/>
+                        </constraints>
                     </view>
                     <connections>
-                        <outlet property="JSONField" destination="UUT-lH-JMW" id="5Gw-1f-ry9"/>
+                        <outlet property="JSONTextField" destination="UUT-lH-JMW" id="jBT-gc-dR0"/>
+                        <outlet property="resultField" destination="62S-Lt-4P2" id="ikk-WV-jhB"/>
                     </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="315" y="770"/>
+            <point key="canvasLocation" x="326" y="1719"/>
         </scene>
     </scenes>
 </document>
