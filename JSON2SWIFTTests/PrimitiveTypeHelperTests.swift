@@ -22,7 +22,7 @@ class PrimitiveTypeHelperTests: XCTestCase {
                     "age": "21",
                     "averageGrade": "9.9",
                     "object": "{\"hello\": \"friend\"}",
-                    "array": "[{\"hello\": \"friend\"}, {\"hello\": \"enemy\"}]"]
+                    "array": "({\"hello\": \"friend\"}, {\"hello\": \"enemy\"})"]
         dictResult = ["name": Primitives.string,
                          "surname": Primitives.string,
                          "isStudent": Primitives.bool,

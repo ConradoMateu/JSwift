@@ -17,7 +17,7 @@ class ViewController: NSViewController, NSTextFieldDelegate {
         JSONTextField.reactive.editingString.observeNext { text in
             if !text.isEmpty {
                 let assembler = Assembler()
-                assembler.assemble(json: text, name: "Main", directory: nil)
+                assembler.transform(json: text, name: "Main", directory: nil)
                 self.resultField.stringValue = assembler.completeRes
             }
         }
@@ -26,7 +26,7 @@ class ViewController: NSViewController, NSTextFieldDelegate {
     @IBAction func convertJSON(_ sender: Any) {
         if !JSONTextField.stringValue.isEmpty {
             let URL = PathFinder.execute()
-            Assembler().assemble(json: JSONTextField.stringValue, name: "Main", directory: URL!)
+            Assembler().transform(json: JSONTextField.stringValue, name: "Main", directory: URL!)
         }
     }
 

@@ -10,10 +10,10 @@ import Foundation
 
 class PrimitiveTypeHelper {
 
-    static func transform(dict: [String: Any]) -> [String: Any] {
-        var res: [String: Any] = [:]
+    static func transform(dict: [String: AnyObject]) -> [String: Any] {
+        var res: [String: AnyObject] = [:]
         for (key, _) in dict {
-            res[key] = infer(type: dict[key] as! String)
+            res[key] = infer(type: dict[key]!.description!) as AnyObject
         }
         return res
     }
@@ -27,14 +27,12 @@ class PrimitiveTypeHelper {
             return Primitives.array
         } else if let object =  Regex.getInnerObject(of: typeCleaned)?.isEmpty {
             return Primitives.object
-        } else if typeCleaned.starts(with: "\"") && typeCleaned.reversed().starts(with: "\"") {
-            return Primitives.string
-        } else if typeCleaned.isNumeric {
-            return numericInfer(type: typeCleaned)
         } else if typeCleaned.isBool() {
             return Primitives.bool
+        }else if typeCleaned.isNumeric {
+            return numericInfer(type: typeCleaned)
         } else {
-            return nil
+            return Primitives.string
         }
     }
 
