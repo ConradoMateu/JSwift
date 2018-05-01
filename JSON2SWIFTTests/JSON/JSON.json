@@ -1,0 +1,25 @@
+{
+"cars": {
+    "Volvo": [
+              {
+              "model": "1",
+              "doors": 4
+              },
+              {
+              "model": "2",
+              "doors": 4
+              }
+              ],
+    "Maseratti": [
+                  {
+                  "model": "3",
+                  "doors": 4
+                  }
+                  ]
+    "Fake": "4",
+    "Test": 4,
+    "Example": {
+        "width": "dasdsa",
+        "hegiht": "dasd"
+    }
+}

@@ -17,9 +17,3 @@ enum Primitives: String {
     case array
 }
 
-extension Primitives {
-    var isObject: Bool {
-        return PrimitiveTypeHelper.infer(type: self.rawValue) == Primitives.object
-    }
-
-}

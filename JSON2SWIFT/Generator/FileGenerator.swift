@@ -13,10 +13,6 @@ class FileGenerator {
         do {
                 let fileURL = directory.appendingPathComponent(name.capitalized + ".swift")
                 try text.write(to: fileURL, atomically: false, encoding: .utf8)
-                print("saving was successful")
-                let savedText = try String(contentsOf: fileURL)
-                print("savedText:", savedText)
-
         } catch {
             print("error:", error)
         }

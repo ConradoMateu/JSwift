@@ -18,15 +18,20 @@ class PrimitiveTypeHelper {
         return res
     }
     static func infer(type: String) -> Primitives? {
-        if(type.contains("##isArray##")) {
+        var typeCleaned = type
+        if typeCleaned.last == "," {
+            typeCleaned = String(type.dropLast())
+        }
+
+        if let array = Regex.getInnerArray(of: typeCleaned){
             return Primitives.array
-        } else if (type.contains(": ") && type.contains("\n")) {
+        } else if let object =  Regex.getInnerObject(of: typeCleaned)?.isEmpty {
             return Primitives.object
-        } else if (type.starts(with: "\"") && type.reversed().starts(with: "\"")) {
+        } else if typeCleaned.starts(with: "\"") && typeCleaned.reversed().starts(with: "\"") {
             return Primitives.string
-        } else if(type.isNumeric) {
-            return numericInfer(type: type)
-        } else if(type.isBool()) {
+        } else if typeCleaned.isNumeric {
+            return numericInfer(type: typeCleaned)
+        } else if typeCleaned.isBool() {
             return Primitives.bool
         } else {
             return nil

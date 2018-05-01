@@ -11,36 +11,6 @@ import Nimble
 @testable import JSON2SWIFT
 
 class AssembleJSONTests: XCTestCase {
-    let json = """
-{
-"itemId": 55449983,
-"children": [
-    {
-        "id": "1334134_4533160_6262436",
-        "name": "All Beading and Jewelry Making",
-        "path": "Arts, Crafts & Sewing/Beading & Jewelry Making/All Beading and Jewelry Making"
-    },
-    {
-        "id": "1334134_4533160_6862723",
-        "name": "Beading Findings and Components",
-        "path": "Arts, Crafts & Sewing/Beading & Jewelry Making/Beading Findings and Components"
-    },
-    {
-    "id": "1334134_4533160_9799323",
-    "name": "Beading Supplies",
-    "path": "Arts, Crafts & Sewing/Beading & Jewelry Making/Beading Supplies"
-    }
-]
-"Test1": {
-    "como": "http://somefoto.com/thumbnail",
-    "Test2": {
-        "cfdfsomo": "http://somefoto.com/thumbnail",
-        "essdfdsftas": "http://somefoto.com/medium"
-    },
-},
-"price": 1234
-}
-"""
 
     override func setUp() {
         super.setUp()
@@ -53,9 +23,10 @@ class AssembleJSONTests: XCTestCase {
     }
 
     func testShouldAssembleTheExactNumberOfFiles() {
+        let json = JSON().get(named: "JSON")
         let assembler = Assembler()
-        assembler.assemble(json: json, name: "Main")
-        expect(assembler.counter).to(equal(3))
+        assembler.assemble(json: json!, name: "Main")
+        expect(assembler.numberOfFilesCreated).to(equal(4))
     }
 
 }

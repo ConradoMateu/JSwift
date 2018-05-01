@@ -8,21 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		4E55BB14A6E562220EBAC7D4 /* Pods_JSON2SWIFT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B99A3C73041DDEA664E59EEE /* Pods_JSON2SWIFT.framework */; };
-		E2302D5C2072E10600EA83B2 /* JSONConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2302D5B2072E10600EA83B2 /* JSONConverter.swift */; };
-		E2302D5E2072EB8700EA83B2 /* JSONConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2302D5D2072EB8700EA83B2 /* JSONConverterTests.swift */; };
+		E2565EA92094CE0A0076B24F /* Assembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2565EA82094CE0A0076B24F /* Assembler.swift */; };
 		E261719B207F85D900ED74C8 /* SwiftGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E261719A207F85D900ED74C8 /* SwiftGenerator.swift */; };
 		E2677E7C207F7F9400315A03 /* PathFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2677E7B207F7F9400315A03 /* PathFinder.swift */; };
-		E26987E02077C740003613B3 /* Assembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26987DF2077C740003613B3 /* Assembler.swift */; };
-		E26A38352060479E0034EA77 /* DictDetectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26A38342060479E0034EA77 /* DictDetectorTests.swift */; };
 		E26FD89A2076683D007441B0 /* AssembleJSONTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26FD8992076683D007441B0 /* AssembleJSONTests.swift */; };
+		E28938852095E87C00087807 /* RegexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28938842095E87C00087807 /* RegexTests.swift */; };
+		E28938872095E8E600087807 /* Object.json in Resources */ = {isa = PBXBuildFile; fileRef = E28938862095E8E600087807 /* Object.json */; };
+		E28938892095E90A00087807 /* ArrayObject.json in Resources */ = {isa = PBXBuildFile; fileRef = E28938882095E90A00087807 /* ArrayObject.json */; };
+		E289388D2095EAA000087807 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = E289388C2095EAA000087807 /* JSON.swift */; };
+		E289388F2095EB3C00087807 /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = E289388E2095EB3C00087807 /* Data.json */; };
+		E2893891209638E900087807 /* JSON.json in Resources */ = {isa = PBXBuildFile; fileRef = E2893890209638E900087807 /* JSON.json */; };
 		E28BE5752048584E004D8275 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28BE5742048584E004D8275 /* AppDelegate.swift */; };
 		E28BE5772048584E004D8275 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28BE5762048584E004D8275 /* ViewController.swift */; };
 		E28BE5792048584E004D8275 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E28BE5782048584E004D8275 /* Assets.xcassets */; };
 		E28BE57C2048584E004D8275 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E28BE57A2048584E004D8275 /* Main.storyboard */; };
-		E2A9512F206854C200E80E22 /* DictDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A9512E206854C200E80E22 /* DictDetector.swift */; };
-		E2B0528F2049690A0091C024 /* JSONHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B0528E2049690A0091C024 /* JSONHelperTests.swift */; };
 		E2B0529120497EBC0091C024 /* FileGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B0529020497EBC0091C024 /* FileGenerator.swift */; };
-		E2EFFBC02048C4C000D7C943 /* JSONHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EFFBBF2048C4C000D7C943 /* JSONHelper.swift */; };
+		E2D9FEB320948072000CC297 /* InnerDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D9FEB220948072000CC297 /* InnerDetector.swift */; };
+		E2D9FEB5209480B2000CC297 /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D9FEB4209480B2000CC297 /* Regex.swift */; };
+		E2D9FEB720948341000CC297 /* InnerDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D9FEB620948341000CC297 /* InnerDetector.swift */; };
 		E2EFFBC22048C70300D7C943 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EFFBC12048C70300D7C943 /* Extensions.swift */; };
 		E2EFFBC42048CAA200D7C943 /* PrimitiveTypeHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EFFBC32048CAA200D7C943 /* PrimitiveTypeHelperTests.swift */; };
 		E2F4FF1820487AFE00E6E7D1 /* PrimitiveTypeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F4FF1720487AFE00E6E7D1 /* PrimitiveTypeHelper.swift */; };
@@ -59,14 +62,17 @@
 		987D263EE57B2EB8EAE31DAD /* Pods-JSON2SWIFT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSON2SWIFT.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JSON2SWIFT/Pods-JSON2SWIFT.debug.xcconfig"; sourceTree = "<group>"; };
 		B4E7B52971762DDFF750DC0E /* Pods-JSON2SWIFTTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSON2SWIFTTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSON2SWIFTTests/Pods-JSON2SWIFTTests.release.xcconfig"; sourceTree = "<group>"; };
 		B99A3C73041DDEA664E59EEE /* Pods_JSON2SWIFT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSON2SWIFT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E2302D5B2072E10600EA83B2 /* JSONConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONConverter.swift; sourceTree = "<group>"; };
-		E2302D5D2072EB8700EA83B2 /* JSONConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONConverterTests.swift; sourceTree = "<group>"; };
+		E2565EA82094CE0A0076B24F /* Assembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assembler.swift; sourceTree = "<group>"; };
 		E261719A207F85D900ED74C8 /* SwiftGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGenerator.swift; sourceTree = "<group>"; };
 		E2677E7B207F7F9400315A03 /* PathFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathFinder.swift; sourceTree = "<group>"; };
-		E26987DF2077C740003613B3 /* Assembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assembler.swift; sourceTree = "<group>"; };
-		E26A38342060479E0034EA77 /* DictDetectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictDetectorTests.swift; sourceTree = "<group>"; };
 		E26FD8992076683D007441B0 /* AssembleJSONTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssembleJSONTests.swift; sourceTree = "<group>"; };
 		E2772C7B20791E06004BE3E5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E28938842095E87C00087807 /* RegexTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegexTests.swift; sourceTree = "<group>"; };
+		E28938862095E8E600087807 /* Object.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Object.json; sourceTree = "<group>"; };
+		E28938882095E90A00087807 /* ArrayObject.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ArrayObject.json; sourceTree = "<group>"; };
+		E289388C2095EAA000087807 /* JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
+		E289388E2095EB3C00087807 /* Data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Data.json; sourceTree = "<group>"; };
+		E2893890209638E900087807 /* JSON.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = JSON.json; sourceTree = "<group>"; };
 		E28BE5712048584E004D8275 /* JSON2SWIFT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSON2SWIFT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E28BE5742048584E004D8275 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E28BE5762048584E004D8275 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,10 +82,10 @@
 		E28BE57E2048584E004D8275 /* JSON2SWIFT.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JSON2SWIFT.entitlements; sourceTree = "<group>"; };
 		E28BE5832048584F004D8275 /* JSON2SWIFTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSON2SWIFTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E28BE5892048584F004D8275 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E2A9512E206854C200E80E22 /* DictDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictDetector.swift; sourceTree = "<group>"; };
-		E2B0528E2049690A0091C024 /* JSONHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONHelperTests.swift; sourceTree = "<group>"; };
 		E2B0529020497EBC0091C024 /* FileGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileGenerator.swift; sourceTree = "<group>"; };
-		E2EFFBBF2048C4C000D7C943 /* JSONHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONHelper.swift; sourceTree = "<group>"; };
+		E2D9FEB220948072000CC297 /* InnerDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InnerDetector.swift; sourceTree = "<group>"; };
+		E2D9FEB4209480B2000CC297 /* Regex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regex.swift; sourceTree = "<group>"; };
+		E2D9FEB620948341000CC297 /* InnerDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InnerDetector.swift; sourceTree = "<group>"; };
 		E2EFFBC12048C70300D7C943 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		E2EFFBC32048CAA200D7C943 /* PrimitiveTypeHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimitiveTypeHelperTests.swift; sourceTree = "<group>"; };
 		E2F4FF1720487AFE00E6E7D1 /* PrimitiveTypeHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimitiveTypeHelper.swift; sourceTree = "<group>"; };
@@ -128,6 +134,54 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E2132F5620987FD100E85D83 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				E28938862095E8E600087807 /* Object.json */,
+				E289388E2095EB3C00087807 /* Data.json */,
+				E2893890209638E900087807 /* JSON.json */,
+				E28938882095E90A00087807 /* ArrayObject.json */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		E2565EAA20951F6E0076B24F /* Primitives */ = {
+			isa = PBXGroup;
+			children = (
+				E2F4FF1920487B4300E6E7D1 /* PrimitiveTypes.swift */,
+				E2F4FF1720487AFE00E6E7D1 /* PrimitiveTypeHelper.swift */,
+			);
+			path = Primitives;
+			sourceTree = "<group>";
+		};
+		E2565EAB20951F8D0076B24F /* Generator */ = {
+			isa = PBXGroup;
+			children = (
+				E2565EA82094CE0A0076B24F /* Assembler.swift */,
+				E2B0529020497EBC0091C024 /* FileGenerator.swift */,
+				E261719A207F85D900ED74C8 /* SwiftGenerator.swift */,
+			);
+			path = Generator;
+			sourceTree = "<group>";
+		};
+		E2565EAC20951FC40076B24F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E2D9FEB220948072000CC297 /* InnerDetector.swift */,
+				E2D9FEB4209480B2000CC297 /* Regex.swift */,
+				E2677E7B207F7F9400315A03 /* PathFinder.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E2565EAD209522200076B24F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E2EFFBC12048C70300D7C943 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		E28BE5682048584E004D8275 = {
 			isa = PBXGroup;
 			children = (
@@ -151,22 +205,16 @@
 		E28BE5732048584E004D8275 /* JSON2SWIFT */ = {
 			isa = PBXGroup;
 			children = (
+				E2565EAD209522200076B24F /* Extensions */,
+				E2565EAC20951FC40076B24F /* Helpers */,
+				E2565EAB20951F8D0076B24F /* Generator */,
+				E2565EAA20951F6E0076B24F /* Primitives */,
 				E28BE5742048584E004D8275 /* AppDelegate.swift */,
 				E28BE5762048584E004D8275 /* ViewController.swift */,
 				E28BE5782048584E004D8275 /* Assets.xcassets */,
 				E28BE57A2048584E004D8275 /* Main.storyboard */,
 				E28BE57D2048584E004D8275 /* Info.plist */,
 				E28BE57E2048584E004D8275 /* JSON2SWIFT.entitlements */,
-				E2F4FF1720487AFE00E6E7D1 /* PrimitiveTypeHelper.swift */,
-				E2F4FF1920487B4300E6E7D1 /* PrimitiveTypes.swift */,
-				E2EFFBBF2048C4C000D7C943 /* JSONHelper.swift */,
-				E2EFFBC12048C70300D7C943 /* Extensions.swift */,
-				E2B0529020497EBC0091C024 /* FileGenerator.swift */,
-				E2A9512E206854C200E80E22 /* DictDetector.swift */,
-				E2302D5B2072E10600EA83B2 /* JSONConverter.swift */,
-				E26987DF2077C740003613B3 /* Assembler.swift */,
-				E2677E7B207F7F9400315A03 /* PathFinder.swift */,
-				E261719A207F85D900ED74C8 /* SwiftGenerator.swift */,
 			);
 			path = JSON2SWIFT;
 			sourceTree = "<group>";
@@ -174,12 +222,13 @@
 		E28BE5862048584F004D8275 /* JSON2SWIFTTests */ = {
 			isa = PBXGroup;
 			children = (
+				E2132F5620987FD100E85D83 /* JSON */,
 				E28BE5892048584F004D8275 /* Info.plist */,
 				E2EFFBC32048CAA200D7C943 /* PrimitiveTypeHelperTests.swift */,
-				E2B0528E2049690A0091C024 /* JSONHelperTests.swift */,
-				E26A38342060479E0034EA77 /* DictDetectorTests.swift */,
-				E2302D5D2072EB8700EA83B2 /* JSONConverterTests.swift */,
 				E26FD8992076683D007441B0 /* AssembleJSONTests.swift */,
+				E2D9FEB620948341000CC297 /* InnerDetector.swift */,
+				E28938842095E87C00087807 /* RegexTests.swift */,
+				E289388C2095EAA000087807 /* JSON.swift */,
 			);
 			path = JSON2SWIFTTests;
 			sourceTree = "<group>";
@@ -284,6 +333,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E28938872095E8E600087807 /* Object.json in Resources */,
+				E28938892095E90A00087807 /* ArrayObject.json in Resources */,
+				E289388F2095EB3C00087807 /* Data.json in Resources */,
+				E2893891209638E900087807 /* JSON.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,14 +456,13 @@
 				E28BE5772048584E004D8275 /* ViewController.swift in Sources */,
 				E2B0529120497EBC0091C024 /* FileGenerator.swift in Sources */,
 				E2EFFBC22048C70300D7C943 /* Extensions.swift in Sources */,
+				E2D9FEB5209480B2000CC297 /* Regex.swift in Sources */,
+				E2D9FEB320948072000CC297 /* InnerDetector.swift in Sources */,
 				E2F4FF1A20487B4300E6E7D1 /* PrimitiveTypes.swift in Sources */,
-				E2302D5C2072E10600EA83B2 /* JSONConverter.swift in Sources */,
-				E26987E02077C740003613B3 /* Assembler.swift in Sources */,
+				E2565EA92094CE0A0076B24F /* Assembler.swift in Sources */,
 				E2677E7C207F7F9400315A03 /* PathFinder.swift in Sources */,
 				E28BE5752048584E004D8275 /* AppDelegate.swift in Sources */,
 				E2F4FF1820487AFE00E6E7D1 /* PrimitiveTypeHelper.swift in Sources */,
-				E2A9512F206854C200E80E22 /* DictDetector.swift in Sources */,
-				E2EFFBC02048C4C000D7C943 /* JSONHelper.swift in Sources */,
 				E261719B207F85D900ED74C8 /* SwiftGenerator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,9 +472,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E26FD89A2076683D007441B0 /* AssembleJSONTests.swift in Sources */,
-				E2B0528F2049690A0091C024 /* JSONHelperTests.swift in Sources */,
-				E2302D5E2072EB8700EA83B2 /* JSONConverterTests.swift in Sources */,
-				E26A38352060479E0034EA77 /* DictDetectorTests.swift in Sources */,
+				E289388D2095EAA000087807 /* JSON.swift in Sources */,
+				E28938852095E87C00087807 /* RegexTests.swift in Sources */,
+				E2D9FEB720948341000CC297 /* InnerDetector.swift in Sources */,
 				E2EFFBC42048CAA200D7C943 /* PrimitiveTypeHelperTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

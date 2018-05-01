@@ -20,12 +20,16 @@ class PrimitiveTypeHelperTests: XCTestCase {
                     "surname": "\"Mateu Gisbert\"",
                     "isStudent": "true",
                     "age": "21",
-                    "averageGrade": "9.9"]
+                    "averageGrade": "9.9",
+                    "object": "{\"hello\": \"friend\"}",
+                    "array": "[{\"hello\": \"friend\"}, {\"hello\": \"enemy\"}]"]
         dictResult = ["name": Primitives.string,
                          "surname": Primitives.string,
                          "isStudent": Primitives.bool,
                          "age": Primitives.int,
-                         "averageGrade": Primitives.double]
+                         "averageGrade": Primitives.double,
+                         "object": Primitives.object,
+                         "array": Primitives.array]
     }
 
     func testNumericInferShouldReturnDoubleIfTheStringContainsADot() {
@@ -62,6 +66,18 @@ class PrimitiveTypeHelperTests: XCTestCase {
         let stringToInfer = "34234"
         let infer = PrimitiveTypeHelper.infer(type: stringToInfer)
         expect(infer).to(equal(Primitives.int))
+    }
+
+    func testInferShouldReturnObject() {
+        let stringToInfer = "{\"hello\": \"friend\"}"
+        let infer = PrimitiveTypeHelper.infer(type: stringToInfer)
+        expect(infer).to(equal(Primitives.object))
+    }
+
+    func testInferShouldReturnArray() {
+        let stringToInfer = "[{\"hello\": \"friend\"}, {\"hello\": \"enemy\"}]"
+        let infer = PrimitiveTypeHelper.infer(type: stringToInfer)
+        expect(infer).to(equal(Primitives.array))
     }
 
     func testPrimitiveValuesFromTransformedDictionary() {
