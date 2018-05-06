@@ -709,52 +709,108 @@
                         <rect key="frame" x="0.0" y="0.0" width="1440" height="900"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="UUT-lH-JMW">
+                            <scrollView wantsLayer="YES" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KQj-C4-gNS">
                                 <rect key="frame" x="0.0" y="0.0" width="720" height="900"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="900" id="vwX-Sg-BdW"/>
-                                </constraints>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" drawsBackground="YES" id="KfR-f6-L7x">
-                                    <font key="font" metaFont="system"/>
-                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="backgroundColor" name="knobColor" catalog="System" colorSpace="catalog"/>
-                                </textFieldCell>
-                            </textField>
-                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="A63-cX-72J">
-                                <rect key="frame" x="1357" y="870" width="89" height="32"/>
-                                <buttonCell key="cell" type="push" title="Convert" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="YT1-OW-04P">
+                                <clipView key="contentView" id="2Bp-oT-zWF">
+                                    <rect key="frame" x="1" y="1" width="718" height="898"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <textView importsGraphics="NO" verticallyResizable="YES" usesFontPanel="YES" findStyle="panel" allowsUndo="YES" usesRuler="YES" allowsNonContiguousLayout="YES" quoteSubstitution="YES" dashSubstitution="YES" spellingCorrection="YES" smartInsertDelete="YES" id="fo5-1R-JcM">
+                                            <rect key="frame" x="0.0" y="-1" width="718" height="898"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <size key="minSize" width="718" height="898"/>
+                                            <size key="maxSize" width="898" height="10000000"/>
+                                            <color key="insertionPointColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                        </textView>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </clipView>
+                                <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="YES" id="LoJ-W6-DBR">
+                                    <rect key="frame" x="-100" y="-100" width="87" height="18"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </scroller>
+                                <scroller key="verticalScroller" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="hYx-oE-Ipc">
+                                    <rect key="frame" x="703" y="1" width="16" height="898"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </scroller>
+                            </scrollView>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XIb-9C-uh6" customClass="Button" customModule="JSON2SWIFT" customModuleProvider="target">
+                                <rect key="frame" x="867" y="244" width="81" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="push" title="Button" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="aD6-XT-MD3">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
-                                <connections>
-                                    <action selector="convertJSON:" target="XfG-lQ-9wD" id="sNM-uO-IJH"/>
-                                </connections>
                             </button>
-                            <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="62S-Lt-4P2">
-                                <rect key="frame" x="720" y="0.0" width="720" height="900"/>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" sendsActionOnEndEditing="YES" state="on" drawsBackground="YES" id="x7o-hw-2nb">
+                            <button verticalHuggingPriority="750" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CnA-t2-WxW" customClass="FlatButton" customModule="FlatButton">
+                                <rect key="frame" x="480" y="299" width="205" height="38"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="KaN-ek-vuP"/>
+                                </constraints>
+                                <buttonCell key="cell" type="push" title="Button" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="sjb-Sc-4sc">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
-                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                                </textFieldCell>
-                            </textField>
+                                </buttonCell>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.86781007050000003" green="0.29367098209999998" blue="0.2245280147" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="14"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <scrollView horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ifq-3w-HFL">
+                                <rect key="frame" x="720" y="0.0" width="720" height="900"/>
+                                <clipView key="contentView" id="Mko-ur-otT">
+                                    <rect key="frame" x="1" y="1" width="718" height="898"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <textView importsGraphics="NO" verticallyResizable="YES" usesFontPanel="YES" findStyle="panel" continuousSpellChecking="YES" allowsUndo="YES" usesRuler="YES" allowsNonContiguousLayout="YES" quoteSubstitution="YES" dashSubstitution="YES" spellingCorrection="YES" smartInsertDelete="YES" id="xRG-2O-55y">
+                                            <rect key="frame" x="0.0" y="0.0" width="718" height="898"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <size key="minSize" width="718" height="898"/>
+                                            <size key="maxSize" width="1438" height="10000000"/>
+                                            <color key="insertionPointColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                        </textView>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </clipView>
+                                <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="YES" id="43O-Dz-C4O">
+                                    <rect key="frame" x="-100" y="-100" width="87" height="18"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </scroller>
+                                <scroller key="verticalScroller" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="3np-JQ-mUN">
+                                    <rect key="frame" x="703" y="1" width="16" height="898"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </scroller>
+                            </scrollView>
                         </subviews>
                         <constraints>
-                            <constraint firstItem="62S-Lt-4P2" firstAttribute="width" secondItem="UUT-lH-JMW" secondAttribute="width" id="2xK-QL-d1n"/>
-                            <constraint firstItem="UUT-lH-JMW" firstAttribute="top" secondItem="A63-cX-72J" secondAttribute="top" constant="-2" id="9fL-lf-gjw"/>
-                            <constraint firstAttribute="trailing" secondItem="A63-cX-72J" secondAttribute="trailing" id="Cic-FL-1ZE"/>
-                            <constraint firstItem="UUT-lH-JMW" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" id="HMY-Zz-E3l"/>
-                            <constraint firstItem="62S-Lt-4P2" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" id="PWk-rR-bgr"/>
-                            <constraint firstItem="UUT-lH-JMW" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" id="Xrn-Oy-4fv"/>
-                            <constraint firstItem="62S-Lt-4P2" firstAttribute="height" secondItem="UUT-lH-JMW" secondAttribute="height" id="hRq-nn-YQC"/>
-                            <constraint firstItem="A63-cX-72J" firstAttribute="trailing" secondItem="62S-Lt-4P2" secondAttribute="trailing" id="kSL-Ek-OeQ"/>
-                            <constraint firstItem="62S-Lt-4P2" firstAttribute="leading" secondItem="UUT-lH-JMW" secondAttribute="trailing" id="p3O-0l-Agb"/>
-                            <constraint firstItem="UUT-lH-JMW" firstAttribute="baseline" secondItem="62S-Lt-4P2" secondAttribute="baseline" id="uuK-ce-9sa"/>
+                            <constraint firstAttribute="bottom" secondItem="ifq-3w-HFL" secondAttribute="bottom" id="8d3-hS-fID"/>
+                            <constraint firstItem="ifq-3w-HFL" firstAttribute="height" secondItem="m2S-Jp-Qdl" secondAttribute="height" id="8jd-5n-6qg"/>
+                            <constraint firstItem="ifq-3w-HFL" firstAttribute="width" secondItem="KQj-C4-gNS" secondAttribute="width" id="Dlo-8j-jXR"/>
+                            <constraint firstAttribute="bottom" secondItem="KQj-C4-gNS" secondAttribute="bottom" id="REc-Fm-me4"/>
+                            <constraint firstAttribute="trailing" secondItem="ifq-3w-HFL" secondAttribute="trailing" id="RMk-6g-Ake"/>
+                            <constraint firstItem="KQj-C4-gNS" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" id="S90-ma-qbA"/>
+                            <constraint firstItem="KQj-C4-gNS" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" id="YwG-Oa-g8e"/>
+                            <constraint firstItem="KQj-C4-gNS" firstAttribute="height" secondItem="m2S-Jp-Qdl" secondAttribute="height" id="aVv-rW-PkD"/>
+                            <constraint firstItem="ifq-3w-HFL" firstAttribute="leading" secondItem="KQj-C4-gNS" secondAttribute="trailing" id="cYf-qZ-arC"/>
+                            <constraint firstItem="ifq-3w-HFL" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" id="pgL-Q9-zwz"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="JSONTextField" destination="UUT-lH-JMW" id="jBT-gc-dR0"/>
-                        <outlet property="resultField" destination="62S-Lt-4P2" id="ikk-WV-jhB"/>
+                        <outlet property="JSONScrollView" destination="KQj-C4-gNS" id="H8W-5H-EWR"/>
+                        <outlet property="JSONTextField" destination="fo5-1R-JcM" id="Mr0-07-EFp"/>
+                        <outlet property="createSwiftFiles" destination="XIb-9C-uh6" id="H7v-ug-WCh"/>
+                        <outlet property="openJSONButton" destination="CnA-t2-WxW" id="Tn0-vg-KVp"/>
+                        <outlet property="resultField" destination="ifq-3w-HFL" id="1ci-Qn-wLs"/>
+                        <outlet property="resultView" destination="xRG-2O-55y" id="sNS-c7-Byu"/>
                     </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
