@@ -9,16 +9,13 @@
 import Foundation
 
 class SwiftGenerator {
-    static func generaterFrom(dict: [String: Any], name: String, path: URL? = nil) -> String {
+    static func generaterFrom(dict: [String: Any], name: String) -> String {
         let completeText = """
         struct \(name): Codable {
         \(getVariablesFrom(dict: dict))
         \(getCodingKeys(dict: dict))
         }\n
         """
-        if let path = path {
-            FileGenerator.generaterFrom(name: name, text: completeText, directory: path)
-        }
         return completeText
     }
 

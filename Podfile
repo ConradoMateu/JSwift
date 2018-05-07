@@ -6,6 +6,8 @@ target 'JSON2SWIFT' do
   use_frameworks!
   # Pods for JSON2SWIFT
   pod 'Bond'
+  pod 'Highlightr'
+  pod 'FlatButton'
 
   target 'JSON2SWIFTTests' do
     inherit! :search_paths

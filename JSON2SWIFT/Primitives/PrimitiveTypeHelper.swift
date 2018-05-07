@@ -25,7 +25,7 @@ class PrimitiveTypeHelper {
 
         if let array = Regex.getInnerArray(of: typeCleaned){
             return Primitives.array
-        } else if let object =  Regex.getInnerObject(of: typeCleaned)?.isEmpty {
+        } else if let object =  Regex.getInnerObject(of: typeCleaned){
             return Primitives.object
         } else if typeCleaned.isBool() {
             return Primitives.bool

@@ -10,13 +10,20 @@ import Foundation
 import Cocoa
 
 class PathFinder {
-    static func execute() -> URL? {
+    static func execute(withDirectory:Bool) -> URL? {
         let dialog = NSOpenPanel()
-        dialog.title                   = "Choose a Directory"
-        dialog.showsResizeIndicator    = true
-        dialog.showsHiddenFiles        = false
-        dialog.canChooseDirectories    = true
-        dialog.canCreateDirectories    = true
+        dialog.title  = "Choose a Directory"
+        dialog.showsResizeIndicator = true
+        dialog.showsHiddenFiles = false
+        if withDirectory {
+            dialog.canChooseDirectories = true
+            dialog.canCreateDirectories = true
+            dialog.canChooseFiles = false
+        }else{
+            dialog.canChooseFiles = true
+            dialog.canChooseDirectories = false
+            dialog.canCreateDirectories = false
+        }
         dialog.allowsMultipleSelection = false
         if (dialog.runModal() == NSApplication.ModalResponse.OK) {
             return dialog.url

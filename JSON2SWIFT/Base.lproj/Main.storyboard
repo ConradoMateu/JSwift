@@ -711,7 +711,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XIb-9C-uh6" customClass="FlatButton" customModule="FlatButton">
-                                <rect key="frame" x="914" y="28" width="332" height="36"/>
+                                <rect key="frame" x="914" y="28" width="332" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <buttonCell key="cell" type="push" title="Button" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="aD6-XT-MD3">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -822,6 +822,9 @@
                                         <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="openJSONFIle:" target="XfG-lQ-9wD" id="tns-Zv-lzq"/>
+                                </connections>
                             </button>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="xbI-Es-fCx" customClass="FlatButton" customModule="FlatButton">
                                 <rect key="frame" x="916" y="13" width="329" height="32"/>
@@ -855,6 +858,9 @@
                                         <real key="value" value="3"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="saveSwiftFIles:" target="XfG-lQ-9wD" id="A0B-w3-IAR"/>
+                                </connections>
                             </button>
                         </subviews>
                         <constraints>

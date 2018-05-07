@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4E55BB14A6E562220EBAC7D4 /* Pods_JSON2SWIFT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B99A3C73041DDEA664E59EEE /* Pods_JSON2SWIFT.framework */; };
-		E21789272098886D00DF4A87 /* DefinitiveGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21789262098886D00DF4A87 /* DefinitiveGenerator.swift */; };
+		E21789272098886D00DF4A87 /* Assembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21789262098886D00DF4A87 /* Assembler.swift */; };
 		E2178929209888A900DF4A87 /* DictGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2178928209888A900DF4A87 /* DictGenerator.swift */; };
 		E261719B207F85D900ED74C8 /* SwiftGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E261719A207F85D900ED74C8 /* SwiftGenerator.swift */; };
 		E2677E7C207F7F9400315A03 /* PathFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2677E7B207F7F9400315A03 /* PathFinder.swift */; };
@@ -25,6 +25,7 @@
 		E28BE57C2048584E004D8275 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E28BE57A2048584E004D8275 /* Main.storyboard */; };
 		E2B0529120497EBC0091C024 /* FileGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B0529020497EBC0091C024 /* FileGenerator.swift */; };
 		E2D9FEB5209480B2000CC297 /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D9FEB4209480B2000CC297 /* Regex.swift */; };
+		E2EDBA2B209F57B00076C82C /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EDBA2A209F57B00076C82C /* Button.swift */; };
 		E2EFFBC22048C70300D7C943 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EFFBC12048C70300D7C943 /* Extensions.swift */; };
 		E2EFFBC42048CAA200D7C943 /* PrimitiveTypeHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EFFBC32048CAA200D7C943 /* PrimitiveTypeHelperTests.swift */; };
 		E2F4FF1820487AFE00E6E7D1 /* PrimitiveTypeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F4FF1720487AFE00E6E7D1 /* PrimitiveTypeHelper.swift */; };
@@ -61,7 +62,7 @@
 		987D263EE57B2EB8EAE31DAD /* Pods-JSON2SWIFT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSON2SWIFT.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JSON2SWIFT/Pods-JSON2SWIFT.debug.xcconfig"; sourceTree = "<group>"; };
 		B4E7B52971762DDFF750DC0E /* Pods-JSON2SWIFTTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSON2SWIFTTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSON2SWIFTTests/Pods-JSON2SWIFTTests.release.xcconfig"; sourceTree = "<group>"; };
 		B99A3C73041DDEA664E59EEE /* Pods_JSON2SWIFT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSON2SWIFT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E21789262098886D00DF4A87 /* DefinitiveGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefinitiveGenerator.swift; sourceTree = "<group>"; };
+		E21789262098886D00DF4A87 /* Assembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assembler.swift; sourceTree = "<group>"; };
 		E2178928209888A900DF4A87 /* DictGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictGenerator.swift; sourceTree = "<group>"; };
 		E261719A207F85D900ED74C8 /* SwiftGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGenerator.swift; sourceTree = "<group>"; };
 		E2677E7B207F7F9400315A03 /* PathFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathFinder.swift; sourceTree = "<group>"; };
@@ -84,6 +85,7 @@
 		E28BE5892048584F004D8275 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2B0529020497EBC0091C024 /* FileGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileGenerator.swift; sourceTree = "<group>"; };
 		E2D9FEB4209480B2000CC297 /* Regex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regex.swift; sourceTree = "<group>"; };
+		E2EDBA2A209F57B00076C82C /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 		E2EFFBC12048C70300D7C943 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		E2EFFBC32048CAA200D7C943 /* PrimitiveTypeHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimitiveTypeHelperTests.swift; sourceTree = "<group>"; };
 		E2F4FF1720487AFE00E6E7D1 /* PrimitiveTypeHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimitiveTypeHelper.swift; sourceTree = "<group>"; };
@@ -158,7 +160,7 @@
 				E2178928209888A900DF4A87 /* DictGenerator.swift */,
 				E2B0529020497EBC0091C024 /* FileGenerator.swift */,
 				E261719A207F85D900ED74C8 /* SwiftGenerator.swift */,
-				E21789262098886D00DF4A87 /* DefinitiveGenerator.swift */,
+				E21789262098886D00DF4A87 /* Assembler.swift */,
 			);
 			path = Generator;
 			sourceTree = "<group>";
@@ -176,6 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				E2EFFBC12048C70300D7C943 /* Extensions.swift */,
+				E2EDBA2A209F57B00076C82C /* Button.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -457,9 +460,10 @@
 				E2F4FF1A20487B4300E6E7D1 /* PrimitiveTypes.swift in Sources */,
 				E2178929209888A900DF4A87 /* DictGenerator.swift in Sources */,
 				E2677E7C207F7F9400315A03 /* PathFinder.swift in Sources */,
+				E2EDBA2B209F57B00076C82C /* Button.swift in Sources */,
 				E28BE5752048584E004D8275 /* AppDelegate.swift in Sources */,
 				E2F4FF1820487AFE00E6E7D1 /* PrimitiveTypeHelper.swift in Sources */,
-				E21789272098886D00DF4A87 /* DefinitiveGenerator.swift in Sources */,
+				E21789272098886D00DF4A87 /* Assembler.swift in Sources */,
 				E261719B207F85D900ED74C8 /* SwiftGenerator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

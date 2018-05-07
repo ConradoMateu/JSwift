@@ -17,4 +17,14 @@ class FileGenerator {
             print("error:", error)
         }
     }
+
+    static func openJSON(fileURL: URL) -> String?{
+            //reading
+            do {
+                let text2 = try String(contentsOf: fileURL, encoding: .utf8)
+                return text2
+            }
+            catch {return nil}
+        }
+
 }
