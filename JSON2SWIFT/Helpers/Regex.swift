@@ -33,5 +33,22 @@ class Regex {
         return matches(for: "\\(((.|\n)*)\\),?", in: string).first
     }
 
-}
+    static func infer(of string: String) -> Primitives?{
+        //To get the biggest string
+        let arrayInfer = getInnerArray(of: string)
+        let objectInfer = getInnerObject(of: string)
+
+        if arrayInfer != nil &&  objectInfer != nil{
+            return arrayInfer!.count > objectInfer!.count ? Primitives.array : Primitives.object
+        }else if arrayInfer != nil{
+            return Primitives.array
+        }else if objectInfer != nil{
+            return Primitives.object
+        }
+        return nil
+        }
+
+    }
+
+
 

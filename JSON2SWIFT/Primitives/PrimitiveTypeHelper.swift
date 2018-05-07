@@ -22,12 +22,9 @@ class PrimitiveTypeHelper {
         if typeCleaned.last == "," {
             typeCleaned = String(type.dropLast())
         }
-
-        if let array = Regex.getInnerArray(of: typeCleaned){
-            return Primitives.array
-        } else if let object =  Regex.getInnerObject(of: typeCleaned){
-            return Primitives.object
-        } else if typeCleaned.isBool() {
+        if let infer = Regex.infer(of: typeCleaned){
+            return infer
+        }else if typeCleaned.isBool() {
             return Primitives.bool
         }else if typeCleaned.isNumeric {
             return numericInfer(type: typeCleaned)
