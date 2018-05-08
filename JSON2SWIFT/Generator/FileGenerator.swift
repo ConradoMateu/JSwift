@@ -24,7 +24,9 @@ class FileGenerator {
                 let text2 = try String(contentsOf: fileURL, encoding: .utf8)
                 return text2
             }
-            catch {return nil}
+            catch {
+                return nil
+            }
         }
 
 }

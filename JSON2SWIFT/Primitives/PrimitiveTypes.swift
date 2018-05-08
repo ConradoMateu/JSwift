@@ -9,11 +9,17 @@
 import Foundation
 
 enum Primitives: String {
+
     case double
     case int
     case string
     case bool
     case object
-    case array
+    case arrayDict
+    case stringArray
+    case intArray
+    case doubleArray
+    case boolArray
+
 }
 

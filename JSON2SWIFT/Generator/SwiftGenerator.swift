@@ -26,12 +26,26 @@ class SwiftGenerator {
             if primitive == .object {
                 let value = "\tlet \($0.cleaned): \($0.cleaned.capitalized)?\n"
                 res.append(value)
-            } else if  primitive == .array {
+            } else if  primitive == .arrayDict {
                 let value = "\tlet \($0.cleaned): [\($0.cleaned.capitalized)]?\n"
                 res.append(value)
-            } else {
+            } else if primitive == .stringArray {
+                let value = "\tlet \($0.cleaned): [String]?\n"
+                res.append(value)
+            } else if  primitive == .doubleArray {
+                let value = "\tlet \($0.cleaned): [Double]?\n"
+                res.append(value)
+            } else if  primitive == .intArray {
+                let value = "\tlet \($0.cleaned): [Int]?\n"
+                res.append(value)
+            }else if primitive == .boolArray {
+                let value = "\tlet \($0.cleaned): [Bool]?\n"
+                res.append(value)
+            }else {
                 res.append("\tlet \($0.cleaned): \(($1 as! Primitives).rawValue.cleaned.capitalized)?\n")
             }
+
+
 
         }
         return res

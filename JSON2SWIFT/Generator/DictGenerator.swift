@@ -8,12 +8,12 @@
 
 import Foundation
 class DictGenerator {
-    static func convert(json: String) -> [String: AnyObject]? {
+    static func convert(json: String) throws -> [String: AnyObject]? {
         if let data = json.data(using: .utf8) {
             do {
                 return try JSONSerialization.jsonObject(with: data, options: []) as? [String: AnyObject]
             } catch {
-                print(error.localizedDescription)
+                throw Errors.incorrectJSON
             }
         }
         return nil

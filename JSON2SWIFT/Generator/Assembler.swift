@@ -13,9 +13,15 @@ class Assembler {
     var completeRes: [String:String] = [:]
     var numberOfFilesCreated = 0
 
-    func transform(json: String, name: String = "Main"){
-        let dict = DictGenerator.convert(json: json)
-        assemble(dict: dict!, name: name)
+    func transform(json: String, name: String = "Main") throws {
+        do{
+            let dict = try DictGenerator.convert(json: json)
+             assemble(dict: dict!, name: name)
+        } catch Errors.incorrectJSON {
+            throw Errors.incorrectJSON
+        }
+
+
     }
 
     func assemble(dict: [String:AnyObject], name: String)  {

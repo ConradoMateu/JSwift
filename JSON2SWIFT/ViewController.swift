@@ -21,9 +21,11 @@ class ViewController: NSViewController, NSTextFieldDelegate, NSTextViewDelegate 
     @IBOutlet var resultView: NSTextView!
 
     @IBAction func openJSONFIle(_ sender: Any) {
-        let fileOpened = FileGenerator.openJSON(fileURL: PathFinder.execute(withDirectory: false)!)
-        generateJSON(text: fileOpened!)
+        if let url = PathFinder.execute(withDirectory: false) {
+            let fileOpened = FileGenerator.openJSON(fileURL: url)
+            generateJSON(text: fileOpened!)
 
+        }
     }
 
     @IBAction func saveSwiftFIles(_ sender: Any) {
@@ -37,11 +39,11 @@ class ViewController: NSViewController, NSTextFieldDelegate, NSTextViewDelegate 
         }
     }
 
-
     override func viewDidLoad() {
         super.viewDidLoad()
         JSONTextField.reactive.string.observeNext { text in
             if !text.isEmpty {
+                self.cleanResultField()
                 self.generateJSON(text: text)
             }
         }
@@ -49,19 +51,38 @@ class ViewController: NSViewController, NSTextFieldDelegate, NSTextViewDelegate 
 }
 
 extension ViewController {
-
+    func cleanResultField(){
+        self.resultView.layoutManager?.replaceTextStorage(NSTextStorage(attributedString: NSMutableAttributedString(string: "")))
+    }
     func generateJSON(text: String) {
         self.JSONTextField.string = ""
         self.JSONTextField.textStorage?.append(self.highlight(language: "json", theme: "paraiso-dark", text: text)!)
         let assembler = Assembler()
-        assembler.transform(json: text)
+
+        do{
+            try assembler.transform(json: text)
+        }  catch Errors.incorrectJSON {
+            self.showNotification()
+        } catch let error as NSError {
+            print(error.description)
+        }
+
         lastRes = assembler.completeRes
         self.resultView.textStorage?.append(self.highlight(language: "swift", theme: "paraiso-dark", text: reduceDictValues(dict: lastRes))!)
+
     }
 
     func reduceDictValues(dict: [String:String]) -> String{
         return dict.reduce("", {$0 + "\n" + $1.value})
     }
+
+    func showNotification() -> Void {
+        var notification = NSUserNotification()
+        notification.title = "Error"
+        notification.informativeText = "Incorrect JSON Format"
+        NSUserNotificationCenter.default.deliver(notification)
+    }
+
 
     func highlight(language: String, theme: String, text: String) -> NSAttributedString? {
         let highlightr = Highlightr()
