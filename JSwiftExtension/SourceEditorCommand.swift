@@ -9,7 +9,7 @@
 import Foundation
 import XcodeKit
 import Cocoa
-import JSON2SWIFT
+
 
 
 class SourceEditorCommand: NSObject, XCSourceEditorCommand {

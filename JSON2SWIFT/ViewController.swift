@@ -9,12 +9,14 @@
 import Cocoa
 import Bond
 import Highlightr
-import FlatButton
+
 
 
 class ViewController: NSViewController, NSTextFieldDelegate, NSTextViewDelegate {
     var lastRes: [String:String] = [:]
 
+
+    @IBOutlet weak var saveFilesButton: NSButton!
     @IBOutlet weak var resultField: NSTextField!
     @IBOutlet var JSONTextField: NSTextView!
     @IBOutlet weak var JSONScrollView: NSScrollView!
@@ -45,6 +47,7 @@ class ViewController: NSViewController, NSTextFieldDelegate, NSTextViewDelegate 
             if !text.isEmpty {
                 self.cleanResultField()
                 self.generateJSON(text: text)
+
             }
         }
     }
@@ -61,6 +64,7 @@ extension ViewController {
 
         do{
             try assembler.transform(json: text)
+            self.saveFilesButton.isHidden = false
         }  catch Errors.incorrectJSON {
             self.showNotification()
         } catch let error as NSError {
@@ -68,7 +72,7 @@ extension ViewController {
         }
 
         lastRes = assembler.completeRes
-        self.resultView.textStorage?.append(self.highlight(language: "swift", theme: "paraiso-dark", text: reduceDictValues(dict: lastRes))!)
+            self.resultView.textStorage?.append(self.highlight(language: "swift", theme: "paraiso-dark", text: reduceDictValues(dict: lastRes))!)
 
     }
 

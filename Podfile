@@ -7,7 +7,7 @@ target 'JSON2SWIFT' do
   # Pods for JSON2SWIFT
   pod 'Bond'
   pod 'Highlightr'
-  pod 'FlatButton'
+
 
   target 'JSON2SWIFTTests' do
     inherit! :search_paths
@@ -18,7 +18,8 @@ target 'JSON2SWIFT' do
 
 target 'JSwiftExtension' do
     inherit! :search_paths
-    # Pods for testing
+    pod 'Bond'
+    pod 'Highlightr'
 end
 
 end

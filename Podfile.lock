@@ -3,7 +3,6 @@ PODS:
     - Differ (~> 1.0)
     - ReactiveKit (~> 3.8)
   - Differ (1.0.3)
-  - FlatButton (1.2)
   - Highlightr (2.0.0)
   - Nimble (7.0.3)
   - ReactiveKit (3.9.3)
@@ -11,7 +10,6 @@ PODS:
 
 DEPENDENCIES:
   - Bond
-  - FlatButton
   - Highlightr
   - Nimble (~> 7.0.0)
   - SwiftLint
@@ -19,12 +17,11 @@ DEPENDENCIES:
 SPEC CHECKSUMS:
   Bond: 06ece4b283fb69047d9997e285147d0abcf52ce3
   Differ: 0c220ac75542f5f17f91b1303b85bf07d871ecd7
-  FlatButton: 9995b972cd520be091f0ba6b215b84cbe7d46fa8
   Highlightr: e68a91ed9067ef0a787b920dd9becbd9935c2b79
   Nimble: 7f5a9c447a33002645a071bddafbfb24ea70e0ac
   ReactiveKit: 8163ec428d11cea4d3c7be07ba3a3ddd4cb80e8f
   SwiftLint: e14651157288e9e01d6e1a71db7014fb5744a8ea
 
-PODFILE CHECKSUM: 64bc56f6218dc8a5410f8cafc2c343336a3d62e4
+PODFILE CHECKSUM: 48b88e023b5c7ba44b281c1afcd5cfe21ab7b5a4
 
 COCOAPODS: 1.2.1
