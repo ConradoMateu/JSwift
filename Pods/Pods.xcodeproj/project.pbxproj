@@ -144,6 +144,7 @@
 		58D56A9447C75D951D4646694AB26E2B /* dust.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 3E2198F3864C9FD2BC842D6E7CA13808 /* dust.min.js */; };
 		58D964317DFBB10F54A273CB12843017 /* BeGreaterThanOrEqualTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE2DAFA5D28BC6D7856146AF85A7E09 /* BeGreaterThanOrEqualTo.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		597E357B6268DA4389CBDBFA48AFC927 /* purebasic.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 43C0E8ED9D464FC71F0C7F8A682FC070 /* purebasic.min.css */; };
+		59F48FA0B09EB5EE0E86F823DA2EF92E /* Pods-JSwiftExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AFDEFD559EBB6A80DDF6CEC78BD6DC7 /* Pods-JSwiftExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5A686D487C711E5CA90E005557BC0756 /* mipsasm.min.js in Resources */ = {isa = PBXBuildFile; fileRef = F87BBA52FF34250B9183835EC46652F7 /* mipsasm.min.js */; };
 		5AB35188F1669C85B1870536628D6AB8 /* atelier-forest-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 4086696E331EA857DF0507302CD64BF1 /* atelier-forest-dark.min.css */; };
 		5AB9DB61D62D8BF7B1C734B373F361E7 /* CurrentTestCaseTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = D636F3654B31B10B801C30486E584E7E /* CurrentTestCaseTracker.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -224,6 +225,7 @@
 		88E168C32A41701D35721B06012FE6C2 /* autohotkey.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 66B2CFFDC3792CE1569DDD59A10EB16A /* autohotkey.min.js */; };
 		88F25AFE344C5812A211D2F9AF8BD903 /* livecodeserver.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 669D558FD2E1AB39C3AF43734D46774A /* livecodeserver.min.js */; };
 		8A02CA55BD3CFF62D8A11991D13C51C9 /* docco.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 66DCE4C8E08ABB49FBFB44CE0B6900FE /* docco.min.css */; };
+		8B4055501EC8A95C8D708659481F4FD8 /* Pods-JSwiftExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5F78E99545137E38D2C8BF30A311E2 /* Pods-JSwiftExtension-dummy.m */; };
 		8B55BD430033027AD5FF22D630DD9F62 /* DSL.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FEA0E14AE545DAD7C69D2DC1DA2FCE /* DSL.m */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		8C97CF9C2AE6DEC3C36FF146380DF92B /* NSTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A2D0D9370BD8B2C55CA7F948D8B2F8 /* NSTextField.swift */; };
 		8D308AB0F6971A9A669DCD1FFE215B06 /* gcode.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 7248113DBC94F3F81D704E9591FFA17E /* gcode.min.js */; };
@@ -234,7 +236,7 @@
 		8FC11042E62DD680199EB300EFF75524 /* ocean.min.css in Resources */ = {isa = PBXBuildFile; fileRef = FFD2E4096AD3065AF5F1D7068F943584 /* ocean.min.css */; };
 		910AA8561AAB7746CA49C5D2C7B108C6 /* gherkin.min.js in Resources */ = {isa = PBXBuildFile; fileRef = F586DB7D59AAC3FC9445C6045EA5FE6B /* gherkin.min.js */; };
 		920B5D288D85629F28183BF87DE65A0C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3826FADDB90E9D67D39947C1024EA6E /* Cocoa.framework */; };
-		92238D58F3660386983050C327465BE4 /* Pods-JSON2SWIFTTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 72C96F27EFB3246E0FD350FB10A5A161 /* Pods-JSON2SWIFTTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92238D58F3660386983050C327465BE4 /* Pods-JSON2SWIFTTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31FB3AC5E2EDFDFD488B8BC127793859 /* Pods-JSON2SWIFTTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		925C813CCB4689ADD605E649B5FE20D1 /* mercury.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 767D91E393C6DED8C6DFA6833585E4D2 /* mercury.min.js */; };
 		926340E92DD4EE295CC05E0E45612C13 /* sml.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EF316A5B06688626B144FA876AA63C4B /* sml.min.js */; };
 		93595D1A99E8B53D9659F6A98BA4C0CC /* foundation.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1F23D0B0F906F2342BD29FC4880B08BA /* foundation.min.css */; };
@@ -252,7 +254,7 @@
 		988EED125395950177DC14AF9BC87D8D /* HaveCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60201053A48E8B45EDCED579E23C17E8 /* HaveCount.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		99D86E3D54B2C3596A8380149BF6C05F /* ObservableSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A466868626131323FB8E130F811C447E /* ObservableSet.swift */; };
 		9C862B8D0F6423395E195241F3A6FD4B /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E28A36921AD52D5CA3000B963A29546 /* AppKit.framework */; };
-		9D95378297BAC549D34195632D7B510B /* Pods-JSON2SWIFT-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CECC8C5D480DA35399849E06BD795402 /* Pods-JSON2SWIFT-dummy.m */; };
+		9D95378297BAC549D34195632D7B510B /* Pods-JSON2SWIFT-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B354C0584799353E1B5B81F93961BA /* Pods-JSON2SWIFT-dummy.m */; };
 		9DA2B5EC8B167DB97E7DAD4E1011AE89 /* sql.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 61F95618012B6D3D2BE529FA3FEB21D1 /* sql.min.js */; };
 		9DAB87A14AADC2B15ADF904353755BA2 /* cmake.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 9897385DEEE4C0946264DDD01223B975 /* cmake.min.js */; };
 		9DE24AF1800C6F17714A8874AD27C81D /* routeros.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 29D7F330DC7905752686463F82DBE77B /* routeros.min.js */; };
@@ -317,7 +319,7 @@
 		BF3B7218901760A6226C7F6346BEF454 /* BeCloseTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E81071381B7BFF080D485B32466773 /* BeCloseTo.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		BFC5BA37EADFDAA9D0E5631147033731 /* atelier-plateau-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = D0FE7AFB301CB27172CF5BFF1DD25CEB /* atelier-plateau-light.min.css */; };
 		BFDF7CB7BB8B807BFD6029833FB69700 /* armasm.min.js in Resources */ = {isa = PBXBuildFile; fileRef = BC1E57EF80263E3B911AC98E56E2BAE1 /* armasm.min.js */; };
-		C048786DD4DF2A17C2492A798F81A657 /* Pods-JSON2SWIFT-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 953D9476FF2FBF873C1A1C75B16C7D44 /* Pods-JSON2SWIFT-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C048786DD4DF2A17C2492A798F81A657 /* Pods-JSON2SWIFT-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A892C89E8E7E810EDC5797AD5815DF3B /* Pods-JSON2SWIFT-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C06FA100C1BBEE34B863BCB8A65359C1 /* MatcherFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA27CB1466D38D870B7DFD1CA0FC710 /* MatcherFunc.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		C1D862177DC2999FAC710AC25F253BD0 /* BeAnInstanceOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DE2A1BBB0C9C5B2AC52E93706BA76C /* BeAnInstanceOf.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		C2467221FCD579800B9CD8FBBDB10B4D /* CwlCatchBadInstruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7D3538C6B8B74B47D419AC92BAD34F /* CwlCatchBadInstruction.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
@@ -346,6 +348,7 @@
 		D05688C72D6CB22E22A739AC52797EFB /* jboss-cli.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 24229973781737D58BB8F81AD04631A3 /* jboss-cli.min.js */; };
 		D12ACBBA7BE8438E75983CAE99AECCBC /* dracula.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 38C9AFCEC94175B88B2F16323031819C /* dracula.min.css */; };
 		D1828F3D3C65EDEFEB5CE65D35131661 /* atelier-dune-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = E6A8C9BE7BCD0AEC6142E06D427B5287 /* atelier-dune-dark.min.css */; };
+		D1E803C9145A4160FD0E2EE91D3810D3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3826FADDB90E9D67D39947C1024EA6E /* Cocoa.framework */; };
 		D20B9F6DFC4FEF7546A8087AC931A588 /* NSPopUpButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFBBF7F8E727190E64E2258AE6C3B37 /* NSPopUpButton.swift */; };
 		D26B055B00E036BBA77EC253D8B74CDA /* hybrid.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2347CA141D5D80B1BA1C4E4B886A280A /* hybrid.min.css */; };
 		D31B967270F8B0F2131BF8A66D3E371B /* perl.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 21B51FF199436F90E7D7D30B95B3CF67 /* perl.min.js */; };
@@ -371,7 +374,7 @@
 		DFA1638F9BF8933677840D00DD90FC61 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37B14EAE55DE9D5813CC1F7DD428158 /* Theme.swift */; };
 		DFEBE071976E12506D827FFF7DA150C1 /* twig.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 230D066363CB43B7333367C16BAC8E70 /* twig.min.js */; };
 		E006F5E9C40C94B4D1667109DF233A3E /* bash.min.js in Resources */ = {isa = PBXBuildFile; fileRef = F8E8591B3A404986B24CFF8F75B15A7E /* bash.min.js */; };
-		E0C88D4A0EA44D94A0A0FB05D8DCE591 /* Pods-JSON2SWIFTTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 209398F150B6766B4E1E0A6D04C99686 /* Pods-JSON2SWIFTTests-dummy.m */; };
+		E0C88D4A0EA44D94A0A0FB05D8DCE591 /* Pods-JSON2SWIFTTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82AC55014B5BA4BD6B9CD225012AE5E5 /* Pods-JSON2SWIFTTests-dummy.m */; };
 		E0DE8870D8E11165321F22D7B8E38963 /* dns.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 9ABA4E9A78171687C607E56DE46AA8DB /* dns.min.js */; };
 		E247569934A200475DEF3A11293FA260 /* aspectj.min.js in Resources */ = {isa = PBXBuildFile; fileRef = F2F5A8E45223C9808D6CF5828CFD933B /* aspectj.min.js */; };
 		E29A8ED1E1CAD7EA5162765F05CFD10F /* nimrod.min.js in Resources */ = {isa = PBXBuildFile; fileRef = B3C5CAC6859C42877114E9E53B5EFA64 /* nimrod.min.js */; };
@@ -499,6 +502,7 @@
 		011B6B3EB64DE2E0212C989C0432EE85 /* NSObject+KVO.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+KVO.swift"; path = "Sources/Bond/Shared/NSObject+KVO.swift"; sourceTree = "<group>"; };
 		018BCFF4B08CE6013AD2DF081EDCC645 /* tomorrow.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = tomorrow.min.css; path = Pod/Assets/styles/tomorrow.min.css; sourceTree = "<group>"; };
 		019D29094399ED9BB6733C6E58E64BAC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03253DD2813EE84EFA2ACC67A37D231C /* Pods-JSON2SWIFTTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JSON2SWIFTTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		037DC57301DDDA4DF7A4E4F046BDEF7A /* Nimble-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nimble-umbrella.h"; sourceTree = "<group>"; };
 		05AB1E868BAA33CCB6C2E028253E8962 /* NSTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSTableView.swift; path = Sources/Bond/AppKit/NSTableView.swift; sourceTree = "<group>"; };
 		064B38F1C9694AB94A8DC13F1A53A4F0 /* arduino-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "arduino-light.min.css"; path = "Pod/Assets/styles/arduino-light.min.css"; sourceTree = "<group>"; };
@@ -510,6 +514,7 @@
 		0A983C462F61E1664FDB4F2D4DC8EEF9 /* MatcherProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatcherProtocols.swift; path = Sources/Nimble/Matchers/MatcherProtocols.swift; sourceTree = "<group>"; };
 		0C5BA89BBB1B5C983CCAED9D13911DBE /* openscad.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = openscad.min.js; path = Pod/Assets/Highlighter/languages/openscad.min.js; sourceTree = "<group>"; };
 		0D445BDC796A348A427D08300010CEE3 /* autoit.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = autoit.min.js; path = Pod/Assets/Highlighter/languages/autoit.min.js; sourceTree = "<group>"; };
+		0DF3BF70546CA73A619DA7CCE3D639CD /* Pods-JSON2SWIFTTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSON2SWIFTTests.release.xcconfig"; sourceTree = "<group>"; };
 		0E28A36921AD52D5CA3000B963A29546 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/AppKit.framework; sourceTree = DEVELOPER_DIR; };
 		0E61984557B9DF3647032A32E0F09F3A /* qtcreator_light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = qtcreator_light.min.css; path = Pod/Assets/styles/qtcreator_light.min.css; sourceTree = "<group>"; };
 		0F5A3F2B5F94B67A1D9346FECD0C15BD /* atelier-heath-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "atelier-heath-light.min.css"; path = "Pod/Assets/styles/atelier-heath-light.min.css"; sourceTree = "<group>"; };
@@ -520,12 +525,13 @@
 		1420181DD6FCEC89C80844D590F79897 /* nsis.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = nsis.min.js; path = Pod/Assets/Highlighter/languages/nsis.min.js; sourceTree = "<group>"; };
 		142D5C7F4FBCA786E6AB4A8F9CD96E34 /* gams.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = gams.min.js; path = Pod/Assets/Highlighter/languages/gams.min.js; sourceTree = "<group>"; };
 		14BF4513C017443129DFA889285E945F /* ceylon.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = ceylon.min.js; path = Pod/Assets/Highlighter/languages/ceylon.min.js; sourceTree = "<group>"; };
-		160B83A6769A1911C467836140843A0B /* Pods-JSON2SWIFTTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JSON2SWIFTTests.modulemap"; sourceTree = "<group>"; };
 		16116D1E14F79FE5CB16265DEA05AE9D /* Bond.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Bond.h; path = "Supporting Files/Bond.h"; sourceTree = "<group>"; };
 		174E4C4434EFC587430ECCEA5806A7D9 /* NSSegmentedControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSSegmentedControl.swift; path = Sources/Bond/AppKit/NSSegmentedControl.swift; sourceTree = "<group>"; };
 		17629FF3A72F3349FAC691CAA2A178F8 /* Bond-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Bond-dummy.m"; sourceTree = "<group>"; };
 		191C372E7EFBF41A0F18E3215DB68D5D /* erlang.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = erlang.min.js; path = Pod/Assets/Highlighter/languages/erlang.min.js; sourceTree = "<group>"; };
+		196DF3E8099AF1005204EFAF04F5B127 /* Pods-JSON2SWIFTTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSON2SWIFTTests-frameworks.sh"; sourceTree = "<group>"; };
 		19B25C4D0DD91E2BAB6078C8BF07F068 /* stata.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = stata.min.js; path = Pod/Assets/Highlighter/languages/stata.min.js; sourceTree = "<group>"; };
+		1B46C5FEE2DB4674DF6FAD5EE230443A /* Highlightr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Highlightr.framework; path = Highlightr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C24482935F54831431F35232AC7ED8B /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = Sources/Nimble/Expression.swift; sourceTree = "<group>"; };
 		1C451A59D5724FE4811CA7FAB8EB5F7C /* AssertionRecorder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssertionRecorder.swift; path = Sources/Nimble/Adapters/AssertionRecorder.swift; sourceTree = "<group>"; };
 		1C5EF5A077D7444DA0FF566B4B114367 /* makefile.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = makefile.min.js; path = Pod/Assets/Highlighter/languages/makefile.min.js; sourceTree = "<group>"; };
@@ -537,12 +543,11 @@
 		1F23D0B0F906F2342BD29FC4880B08BA /* foundation.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = foundation.min.css; path = Pod/Assets/styles/foundation.min.css; sourceTree = "<group>"; };
 		1FBE39EF4DEB4265887EA156061A717A /* shell.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = shell.min.js; path = Pod/Assets/Highlighter/languages/shell.min.js; sourceTree = "<group>"; };
 		1FFDB388E2FA439CD7DF55B78585149B /* NotificationCenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NotificationCenter.swift; path = Sources/Bond/Shared/NotificationCenter.swift; sourceTree = "<group>"; };
-		206F800FCA69B10B77D81DB9D3D62706 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		209398F150B6766B4E1E0A6D04C99686 /* Pods-JSON2SWIFTTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JSON2SWIFTTests-dummy.m"; sourceTree = "<group>"; };
-		20F65DFCF73F78DE497A063F48B8F0FB /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Nimble.framework; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		210CBFF18BFA217B8A00BF0B5C11E584 /* Pods-JSwiftExtension-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSwiftExtension-resources.sh"; sourceTree = "<group>"; };
 		212E92A78F8CDC8557469C760C7F0EA5 /* qml.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = qml.min.js; path = Pod/Assets/Highlighter/languages/qml.min.js; sourceTree = "<group>"; };
 		213CDED22F3AFD90684D304492E1EC06 /* Stringers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stringers.swift; path = Sources/Nimble/Utils/Stringers.swift; sourceTree = "<group>"; };
 		21B51FF199436F90E7D7D30B95B3CF67 /* perl.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = perl.min.js; path = Pod/Assets/Highlighter/languages/perl.min.js; sourceTree = "<group>"; };
+		222FAE6A00DA6F9D57DE2DBD902463AD /* Pods-JSON2SWIFT-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSON2SWIFT-frameworks.sh"; sourceTree = "<group>"; };
 		22DFB6768FA0ED0953A56CCEDEB97D07 /* atom-one-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "atom-one-light.min.css"; path = "Pod/Assets/styles/atom-one-light.min.css"; sourceTree = "<group>"; };
 		230D066363CB43B7333367C16BAC8E70 /* twig.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = twig.min.js; path = Pod/Assets/Highlighter/languages/twig.min.js; sourceTree = "<group>"; };
 		232CD11C93342FF0557E27E30286673D /* haml.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = haml.min.js; path = Pod/Assets/Highlighter/languages/haml.min.js; sourceTree = "<group>"; };
@@ -554,13 +559,15 @@
 		243D66229C1B86D58101A293C51FC03C /* ExtendedPatch+Apply.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ExtendedPatch+Apply.swift"; path = "Sources/Differ/ExtendedPatch+Apply.swift"; sourceTree = "<group>"; };
 		2492587284B99B3EF82B8284A8B1F9F3 /* Differ-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Differ-prefix.pch"; sourceTree = "<group>"; };
 		251314FD41C886BAFF8C320675D3C01E /* kotlin.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = kotlin.min.js; path = Pod/Assets/Highlighter/languages/kotlin.min.js; sourceTree = "<group>"; };
+		25B354C0584799353E1B5B81F93961BA /* Pods-JSON2SWIFT-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JSON2SWIFT-dummy.m"; sourceTree = "<group>"; };
 		25DF2172E659F730897122A83B1B7FDF /* gauss.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = gauss.min.js; path = Pod/Assets/Highlighter/languages/gauss.min.js; sourceTree = "<group>"; };
 		25E9897E8E88F0A912CDDC5DD760DEDB /* Nimble.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Nimble.h; path = Sources/Nimble/Nimble.h; sourceTree = "<group>"; };
 		2677D14135BAB5C4B65CB7EA575DCA71 /* ruby.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = ruby.min.js; path = Pod/Assets/Highlighter/languages/ruby.min.js; sourceTree = "<group>"; };
 		271B14509010BAE8F74B52269CBC1315 /* atelier-heath-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "atelier-heath-dark.min.css"; path = "Pod/Assets/styles/atelier-heath-dark.min.css"; sourceTree = "<group>"; };
 		2773B96F5A780A061AF0843020CD1F5B /* erb.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = erb.min.js; path = Pod/Assets/Highlighter/languages/erb.min.js; sourceTree = "<group>"; };
+		278B413F31119DF6D71666649460ABA7 /* Pods-JSON2SWIFTTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSON2SWIFTTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		2790E15672576FE9DDF1C4B266C4C75E /* BeginWith.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeginWith.swift; path = Sources/Nimble/Matchers/BeginWith.swift; sourceTree = "<group>"; };
-		27F0FF66B7E757CD3E6B15718EED2A98 /* Pods-JSON2SWIFT-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSON2SWIFT-frameworks.sh"; sourceTree = "<group>"; };
+		27F07381B0244F51D9B670201F2C8467 /* Pods-JSON2SWIFTTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSON2SWIFTTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2893F0AFECA7722FC90CB5AD0EFA8D14 /* 1c.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = 1c.min.js; path = Pod/Assets/Highlighter/languages/1c.min.js; sourceTree = "<group>"; };
 		29D7F330DC7905752686463F82DBE77B /* routeros.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = routeros.min.js; path = Pod/Assets/Highlighter/languages/routeros.min.js; sourceTree = "<group>"; };
 		2A2341C78848AE51BFA985EBC55C8A47 /* NMBStringify.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMBStringify.h; path = Sources/NimbleObjectiveC/NMBStringify.h; sourceTree = "<group>"; };
@@ -568,6 +575,7 @@
 		2BBA98971867730089C0BF5213013AFD /* Highlightr.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Highlightr.modulemap; sourceTree = "<group>"; };
 		2C597DA85D7CBCB154D17D94FA543CBE /* cos.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = cos.min.js; path = Pod/Assets/Highlighter/languages/cos.min.js; sourceTree = "<group>"; };
 		2CFA0BCB2CB6B624F72968081F6D7B40 /* NestedDiff.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NestedDiff.swift; path = Sources/Differ/NestedDiff.swift; sourceTree = "<group>"; };
+		2D0611784CF0285358DDD0450CBAC983 /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Nimble.framework; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D28699F7249698F41206209F556027F /* java.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = java.min.js; path = Pod/Assets/Highlighter/languages/java.min.js; sourceTree = "<group>"; };
 		2D5FF4262FD2DFA954F65FFE9E1FB217 /* rainbow.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = rainbow.min.css; path = Pod/Assets/styles/rainbow.min.css; sourceTree = "<group>"; };
 		2DC4AD98A248693D86D12C286F49A0CC /* EndWith.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EndWith.swift; path = Sources/Nimble/Matchers/EndWith.swift; sourceTree = "<group>"; };
@@ -576,13 +584,13 @@
 		2E822498E7BD1E44427504A1C8CE35DD /* tcl.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = tcl.min.js; path = Pod/Assets/Highlighter/languages/tcl.min.js; sourceTree = "<group>"; };
 		2EC49A5689203ECE9664249E98CC5350 /* llvm.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = llvm.min.js; path = Pod/Assets/Highlighter/languages/llvm.min.js; sourceTree = "<group>"; };
 		31A116929484ADBC47783ACC778B3ECF /* irpf90.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = irpf90.min.js; path = Pod/Assets/Highlighter/languages/irpf90.min.js; sourceTree = "<group>"; };
+		31FB3AC5E2EDFDFD488B8BC127793859 /* Pods-JSON2SWIFTTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JSON2SWIFTTests-umbrella.h"; sourceTree = "<group>"; };
 		322492339AA1AC5295AD135C9DA0D82A /* pf.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = pf.min.js; path = Pod/Assets/Highlighter/languages/pf.min.js; sourceTree = "<group>"; };
 		3238DB8CC723D399575F16060BFE66BF /* ReactiveKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ReactiveKit.modulemap; sourceTree = "<group>"; };
 		32820B5424EFAF14D54C48E3B32F7D8F /* tomorrow-night-eighties.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "tomorrow-night-eighties.min.css"; path = "Pod/Assets/styles/tomorrow-night-eighties.min.css"; sourceTree = "<group>"; };
 		32AC8F83B7389C8D00CD018488F65AC3 /* x86asm.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = x86asm.min.js; path = Pod/Assets/Highlighter/languages/x86asm.min.js; sourceTree = "<group>"; };
 		3371E3440C46CF8CA17416AC9362BE81 /* livescript.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = livescript.min.js; path = Pod/Assets/Highlighter/languages/livescript.min.js; sourceTree = "<group>"; };
 		3384A7515044558A5DE74D7682BC0BCA /* golo.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = golo.min.js; path = Pod/Assets/Highlighter/languages/golo.min.js; sourceTree = "<group>"; };
-		33E0C07DC9CB9BB180B73C61FB7198C5 /* Pods-JSON2SWIFT-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSON2SWIFT-resources.sh"; sourceTree = "<group>"; };
 		346D81B0EF7592BF8F277E0C8F8BA1A8 /* dsconfig.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = dsconfig.min.js; path = Pod/Assets/Highlighter/languages/dsconfig.min.js; sourceTree = "<group>"; };
 		346EB40F9C64405BDEA765E710F313AA /* tap.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = tap.min.js; path = Pod/Assets/Highlighter/languages/tap.min.js; sourceTree = "<group>"; };
 		34A3B9F9A760B0F1E48B0CE308C68B6C /* BNDInvocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BNDInvocation.swift; path = Sources/Bond/BNDInvocation.swift; sourceTree = "<group>"; };
@@ -633,25 +641,29 @@
 		4B5F53E1E7D27E8A249D50176D108975 /* CwlCatchException.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CwlCatchException.swift; path = Carthage/Checkouts/CwlCatchException/Sources/CwlCatchException/CwlCatchException.swift; sourceTree = "<group>"; };
 		4BFFE18832EE7E6477D4989C31427E62 /* CwlCatchException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CwlCatchException.m; path = Carthage/Checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/CwlCatchException.m; sourceTree = "<group>"; };
 		4C0CF74745C7234437C06F46DCF293DE /* haskell.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = haskell.min.js; path = Pod/Assets/Highlighter/languages/haskell.min.js; sourceTree = "<group>"; };
+		4C19FD8A8F2225C3BA4D6F521F432870 /* Pods-JSON2SWIFT-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JSON2SWIFT-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4C73E6DCB56125C349A8B8BA855DA91B /* axapta.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = axapta.min.js; path = Pod/Assets/Highlighter/languages/axapta.min.js; sourceTree = "<group>"; };
 		4DA4D805352538624C26138A7FFFBA43 /* vim.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = vim.min.js; path = Pod/Assets/Highlighter/languages/vim.min.js; sourceTree = "<group>"; };
 		4DE2DAFA5D28BC6D7856146AF85A7E09 /* BeGreaterThanOrEqualTo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeGreaterThanOrEqualTo.swift; path = Sources/Nimble/Matchers/BeGreaterThanOrEqualTo.swift; sourceTree = "<group>"; };
 		4E8102ABE61DAD43173969E018F7059B /* capnproto.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = capnproto.min.js; path = Pod/Assets/Highlighter/languages/capnproto.min.js; sourceTree = "<group>"; };
 		4F894CD12DD8737F4A66C3686E6F67B3 /* vbscript-html.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = "vbscript-html.min.js"; path = "Pod/Assets/Highlighter/languages/vbscript-html.min.js"; sourceTree = "<group>"; };
-		538AB0EE3F1D0F5BE1E6EDB56AC12C60 /* Pods-JSON2SWIFT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSON2SWIFT.release.xcconfig"; sourceTree = "<group>"; };
+		5205C3DAE7FD3C7980917E7B88B2FE1B /* Differ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Differ.framework; path = Differ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		53CA71B21791A0C0B95FC01C65C71BCF /* ContainElementSatisfying.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContainElementSatisfying.swift; path = Sources/Nimble/Matchers/ContainElementSatisfying.swift; sourceTree = "<group>"; };
 		54E77BDBF70F1C9B1D416C66E9701B39 /* markdown.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = markdown.min.js; path = Pod/Assets/Highlighter/languages/markdown.min.js; sourceTree = "<group>"; };
 		55AE0A1EE517AE0FF08D849B5528CFBF /* mach_excServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mach_excServer.h; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlMachBadInstructionHandler/mach_excServer.h; sourceTree = "<group>"; };
 		55B61D1B4218657DB0F3F9138B637A4C /* BNDProtocolProxyBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BNDProtocolProxyBase.h; path = Sources/BNDProtocolProxyBase/include/BNDProtocolProxyBase.h; sourceTree = "<group>"; };
 		57E64593E92F36A4E7D5C93D9233CB9D /* MatchError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatchError.swift; path = Sources/Nimble/Matchers/MatchError.swift; sourceTree = "<group>"; };
 		5838907EDEE0566AF017B6990E0E6C22 /* Connectable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Connectable.swift; path = Sources/Connectable.swift; sourceTree = "<group>"; };
+		59EE0A23C8C9E7DEDEE70F6F76F9B60B /* Pods_JSON2SWIFT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JSON2SWIFT.framework; path = "Pods-JSON2SWIFT.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		59F771DEC6ED46DE40F98E658E6B8407 /* BeAKindOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeAKindOf.swift; path = Sources/Nimble/Matchers/BeAKindOf.swift; sourceTree = "<group>"; };
 		5A39689386B5125AF153F9727BE80C21 /* lasso.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = lasso.min.js; path = Pod/Assets/Highlighter/languages/lasso.min.js; sourceTree = "<group>"; };
+		5A888D08E5CB69EE84B4E74DC15DA413 /* Pods-JSON2SWIFT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSON2SWIFT.debug.xcconfig"; sourceTree = "<group>"; };
 		5B4F17A33067DBC3C30B0C5E3FF27018 /* puppet.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = puppet.min.js; path = Pod/Assets/Highlighter/languages/puppet.min.js; sourceTree = "<group>"; };
 		5BF3C887B6342B7F17DEF8CBFFA412B6 /* atelier-seaside-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "atelier-seaside-dark.min.css"; path = "Pod/Assets/styles/atelier-seaside-dark.min.css"; sourceTree = "<group>"; };
 		5C83D05915F716E1FBDD1ED693BAD0E5 /* objectivec.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = objectivec.min.js; path = Pod/Assets/Highlighter/languages/objectivec.min.js; sourceTree = "<group>"; };
 		5D903E7C782294D813B766DA9E2CD1CF /* Observable2DArray.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Observable2DArray.swift; path = Sources/Bond/Collections/Observable2DArray.swift; sourceTree = "<group>"; };
 		5DE02DCF2E181F933E5A485CDD5EC773 /* Bindable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bindable.swift; path = Sources/Bindable.swift; sourceTree = "<group>"; };
+		5EBC18A96AD1ACD47ED4E6DC9D33D921 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F2BD9ECC988E971674610B1A3740B25 /* NSColorWell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSColorWell.swift; path = Sources/Bond/AppKit/NSColorWell.swift; sourceTree = "<group>"; };
 		5F5A1B619322B331EB9FCFDCEBCFAEE1 /* github-gist.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "github-gist.min.css"; path = "Pod/Assets/styles/github-gist.min.css"; sourceTree = "<group>"; };
 		5FA13C74BDA43B13D9B2D1896917C85D /* BeVoid.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeVoid.swift; path = Sources/Nimble/Matchers/BeVoid.swift; sourceTree = "<group>"; };
@@ -674,6 +686,7 @@
 		680BB9629DCC31455D4BE566A384C4D3 /* atelier-estuary-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "atelier-estuary-dark.min.css"; path = "Pod/Assets/styles/atelier-estuary-dark.min.css"; sourceTree = "<group>"; };
 		6824A5936B3B798498947E0BDE1A4BB9 /* kimbie.dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = kimbie.dark.min.css; path = Pod/Assets/styles/kimbie.dark.min.css; sourceTree = "<group>"; };
 		68B405BCA766F5F9688BDA27556AEB0B /* Highlightr-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Highlightr-prefix.pch"; sourceTree = "<group>"; };
+		694584BA3C7BFA35F35667B7E162F794 /* Pods-JSON2SWIFT-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSON2SWIFT-acknowledgements.plist"; sourceTree = "<group>"; };
 		69BD71E0018312064D6DAF88C6967318 /* Signal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Signal.swift; path = Sources/Signal.swift; sourceTree = "<group>"; };
 		69D04FFD6E8AB6B5ABE9019DF62350A1 /* paraiso-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "paraiso-light.min.css"; path = "Pod/Assets/styles/paraiso-light.min.css"; sourceTree = "<group>"; };
 		6D63A48229357DA9CF195D44E89EFCD0 /* ThrowAssertion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThrowAssertion.swift; path = Sources/Nimble/Matchers/ThrowAssertion.swift; sourceTree = "<group>"; };
@@ -682,7 +695,7 @@
 		7248113DBC94F3F81D704E9591FFA17E /* gcode.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = gcode.min.js; path = Pod/Assets/Highlighter/languages/gcode.min.js; sourceTree = "<group>"; };
 		725AE0E476B6E87FA52A242FF45A35C2 /* ObservableArray.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObservableArray.swift; path = Sources/Bond/Collections/ObservableArray.swift; sourceTree = "<group>"; };
 		729E38EBC8DA72618A8E9A3292D63ECE /* django.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = django.min.js; path = Pod/Assets/Highlighter/languages/django.min.js; sourceTree = "<group>"; };
-		72C96F27EFB3246E0FD350FB10A5A161 /* Pods-JSON2SWIFTTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JSON2SWIFTTests-umbrella.h"; sourceTree = "<group>"; };
+		72BDD1784A18E1CA2513B0D7BBF80E3D /* FlatButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FlatButton.framework; path = FlatButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7370562B63D4E3C32E6CCDFD16EE1C4F /* atelier-savanna-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "atelier-savanna-light.min.css"; path = "Pod/Assets/styles/atelier-savanna-light.min.css"; sourceTree = "<group>"; };
 		7392B479F612A3772B09D965759813A8 /* Lock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Lock.swift; path = Sources/Lock.swift; sourceTree = "<group>"; };
 		743C1973946A41162FB0D99297837191 /* scss.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = scss.min.js; path = Pod/Assets/Highlighter/languages/scss.min.js; sourceTree = "<group>"; };
@@ -694,17 +707,17 @@
 		77AC18132E7D40234ADCD4224ADDFEA2 /* stylus.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = stylus.min.js; path = Pod/Assets/Highlighter/languages/stylus.min.js; sourceTree = "<group>"; };
 		793956866865379354073DE9C66D6BBF /* clean.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = clean.min.js; path = Pod/Assets/Highlighter/languages/clean.min.js; sourceTree = "<group>"; };
 		795E8D0B39CCBD89AEA38E82B29EAD9E /* python.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = python.min.js; path = Pod/Assets/Highlighter/languages/python.min.js; sourceTree = "<group>"; };
+		7AFDEFD559EBB6A80DDF6CEC78BD6DC7 /* Pods-JSwiftExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JSwiftExtension-umbrella.h"; sourceTree = "<group>"; };
 		7B79A5FBE3E4E78C335B555B43A6CC0D /* Highlightr-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Highlightr-umbrella.h"; sourceTree = "<group>"; };
 		7BF30F50624B86C11904658FDBFD6DF2 /* vala.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = vala.min.js; path = Pod/Assets/Highlighter/languages/vala.min.js; sourceTree = "<group>"; };
 		7C46A97EEFB20B899DE0644E84CEF9D0 /* crystal.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = crystal.min.js; path = Pod/Assets/Highlighter/languages/crystal.min.js; sourceTree = "<group>"; };
-		7CA3D9682727A47B4BD4C19B78E2D6BE /* Pods-JSON2SWIFT.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JSON2SWIFT.modulemap"; sourceTree = "<group>"; };
 		7CB1BA1F984C44829456C98D8F2C0185 /* FlatButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FlatButton.modulemap; sourceTree = "<group>"; };
 		7D491F263A3B8E7A3054B5EE60CD8356 /* ReactiveKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReactiveKit-prefix.pch"; sourceTree = "<group>"; };
 		7DD49DA694FDDAB83E7BFE4C47B70939 /* routeros.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = routeros.min.css; path = Pod/Assets/styles/routeros.min.css; sourceTree = "<group>"; };
 		7DD7202D6017BA45427BA05224E2DF69 /* Highlightr.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Highlightr.xcconfig; sourceTree = "<group>"; };
-		7DDC28DB28D87C9A1E111E53A59C01E4 /* Pods-JSON2SWIFT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSON2SWIFT.debug.xcconfig"; sourceTree = "<group>"; };
 		7E2AD8D406E4F9DD2A0C29CD794E8934 /* Nimble-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Nimble-dummy.m"; sourceTree = "<group>"; };
 		7EEAB821CBD0D1843C25EE8D18949556 /* BeEmpty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeEmpty.swift; path = Sources/Nimble/Matchers/BeEmpty.swift; sourceTree = "<group>"; };
+		7F5F78E99545137E38D2C8BF30A311E2 /* Pods-JSwiftExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JSwiftExtension-dummy.m"; sourceTree = "<group>"; };
 		7F6261137BABCE4A72A436192AEC721D /* github.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = github.min.css; path = Pod/Assets/styles/github.min.css; sourceTree = "<group>"; };
 		807636F1CB11083ADAFBE1360DB2790C /* Bond.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Bond.xcconfig; sourceTree = "<group>"; };
 		80B291D2473A2790C8700561446156EB /* GenericPatch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GenericPatch.swift; path = Sources/Differ/GenericPatch.swift; sourceTree = "<group>"; };
@@ -712,16 +725,17 @@
 		826EE095EE65D82A28D6130BFD85598A /* NSMenuItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSMenuItem.swift; path = Sources/Bond/AppKit/NSMenuItem.swift; sourceTree = "<group>"; };
 		8281945F02014C3F783FCD9C6112960C /* magula.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = magula.min.css; path = Pod/Assets/styles/magula.min.css; sourceTree = "<group>"; };
 		8299C888D8ABD0F6C81A102C91D72B51 /* ReactiveKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReactiveKit.xcconfig; sourceTree = "<group>"; };
+		82AC55014B5BA4BD6B9CD225012AE5E5 /* Pods-JSON2SWIFTTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JSON2SWIFTTests-dummy.m"; sourceTree = "<group>"; };
 		831A9E3D0812AD4FD7AABF47C08F4796 /* stan.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = stan.min.js; path = Pod/Assets/Highlighter/languages/stan.min.js; sourceTree = "<group>"; };
 		83C654B32CA7201D110715DA1B84B7B0 /* CwlDarwinDefinitions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CwlDarwinDefinitions.swift; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlPreconditionTesting/CwlDarwinDefinitions.swift; sourceTree = "<group>"; };
 		83E81071381B7BFF080D485B32466773 /* BeCloseTo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeCloseTo.swift; path = Sources/Nimble/Matchers/BeCloseTo.swift; sourceTree = "<group>"; };
 		84EA67F097C72D4FD5B4CBECDD548F70 /* LoadingProperty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoadingProperty.swift; path = Sources/LoadingProperty.swift; sourceTree = "<group>"; };
 		856F771DFA3B0556B7261033C2E19D11 /* fsharp.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = fsharp.min.js; path = Pod/Assets/Highlighter/languages/fsharp.min.js; sourceTree = "<group>"; };
-		868E41CB0C01799DDA0CFBE5E723A22D /* Pods-JSON2SWIFTTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSON2SWIFTTests.release.xcconfig"; sourceTree = "<group>"; };
 		87BA3EE9655326B5E44670F42A03F3AA /* Disposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Disposable.swift; path = Sources/Disposable.swift; sourceTree = "<group>"; };
 		894097CCA819BC20D2FB02947C07B6B6 /* coq.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = coq.min.js; path = Pod/Assets/Highlighter/languages/coq.min.js; sourceTree = "<group>"; };
 		89531687580DA9172A35B8197513A59C /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Sources/Result.swift; sourceTree = "<group>"; };
 		898B0C7FB11E2BD063DC4A2BFF5EE318 /* Bond-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bond-prefix.pch"; sourceTree = "<group>"; };
+		8A15E26F0423CF6AA8EB500CD6D93CD2 /* Pods-JSwiftExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JSwiftExtension.modulemap"; sourceTree = "<group>"; };
 		8AEE29F912B45258E6E67F15D919001F /* tomorrow-night-blue.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "tomorrow-night-blue.min.css"; path = "Pod/Assets/styles/tomorrow-night-blue.min.css"; sourceTree = "<group>"; };
 		8B14375B601CAC216F553D8A44254A9F /* groovy.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = groovy.min.js; path = Pod/Assets/Highlighter/languages/groovy.min.js; sourceTree = "<group>"; };
 		8B2F28D0E20C2F62D41936BD3E033057 /* tomorrow-night.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "tomorrow-night.min.css"; path = "Pod/Assets/styles/tomorrow-night.min.css"; sourceTree = "<group>"; };
@@ -733,6 +747,7 @@
 		8FCD9C56D1F6332D6D00FEB5D40E8E13 /* Nimble.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Nimble.modulemap; sourceTree = "<group>"; };
 		90E880C4B3907DA020E1E2EBBBFF9B42 /* typescript.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = typescript.min.js; path = Pod/Assets/Highlighter/languages/typescript.min.js; sourceTree = "<group>"; };
 		910941464603D7B56508548E9493D812 /* subunit.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = subunit.min.js; path = Pod/Assets/Highlighter/languages/subunit.min.js; sourceTree = "<group>"; };
+		913EE990D34CBDB9AFA46C0E526AC901 /* Pods-JSwiftExtension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSwiftExtension-acknowledgements.plist"; sourceTree = "<group>"; };
 		91687B23FD6AB22F33E28278B25A0156 /* NestedExtendedDiff.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NestedExtendedDiff.swift; path = Sources/Differ/NestedExtendedDiff.swift; sourceTree = "<group>"; };
 		917B7C620DDC3C11EF198BAF554ED592 /* NimbleXCTestHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NimbleXCTestHandler.swift; path = Sources/Nimble/Adapters/NimbleXCTestHandler.swift; sourceTree = "<group>"; };
 		9196FAD3B03F1C16831D39D4DC587E05 /* NSProgressIndicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSProgressIndicator.swift; path = Sources/Bond/AppKit/NSProgressIndicator.swift; sourceTree = "<group>"; };
@@ -740,7 +755,6 @@
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93AA951F3773AF1AD4C166E212E89CED /* ini.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = ini.min.js; path = Pod/Assets/Highlighter/languages/ini.min.js; sourceTree = "<group>"; };
 		941D66481F556573E67DE66C6DCCD687 /* mono-blue.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "mono-blue.min.css"; path = "Pod/Assets/styles/mono-blue.min.css"; sourceTree = "<group>"; };
-		953D9476FF2FBF873C1A1C75B16C7D44 /* Pods-JSON2SWIFT-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JSON2SWIFT-umbrella.h"; sourceTree = "<group>"; };
 		95BCF6AFA64A99268183E7F509056950 /* railscasts.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = railscasts.min.css; path = Pod/Assets/styles/railscasts.min.css; sourceTree = "<group>"; };
 		9825708D61F9563F5CC1B7A7A79464B6 /* androidstudio.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = androidstudio.min.css; path = Pod/Assets/styles/androidstudio.min.css; sourceTree = "<group>"; };
 		9897385DEEE4C0946264DDD01223B975 /* cmake.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = cmake.min.js; path = Pod/Assets/Highlighter/languages/cmake.min.js; sourceTree = "<group>"; };
@@ -749,6 +763,7 @@
 		9915DC46FE54305874617CCBCD2D05FB /* NSObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSObject.swift; path = Sources/Bond/Shared/NSObject.swift; sourceTree = "<group>"; };
 		9926B4BCF094386A6994E5010A40969D /* atelier-savanna-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "atelier-savanna-dark.min.css"; path = "Pod/Assets/styles/atelier-savanna-dark.min.css"; sourceTree = "<group>"; };
 		992B40179CA5F52AC1E20C6CD41DEA33 /* Differ.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Differ.modulemap; sourceTree = "<group>"; };
+		993FAA4C2BE9617970CE7F67B4C05C15 /* Pods-JSwiftExtension-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSwiftExtension-frameworks.sh"; sourceTree = "<group>"; };
 		9A5CF141361A4B391358647B58F77B3A /* Differ-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Differ-umbrella.h"; sourceTree = "<group>"; };
 		9ABA4E9A78171687C607E56DE46AA8DB /* dns.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = dns.min.js; path = Pod/Assets/Highlighter/languages/dns.min.js; sourceTree = "<group>"; };
 		9B1CD66FC785EF1D8FBB578EDC73653D /* mel.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = mel.min.js; path = Pod/Assets/Highlighter/languages/mel.min.js; sourceTree = "<group>"; };
@@ -762,11 +777,9 @@
 		9D6DC2A6317E669FBAA5365397A9DCE6 /* lisp.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = lisp.min.js; path = Pod/Assets/Highlighter/languages/lisp.min.js; sourceTree = "<group>"; };
 		9D75EF397904FD4AB228BCB02BDCA3F5 /* smalltalk.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = smalltalk.min.js; path = Pod/Assets/Highlighter/languages/smalltalk.min.js; sourceTree = "<group>"; };
 		9EBAEABFCBEFBEBBC77749E395EF96E7 /* FlatButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlatButton-umbrella.h"; sourceTree = "<group>"; };
-		9EEC2FB9336BB15CCA898A7E41F3DB40 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0D649B0672BAB20876F736F99452632 /* FlatButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlatButton.xcconfig; sourceTree = "<group>"; };
 		A1575BB9F435A39DD82BBB4F8C1F69CC /* vbnet.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = vbnet.min.js; path = Pod/Assets/Highlighter/languages/vbnet.min.js; sourceTree = "<group>"; };
 		A1864D59599EEED3CF98A2ED23AE99D9 /* Expectation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expectation.swift; path = Sources/Nimble/Expectation.swift; sourceTree = "<group>"; };
-		A196195406823F12DCE6140996B55355 /* Pods-JSON2SWIFTTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSON2SWIFTTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		A19E6D7BAC58562354FB22F6DDE109B2 /* mojolicious.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = mojolicious.min.js; path = Pod/Assets/Highlighter/languages/mojolicious.min.js; sourceTree = "<group>"; };
 		A1F3012F0FF28CDC651C2BD7DE2364E8 /* sqf.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = sqf.min.js; path = Pod/Assets/Highlighter/languages/sqf.min.js; sourceTree = "<group>"; };
 		A22B9179346819A076CBC048B66A8BB9 /* swift.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = swift.min.js; path = Pod/Assets/Highlighter/languages/swift.min.js; sourceTree = "<group>"; };
@@ -781,16 +794,18 @@
 		A4912318B3A3917549C5D65BE332C484 /* AssertionDispatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssertionDispatcher.swift; path = Sources/Nimble/Adapters/AssertionDispatcher.swift; sourceTree = "<group>"; };
 		A54E6D0D52EDE3F1EC0243296EF58718 /* kimbie.light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = kimbie.light.min.css; path = Pod/Assets/styles/kimbie.light.min.css; sourceTree = "<group>"; };
 		A60A6F8E149BDDD35AE3FC803E7C62AD /* lua.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = lua.min.js; path = Pod/Assets/Highlighter/languages/lua.min.js; sourceTree = "<group>"; };
+		A67742B0045C99D40AABD3B03F4A4509 /* Pods_JSwiftExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JSwiftExtension.framework; path = "Pods-JSwiftExtension.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6E2E137F961EF7E092F27A9F28C4C32 /* excel.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = excel.min.js; path = Pod/Assets/Highlighter/languages/excel.min.js; sourceTree = "<group>"; };
 		A719134CBB0B5DB9CB3C2732E69E85E8 /* NMBExceptionCapture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NMBExceptionCapture.m; path = Sources/NimbleObjectiveC/NMBExceptionCapture.m; sourceTree = "<group>"; };
 		A7C35F538DB9F623F8776E056D533004 /* ProtocolProxyController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProtocolProxyController.swift; path = Sources/Bond/ProtocolProxyController.swift; sourceTree = "<group>"; };
 		A85D635658D3D1D27CD242CD7299CDFB /* googlecode.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = googlecode.min.css; path = Pod/Assets/styles/googlecode.min.css; sourceTree = "<group>"; };
+		A892C89E8E7E810EDC5797AD5815DF3B /* Pods-JSON2SWIFT-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JSON2SWIFT-umbrella.h"; sourceTree = "<group>"; };
 		A9033350FDA108CB237E82823801455B /* Nimble-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nimble-prefix.pch"; sourceTree = "<group>"; };
 		A90E520E4068E80AD0ABC7F53C9593FC /* scheme.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = scheme.min.js; path = Pod/Assets/Highlighter/languages/scheme.min.js; sourceTree = "<group>"; };
-		AA521791A4905A8B6D87A94257A9E2FB /* ReactiveKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ReactiveKit.framework; path = ReactiveKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA54EAC65CFDCF7969B58A0BFFE24350 /* CodeAttributedString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CodeAttributedString.swift; path = Pod/Classes/CodeAttributedString.swift; sourceTree = "<group>"; };
 		AADBA3F03BAFBC6907FD3B090A567208 /* cs.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = cs.min.js; path = Pod/Assets/Highlighter/languages/cs.min.js; sourceTree = "<group>"; };
 		AB15D09BD6391DA60BFD9BC8C64F494E /* dts.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = dts.min.js; path = Pod/Assets/Highlighter/languages/dts.min.js; sourceTree = "<group>"; };
+		AC37434E7E61A9FA512410F969BBE238 /* ReactiveKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ReactiveKit.framework; path = ReactiveKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC8D702DD3325128315007D5872BA532 /* ToSucceed.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToSucceed.swift; path = Sources/Nimble/Matchers/ToSucceed.swift; sourceTree = "<group>"; };
 		ACB4F1B2451B00D414D6640D177130E1 /* ebnf.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = ebnf.min.js; path = Pod/Assets/Highlighter/languages/ebnf.min.js; sourceTree = "<group>"; };
 		ACFBBF7F8E727190E64E2258AE6C3B37 /* NSPopUpButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSPopUpButton.swift; path = Sources/Bond/AppKit/NSPopUpButton.swift; sourceTree = "<group>"; };
@@ -799,6 +814,8 @@
 		AEC4B07FC03FDA1332C0BA430D9A7214 /* atelier-estuary-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "atelier-estuary-light.min.css"; path = "Pod/Assets/styles/atelier-estuary-light.min.css"; sourceTree = "<group>"; };
 		AF1D211C87D21D386112649E1422236A /* Functional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Functional.swift; path = Sources/Nimble/Utils/Functional.swift; sourceTree = "<group>"; };
 		AF6A45E1EEA46AC082FEE9830D14FC5D /* FlatButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlatButton-prefix.pch"; sourceTree = "<group>"; };
+		B0134CF127BA1ECDDB886F86352B29A8 /* Pods-JSON2SWIFT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSON2SWIFT.release.xcconfig"; sourceTree = "<group>"; };
+		B01A7F61B5A94FF01F251CD60FED3F89 /* Pods-JSwiftExtension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JSwiftExtension-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B02ECDDEBE2B5B8BC830F4BFF528167F /* mathematica.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = mathematica.min.js; path = Pod/Assets/Highlighter/languages/mathematica.min.js; sourceTree = "<group>"; };
 		B166AEDB77EE019F962BD154F62469C5 /* brown-paper.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "brown-paper.min.css"; path = "Pod/Assets/styles/brown-paper.min.css"; sourceTree = "<group>"; };
 		B1AE5B1E1CD4C56DC75FAD8C1AA9B285 /* go.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = go.min.js; path = Pod/Assets/Highlighter/languages/go.min.js; sourceTree = "<group>"; };
@@ -815,7 +832,10 @@
 		B5B595D21E74DC41F4988E89B961D3EA /* vs.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = vs.min.css; path = Pod/Assets/styles/vs.min.css; sourceTree = "<group>"; };
 		B5CF4B177908E76AD274933E3D97D8C3 /* NSAppearanceCustomization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSAppearanceCustomization.swift; path = Sources/Bond/AppKit/NSAppearanceCustomization.swift; sourceTree = "<group>"; };
 		B5D8B102D0A030B75C70D945BCEAEAF7 /* NSStatusBarButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSStatusBarButton.swift; path = Sources/Bond/AppKit/NSStatusBarButton.swift; sourceTree = "<group>"; };
+		B614D85F4D9ACD69FA93830B7F451204 /* Pods-JSON2SWIFTTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JSON2SWIFTTests.modulemap"; sourceTree = "<group>"; };
 		B74A532B416445BB950A3A218BA26A96 /* awk.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = awk.min.js; path = Pod/Assets/Highlighter/languages/awk.min.js; sourceTree = "<group>"; };
+		B7E665DDBAF1DF22A8605B54177F4177 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B82E9964FABCCCAE372B7CC162E8307E /* Pods-JSON2SWIFTTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSON2SWIFTTests-resources.sh"; sourceTree = "<group>"; };
 		B8371ED0268D497E647B2FF3FAC9666C /* NSLayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSLayoutConstraint.swift; path = Sources/Bond/Shared/NSLayoutConstraint.swift; sourceTree = "<group>"; };
 		B8C690C127C06E7EFAFA4FA119B551CF /* Bond.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Bond.modulemap; sourceTree = "<group>"; };
 		B8E8C1C55D19A6A2F55FA73AF3A0FBB2 /* xquery.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = xquery.min.js; path = Pod/Assets/Highlighter/languages/xquery.min.js; sourceTree = "<group>"; };
@@ -825,12 +845,12 @@
 		BA7BB80C496746E9E615CB1C7CB063EB /* scala.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = scala.min.js; path = Pod/Assets/Highlighter/languages/scala.min.js; sourceTree = "<group>"; };
 		BB7CB028823812323113996FB8A914DF /* Property.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Property.swift; path = Sources/Bond/Property.swift; sourceTree = "<group>"; };
 		BB998604B9A5A1047BC598269B204E7E /* bnf.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = bnf.min.js; path = Pod/Assets/Highlighter/languages/bnf.min.js; sourceTree = "<group>"; };
-		BBAF9BF87F392039F5F4B2AC235EF53C /* Pods_JSON2SWIFT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JSON2SWIFT.framework; path = "Pods-JSON2SWIFT.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC1E57EF80263E3B911AC98E56E2BAE1 /* armasm.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = armasm.min.js; path = Pod/Assets/Highlighter/languages/armasm.min.js; sourceTree = "<group>"; };
 		BC328A540FE27373C6EE216DA47094F6 /* atelier-cave-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "atelier-cave-light.min.css"; path = "Pod/Assets/styles/atelier-cave-light.min.css"; sourceTree = "<group>"; };
 		BCBEA3A25FAC49E35A2D0AF639332FE9 /* NSControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSControl.swift; path = Sources/Bond/AppKit/NSControl.swift; sourceTree = "<group>"; };
 		BD6DFB1E600F27748831062BE65C9BB8 /* nginx.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = nginx.min.js; path = Pod/Assets/Highlighter/languages/nginx.min.js; sourceTree = "<group>"; };
 		BE373FB2411A5FE7569032FA1D512352 /* step21.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = step21.min.js; path = Pod/Assets/Highlighter/languages/step21.min.js; sourceTree = "<group>"; };
+		BE993987BD91C4C65757531FE8C1EF91 /* Pods-JSwiftExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSwiftExtension.debug.xcconfig"; sourceTree = "<group>"; };
 		BEBC3E9EF1DA864760FF089092370E64 /* coffeescript.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = coffeescript.min.js; path = Pod/Assets/Highlighter/languages/coffeescript.min.js; sourceTree = "<group>"; };
 		BF0FEEEEF62EB3DD254F575529CAC086 /* elm.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = elm.min.js; path = Pod/Assets/Highlighter/languages/elm.min.js; sourceTree = "<group>"; };
 		BF1AF39347CDC6407555746C79FE6B16 /* php.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = php.min.js; path = Pod/Assets/Highlighter/languages/php.min.js; sourceTree = "<group>"; };
@@ -840,10 +860,9 @@
 		C036460DBCEE989548108F4970464CCD /* leaf.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = leaf.min.js; path = Pod/Assets/Highlighter/languages/leaf.min.js; sourceTree = "<group>"; };
 		C14F40D93EC9C6BF6DC8EA82202179D0 /* dockerfile.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = dockerfile.min.js; path = Pod/Assets/Highlighter/languages/dockerfile.min.js; sourceTree = "<group>"; };
 		C1D41D60B88A5EFB63606B9580C6787C /* rust.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = rust.min.js; path = Pod/Assets/Highlighter/languages/rust.min.js; sourceTree = "<group>"; };
-		C206BF0BEC25FA874A5A98788201F50A /* Pods-JSON2SWIFT-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSON2SWIFT-acknowledgements.plist"; sourceTree = "<group>"; };
 		C218D01FE0B0AF88C3B1CF4F59E51070 /* agate.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = agate.min.css; path = Pod/Assets/styles/agate.min.css; sourceTree = "<group>"; };
-		C270151141F755658DAD7193EF7EF4C3 /* Pods-JSON2SWIFTTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSON2SWIFTTests-frameworks.sh"; sourceTree = "<group>"; };
 		C2E7D58B7AB8E81B0E6CEA4FFDD5E22C /* NoError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NoError.swift; path = Sources/NoError.swift; sourceTree = "<group>"; };
+		C2F0553CCADCF70F972E4EC488488842 /* Pods_JSON2SWIFTTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JSON2SWIFTTests.framework; path = "Pods-JSON2SWIFTTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3547B9DD33DA4445DA5AA573B63FD6B /* idea.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = idea.min.css; path = Pod/Assets/styles/idea.min.css; sourceTree = "<group>"; };
 		C465FA8CCB02F19067D9708DBFC0A6CF /* roboconf.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = roboconf.min.js; path = Pod/Assets/Highlighter/languages/roboconf.min.js; sourceTree = "<group>"; };
 		C48E567610F370C9F2DBFB2B7BC96537 /* Errors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Errors.swift; path = Sources/Nimble/Utils/Errors.swift; sourceTree = "<group>"; };
@@ -852,23 +871,20 @@
 		C560686FB91E7D67CDBEC55031DBDCC6 /* atelier-lakeside-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "atelier-lakeside-light.min.css"; path = "Pod/Assets/styles/atelier-lakeside-light.min.css"; sourceTree = "<group>"; };
 		C5B4FBF377869E03AF2F79953AAC45B4 /* javascript.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = javascript.min.js; path = Pod/Assets/Highlighter/languages/javascript.min.js; sourceTree = "<group>"; };
 		C62EBC0C66A53A32859907F1146FFC2D /* hsp.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = hsp.min.js; path = Pod/Assets/Highlighter/languages/hsp.min.js; sourceTree = "<group>"; };
-		C70A2C0D4961C9DE6267490E118E8074 /* Bond.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Bond.framework; path = Bond.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C71A6A69472576643C42F1FC6B660AB9 /* rib.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = rib.min.js; path = Pod/Assets/Highlighter/languages/rib.min.js; sourceTree = "<group>"; };
 		C7A0DAF7A47DF40CD08DA624D8582EE1 /* AsyncMatcherWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncMatcherWrapper.swift; path = Sources/Nimble/Matchers/AsyncMatcherWrapper.swift; sourceTree = "<group>"; };
 		C7CCDBDFB5C3CD1BC5761EE20297BFA0 /* profile.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = profile.min.js; path = Pod/Assets/Highlighter/languages/profile.min.js; sourceTree = "<group>"; };
 		C99F3E5146458C31A03A5059EE7DE94A /* RaisesException.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RaisesException.swift; path = Sources/Nimble/Matchers/RaisesException.swift; sourceTree = "<group>"; };
+		CA10F1E82C44E94034BCCE5E00B80C6C /* Pods-JSON2SWIFT-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSON2SWIFT-resources.sh"; sourceTree = "<group>"; };
 		CA12DB11E2F4E41FA382745562242236 /* SourceLocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SourceLocation.swift; path = Sources/Nimble/Utils/SourceLocation.swift; sourceTree = "<group>"; };
 		CA8E46EECEE63E0C39AF77A406B21BD6 /* NMBObjCMatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NMBObjCMatcher.swift; path = Sources/Nimble/Adapters/NMBObjCMatcher.swift; sourceTree = "<group>"; };
 		CB5855CB235D2634BB7EB0E5F7339C76 /* solarized-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "solarized-light.min.css"; path = "Pod/Assets/styles/solarized-light.min.css"; sourceTree = "<group>"; };
-		CB91FBCDC9F940B68A4813EFE111E5CE /* Pods-JSON2SWIFTTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSON2SWIFTTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CBA51F17431C6094B1967685AC7B73D7 /* pojoaque.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = pojoaque.min.css; path = Pod/Assets/styles/pojoaque.min.css; sourceTree = "<group>"; };
 		CC13BA73DCB54685B8AA3A8F2EC0574E /* ExecutionContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExecutionContext.swift; path = Sources/ExecutionContext.swift; sourceTree = "<group>"; };
 		CD888682C438415A176E3F7AE76393C9 /* NMBStringify.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NMBStringify.m; path = Sources/NimbleObjectiveC/NMBStringify.m; sourceTree = "<group>"; };
 		CE3ED1253EBB332A2D3686B3DE0CA7B4 /* atelier-dune-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "atelier-dune-light.min.css"; path = "Pod/Assets/styles/atelier-dune-light.min.css"; sourceTree = "<group>"; };
 		CE4E3FD580FF7B9EACA27EBDAE1CA36F /* glsl.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = glsl.min.js; path = Pod/Assets/Highlighter/languages/glsl.min.js; sourceTree = "<group>"; };
 		CE7F5EFAC714427FB46442F4520C4862 /* Observable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Observable.swift; path = Sources/Bond/Observable.swift; sourceTree = "<group>"; };
-		CECC8C5D480DA35399849E06BD795402 /* Pods-JSON2SWIFT-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JSON2SWIFT-dummy.m"; sourceTree = "<group>"; };
-		CFA69D54FEDC8267EE77F4E72BD53563 /* Pods-JSON2SWIFTTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JSON2SWIFTTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D0002BEFD3A62D1130EDF9D73AD4BF4B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D03A20C26CDDE25C28B82792044309C6 /* DynamicSubject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicSubject.swift; path = Sources/Bond/DynamicSubject.swift; sourceTree = "<group>"; };
 		D061CA2824BFC87EC81793C4F848EF6D /* maxima.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = maxima.min.js; path = Pod/Assets/Highlighter/languages/maxima.min.js; sourceTree = "<group>"; };
@@ -878,14 +894,15 @@
 		D223D11B92173A568AB8AB9E7EB64E5B /* elixir.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = elixir.min.js; path = Pod/Assets/Highlighter/languages/elixir.min.js; sourceTree = "<group>"; };
 		D27B65157D3E04554C0C0F8BD911400D /* Property.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Property.swift; path = Sources/Property.swift; sourceTree = "<group>"; };
 		D2B3974873290309687561512D35DACB /* CwlMachBadInstructionHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CwlMachBadInstructionHandler.h; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlMachBadInstructionHandler/include/CwlMachBadInstructionHandler.h; sourceTree = "<group>"; };
+		D2E1B21B886A8F5F423C36F220E18B70 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3A2D0D9370BD8B2C55CA7F948D8B2F8 /* NSTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSTextField.swift; path = Sources/Bond/AppKit/NSTextField.swift; sourceTree = "<group>"; };
-		D44E5E84DD044AB4D738887C065E1684 /* Highlightr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Highlightr.framework; path = Highlightr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D491A76DD30FC29CC2ED76FD6C8CDA17 /* DSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DSL.h; path = Sources/NimbleObjectiveC/DSL.h; sourceTree = "<group>"; };
 		D4FCF6709D8BB88938D372DB00F88732 /* apache.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = apache.min.js; path = Pod/Assets/Highlighter/languages/apache.min.js; sourceTree = "<group>"; };
 		D526822746F60F9A18489A6D97359D26 /* BeGreaterThan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeGreaterThan.swift; path = Sources/Nimble/Matchers/BeGreaterThan.swift; sourceTree = "<group>"; };
 		D548AD622B534B1CFD748331BBE7E433 /* NMBExpectation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NMBExpectation.swift; path = Sources/Nimble/Adapters/NMBExpectation.swift; sourceTree = "<group>"; };
 		D5F819B3D436573B207F2BDE9D7762E1 /* default.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = default.min.css; path = Pod/Assets/styles/default.min.css; sourceTree = "<group>"; };
 		D636F3654B31B10B801C30486E584E7E /* CurrentTestCaseTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CurrentTestCaseTracker.h; path = Sources/NimbleObjectiveC/CurrentTestCaseTracker.h; sourceTree = "<group>"; };
+		D6509EE881D41EFBDBF389180CF21D18 /* Bond.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Bond.framework; path = Bond.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6B147F8FF2FEE1AEA2041A07BBE8676 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6DE2A1BBB0C9C5B2AC52E93706BA76C /* BeAnInstanceOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeAnInstanceOf.swift; path = Sources/Nimble/Matchers/BeAnInstanceOf.swift; sourceTree = "<group>"; };
 		D6F9DC5E26590153ABB6DFC8933EC35F /* grayscale.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = grayscale.min.css; path = Pod/Assets/styles/grayscale.min.css; sourceTree = "<group>"; };
@@ -894,7 +911,6 @@
 		D8862E9E6871A1A4ADC6ED51EFA41B1F /* brainfuck.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = brainfuck.min.js; path = Pod/Assets/Highlighter/languages/brainfuck.min.js; sourceTree = "<group>"; };
 		D8C1637793AEDA24829C7B7A861D1AE3 /* gradle.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = gradle.min.js; path = Pod/Assets/Highlighter/languages/gradle.min.js; sourceTree = "<group>"; };
 		D8DA928A1AF9F918D0D822B302730368 /* flix.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = flix.min.js; path = Pod/Assets/Highlighter/languages/flix.min.js; sourceTree = "<group>"; };
-		D92ABD21CFB87831691BE87B539548F6 /* Pods-JSON2SWIFTTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSON2SWIFTTests-resources.sh"; sourceTree = "<group>"; };
 		D983766185EF67A3B5934E20C7CBDDA2 /* HTMLUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTMLUtils.swift; path = Pod/Classes/HTMLUtils.swift; sourceTree = "<group>"; };
 		D9EFDAF983F55D8EA6D4BD15B6B4E05C /* monokai.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = monokai.min.css; path = Pod/Assets/styles/monokai.min.css; sourceTree = "<group>"; };
 		DB9D9D2A26D54DC28769C48D6F034AF1 /* ada.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = ada.min.js; path = Pod/Assets/Highlighter/languages/ada.min.js; sourceTree = "<group>"; };
@@ -910,7 +926,6 @@
 		E0DB1775D837818CE138AF66624728DC /* zephir.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = zephir.min.js; path = Pod/Assets/Highlighter/languages/zephir.min.js; sourceTree = "<group>"; };
 		E12B9EF252960D8BC52197B9CE693524 /* matlab.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = matlab.min.js; path = Pod/Assets/Highlighter/languages/matlab.min.js; sourceTree = "<group>"; };
 		E144A6B4171426C72885E5C7C974D724 /* gruvbox-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "gruvbox-dark.min.css"; path = "Pod/Assets/styles/gruvbox-dark.min.css"; sourceTree = "<group>"; };
-		E1F2B03B09EA615262DB4A0A4947E11D /* Pods_JSON2SWIFTTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JSON2SWIFTTests.framework; path = "Pods-JSON2SWIFTTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E22441BE2904F9DCB70397B0F4D732C6 /* LinkedList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LinkedList.swift; path = Sources/Differ/LinkedList.swift; sourceTree = "<group>"; };
 		E2AFA5AD1AC6314A7137ACCFA876BB59 /* Reactive.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reactive.swift; path = Sources/Reactive.swift; sourceTree = "<group>"; };
 		E2C02E58EDDC7F067F06F2F43705A1C2 /* school-book.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "school-book.min.css"; path = "Pod/Assets/styles/school-book.min.css"; sourceTree = "<group>"; };
@@ -922,6 +937,7 @@
 		E8A448F561C8EA284757829E68414E7A /* Predicate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Predicate.swift; path = Sources/Nimble/Matchers/Predicate.swift; sourceTree = "<group>"; };
 		E8BF30CB801C9E4A68F93799074EFE3F /* Bond.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bond.swift; path = Sources/Bond/Bond.swift; sourceTree = "<group>"; };
 		EA4687AE7A771197362A756FCBC3F225 /* far.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = far.min.css; path = Pod/Assets/styles/far.min.css; sourceTree = "<group>"; };
+		EAB9BF8C4DE52394805A4BC7022B9696 /* Pods-JSwiftExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSwiftExtension.release.xcconfig"; sourceTree = "<group>"; };
 		EAF393B3B218B72ACFDA62D92313DCDC /* verilog.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = verilog.min.js; path = Pod/Assets/Highlighter/languages/verilog.min.js; sourceTree = "<group>"; };
 		EB2C9D27371B6A380138FF9F2F9F0761 /* gruvbox-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "gruvbox-light.min.css"; path = "Pod/Assets/styles/gruvbox-light.min.css"; sourceTree = "<group>"; };
 		EC65B5FA1928A861B5AB03BD6B1BA0E9 /* SignalProtocol+Arities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SignalProtocol+Arities.swift"; path = "Sources/SignalProtocol+Arities.swift"; sourceTree = "<group>"; };
@@ -934,7 +950,6 @@
 		EFD1DB322A3D6F916E5092E85A12455A /* ExpectationMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpectationMessage.swift; path = Sources/Nimble/ExpectationMessage.swift; sourceTree = "<group>"; };
 		F0D543ECB4077D4A2F6D161326F54B6F /* inform7.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = inform7.min.js; path = Pod/Assets/Highlighter/languages/inform7.min.js; sourceTree = "<group>"; };
 		F1A3E0F625D51FAFC5C1C58B9801C373 /* CALayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CALayer.swift; path = Sources/Bond/Shared/CALayer.swift; sourceTree = "<group>"; };
-		F227651D5488399F481C8272FA7D7CCF /* Differ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Differ.framework; path = Differ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2C35D090B0872360AAA8623D930CC3D /* Diff.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Diff.swift; path = Sources/Differ/Diff.swift; sourceTree = "<group>"; };
 		F2C780840B32953118619EC89D5DE805 /* hopscotch.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = hopscotch.min.css; path = Pod/Assets/styles/hopscotch.min.css; sourceTree = "<group>"; };
 		F2F5A8E45223C9808D6CF5828CFD933B /* aspectj.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = aspectj.min.js; path = Pod/Assets/Highlighter/languages/aspectj.min.js; sourceTree = "<group>"; };
@@ -943,7 +958,6 @@
 		F3FCAAFE3B33B35596D094802C83CA01 /* AllPass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AllPass.swift; path = Sources/Nimble/Matchers/AllPass.swift; sourceTree = "<group>"; };
 		F555EABADA82D017BE8CB89D7AE9C059 /* CwlCatchException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CwlCatchException.h; path = Carthage/Checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/include/CwlCatchException.h; sourceTree = "<group>"; };
 		F586DB7D59AAC3FC9445C6045EA5FE6B /* gherkin.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = gherkin.min.js; path = Pod/Assets/Highlighter/languages/gherkin.min.js; sourceTree = "<group>"; };
-		F70717CEA819EF7AF9B03F6DBCE24148 /* FlatButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FlatButton.framework; path = FlatButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7405EAA87697A75AFE200E7DB10B594 /* SatisfyAnyOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SatisfyAnyOf.swift; path = Sources/Nimble/Matchers/SatisfyAnyOf.swift; sourceTree = "<group>"; };
 		F7C8C9195D0D8E9BAF68520F05CC2F29 /* BeLessThanOrEqual.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeLessThanOrEqual.swift; path = Sources/Nimble/Matchers/BeLessThanOrEqual.swift; sourceTree = "<group>"; };
 		F7CC6E4C0BD4E517ED3436D08481C9F9 /* monkey.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = monkey.min.js; path = Pod/Assets/Highlighter/languages/monkey.min.js; sourceTree = "<group>"; };
@@ -955,8 +969,8 @@
 		F8E8591B3A404986B24CFF8F75B15A7E /* bash.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = bash.min.js; path = Pod/Assets/Highlighter/languages/bash.min.js; sourceTree = "<group>"; };
 		F947F6F01962EC4D1EB4F673B63DE876 /* DataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataSource.swift; path = Sources/Bond/DataSource.swift; sourceTree = "<group>"; };
 		F9C391AF77D1E3D6E4ECEBA3015DA13C /* LoadingSignal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoadingSignal.swift; path = Sources/LoadingSignal.swift; sourceTree = "<group>"; };
-		FADF7454D8C5B482367D2A7FEB1C4BA3 /* Pods-JSON2SWIFT-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JSON2SWIFT-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FBBA3021CD60BBD2961B827164BD95B0 /* qtcreator_dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = qtcreator_dark.min.css; path = Pod/Assets/styles/qtcreator_dark.min.css; sourceTree = "<group>"; };
+		FC2976DAE19923400262B96928D5F492 /* Pods-JSON2SWIFT.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JSON2SWIFT.modulemap"; sourceTree = "<group>"; };
 		FC452C179BB3698380FBD610BDC2CF96 /* ReactiveKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReactiveKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCC7C47C772A19679EC28CE0997F2D4D /* nix.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = nix.min.js; path = Pod/Assets/Highlighter/languages/nix.min.js; sourceTree = "<group>"; };
 		FEB6918B1A2F3363574FCC712716AE61 /* FlatButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlatButton.swift; path = FlatButton/FlatButton.swift; sourceTree = "<group>"; };
@@ -966,6 +980,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1B6CC18734AA2931AD14F655BF53FBB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1E803C9145A4160FD0E2EE91D3810D3 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4F298BB7F3DCDA8FBAED8BA030D76EFE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -1138,28 +1160,22 @@
 			path = Nimble;
 			sourceTree = "<group>";
 		};
-		122113EE58BDE676EFCA76CF4B402F28 /* Products */ = {
+		1604A4B8855AD6787683E3FFA851BB8C /* Pods-JSwiftExtension */ = {
 			isa = PBXGroup;
 			children = (
-				C70A2C0D4961C9DE6267490E118E8074 /* Bond.framework */,
-				F227651D5488399F481C8272FA7D7CCF /* Differ.framework */,
-				F70717CEA819EF7AF9B03F6DBCE24148 /* FlatButton.framework */,
-				D44E5E84DD044AB4D738887C065E1684 /* Highlightr.framework */,
-				20F65DFCF73F78DE497A063F48B8F0FB /* Nimble.framework */,
-				BBAF9BF87F392039F5F4B2AC235EF53C /* Pods_JSON2SWIFT.framework */,
-				E1F2B03B09EA615262DB4A0A4947E11D /* Pods_JSON2SWIFTTests.framework */,
-				AA521791A4905A8B6D87A94257A9E2FB /* ReactiveKit.framework */,
+				5EBC18A96AD1ACD47ED4E6DC9D33D921 /* Info.plist */,
+				8A15E26F0423CF6AA8EB500CD6D93CD2 /* Pods-JSwiftExtension.modulemap */,
+				B01A7F61B5A94FF01F251CD60FED3F89 /* Pods-JSwiftExtension-acknowledgements.markdown */,
+				913EE990D34CBDB9AFA46C0E526AC901 /* Pods-JSwiftExtension-acknowledgements.plist */,
+				7F5F78E99545137E38D2C8BF30A311E2 /* Pods-JSwiftExtension-dummy.m */,
+				993FAA4C2BE9617970CE7F67B4C05C15 /* Pods-JSwiftExtension-frameworks.sh */,
+				210CBFF18BFA217B8A00BF0B5C11E584 /* Pods-JSwiftExtension-resources.sh */,
+				7AFDEFD559EBB6A80DDF6CEC78BD6DC7 /* Pods-JSwiftExtension-umbrella.h */,
+				BE993987BD91C4C65757531FE8C1EF91 /* Pods-JSwiftExtension.debug.xcconfig */,
+				EAB9BF8C4DE52394805A4BC7022B9696 /* Pods-JSwiftExtension.release.xcconfig */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		19C33431D7DF968829CE7756729C97DB /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				48C0802475F9C4081008DFCFD7ADA615 /* Pods-JSON2SWIFT */,
-				54ABFC016B94E6558C79CEEE0CB92E67 /* Pods-JSON2SWIFTTests */,
-			);
-			name = "Targets Support Files";
+			name = "Pods-JSwiftExtension";
+			path = "Target Support Files/Pods-JSwiftExtension";
 			sourceTree = "<group>";
 		};
 		1E90CB833B8ECF91D6C9EBCDB0658949 /* Resources */ = {
@@ -1465,6 +1481,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		331E8171A8B0FDAB34A85965FDA5D58D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6509EE881D41EFBDBF389180CF21D18 /* Bond.framework */,
+				5205C3DAE7FD3C7980917E7B88B2FE1B /* Differ.framework */,
+				72BDD1784A18E1CA2513B0D7BBF80E3D /* FlatButton.framework */,
+				1B46C5FEE2DB4674DF6FAD5EE230443A /* Highlightr.framework */,
+				2D0611784CF0285358DDD0450CBAC983 /* Nimble.framework */,
+				59EE0A23C8C9E7DEDEE70F6F76F9B60B /* Pods_JSON2SWIFT.framework */,
+				C2F0553CCADCF70F972E4EC488488842 /* Pods_JSON2SWIFTTests.framework */,
+				A67742B0045C99D40AABD3B03F4A4509 /* Pods_JSwiftExtension.framework */,
+				AC37434E7E61A9FA512410F969BBE238 /* ReactiveKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		343FDE1DBD6F08FD48FC55B654B08E62 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -1496,51 +1528,51 @@
 			name = "OS X";
 			sourceTree = "<group>";
 		};
-		48C0802475F9C4081008DFCFD7ADA615 /* Pods-JSON2SWIFT */ = {
-			isa = PBXGroup;
-			children = (
-				206F800FCA69B10B77D81DB9D3D62706 /* Info.plist */,
-				7CA3D9682727A47B4BD4C19B78E2D6BE /* Pods-JSON2SWIFT.modulemap */,
-				FADF7454D8C5B482367D2A7FEB1C4BA3 /* Pods-JSON2SWIFT-acknowledgements.markdown */,
-				C206BF0BEC25FA874A5A98788201F50A /* Pods-JSON2SWIFT-acknowledgements.plist */,
-				CECC8C5D480DA35399849E06BD795402 /* Pods-JSON2SWIFT-dummy.m */,
-				27F0FF66B7E757CD3E6B15718EED2A98 /* Pods-JSON2SWIFT-frameworks.sh */,
-				33E0C07DC9CB9BB180B73C61FB7198C5 /* Pods-JSON2SWIFT-resources.sh */,
-				953D9476FF2FBF873C1A1C75B16C7D44 /* Pods-JSON2SWIFT-umbrella.h */,
-				7DDC28DB28D87C9A1E111E53A59C01E4 /* Pods-JSON2SWIFT.debug.xcconfig */,
-				538AB0EE3F1D0F5BE1E6EDB56AC12C60 /* Pods-JSON2SWIFT.release.xcconfig */,
-			);
-			name = "Pods-JSON2SWIFT";
-			path = "Target Support Files/Pods-JSON2SWIFT";
-			sourceTree = "<group>";
-		};
-		54ABFC016B94E6558C79CEEE0CB92E67 /* Pods-JSON2SWIFTTests */ = {
-			isa = PBXGroup;
-			children = (
-				9EEC2FB9336BB15CCA898A7E41F3DB40 /* Info.plist */,
-				160B83A6769A1911C467836140843A0B /* Pods-JSON2SWIFTTests.modulemap */,
-				CFA69D54FEDC8267EE77F4E72BD53563 /* Pods-JSON2SWIFTTests-acknowledgements.markdown */,
-				A196195406823F12DCE6140996B55355 /* Pods-JSON2SWIFTTests-acknowledgements.plist */,
-				209398F150B6766B4E1E0A6D04C99686 /* Pods-JSON2SWIFTTests-dummy.m */,
-				C270151141F755658DAD7193EF7EF4C3 /* Pods-JSON2SWIFTTests-frameworks.sh */,
-				D92ABD21CFB87831691BE87B539548F6 /* Pods-JSON2SWIFTTests-resources.sh */,
-				72C96F27EFB3246E0FD350FB10A5A161 /* Pods-JSON2SWIFTTests-umbrella.h */,
-				CB91FBCDC9F940B68A4813EFE111E5CE /* Pods-JSON2SWIFTTests.debug.xcconfig */,
-				868E41CB0C01799DDA0CFBE5E723A22D /* Pods-JSON2SWIFTTests.release.xcconfig */,
-			);
-			name = "Pods-JSON2SWIFTTests";
-			path = "Target Support Files/Pods-JSON2SWIFTTests";
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				321859C9C62C54457E2165576146B517 /* Frameworks */,
 				FEBAC65F1469D946C97705E4C9C4D29C /* Pods */,
-				122113EE58BDE676EFCA76CF4B402F28 /* Products */,
-				19C33431D7DF968829CE7756729C97DB /* Targets Support Files */,
+				331E8171A8B0FDAB34A85965FDA5D58D /* Products */,
+				E77948B5FD8769D2516376466F8D3656 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		7E6C2D79FF438339E2DE9B3EE5F4D745 /* Pods-JSON2SWIFT */ = {
+			isa = PBXGroup;
+			children = (
+				D2E1B21B886A8F5F423C36F220E18B70 /* Info.plist */,
+				FC2976DAE19923400262B96928D5F492 /* Pods-JSON2SWIFT.modulemap */,
+				4C19FD8A8F2225C3BA4D6F521F432870 /* Pods-JSON2SWIFT-acknowledgements.markdown */,
+				694584BA3C7BFA35F35667B7E162F794 /* Pods-JSON2SWIFT-acknowledgements.plist */,
+				25B354C0584799353E1B5B81F93961BA /* Pods-JSON2SWIFT-dummy.m */,
+				222FAE6A00DA6F9D57DE2DBD902463AD /* Pods-JSON2SWIFT-frameworks.sh */,
+				CA10F1E82C44E94034BCCE5E00B80C6C /* Pods-JSON2SWIFT-resources.sh */,
+				A892C89E8E7E810EDC5797AD5815DF3B /* Pods-JSON2SWIFT-umbrella.h */,
+				5A888D08E5CB69EE84B4E74DC15DA413 /* Pods-JSON2SWIFT.debug.xcconfig */,
+				B0134CF127BA1ECDDB886F86352B29A8 /* Pods-JSON2SWIFT.release.xcconfig */,
+			);
+			name = "Pods-JSON2SWIFT";
+			path = "Target Support Files/Pods-JSON2SWIFT";
+			sourceTree = "<group>";
+		};
+		88DBB13A2B5CEC03E2645D389C61FD5D /* Pods-JSON2SWIFTTests */ = {
+			isa = PBXGroup;
+			children = (
+				B7E665DDBAF1DF22A8605B54177F4177 /* Info.plist */,
+				B614D85F4D9ACD69FA93830B7F451204 /* Pods-JSON2SWIFTTests.modulemap */,
+				03253DD2813EE84EFA2ACC67A37D231C /* Pods-JSON2SWIFTTests-acknowledgements.markdown */,
+				278B413F31119DF6D71666649460ABA7 /* Pods-JSON2SWIFTTests-acknowledgements.plist */,
+				82AC55014B5BA4BD6B9CD225012AE5E5 /* Pods-JSON2SWIFTTests-dummy.m */,
+				196DF3E8099AF1005204EFAF04F5B127 /* Pods-JSON2SWIFTTests-frameworks.sh */,
+				B82E9964FABCCCAE372B7CC162E8307E /* Pods-JSON2SWIFTTests-resources.sh */,
+				31FB3AC5E2EDFDFD488B8BC127793859 /* Pods-JSON2SWIFTTests-umbrella.h */,
+				27F07381B0244F51D9B670201F2C8467 /* Pods-JSON2SWIFTTests.debug.xcconfig */,
+				0DF3BF70546CA73A619DA7CCE3D639CD /* Pods-JSON2SWIFTTests.release.xcconfig */,
+			);
+			name = "Pods-JSON2SWIFTTests";
+			path = "Target Support Files/Pods-JSON2SWIFTTests";
 			sourceTree = "<group>";
 		};
 		9A102FD61459A4FEC052684D0A3A9A35 /* Support Files */ = {
@@ -1617,6 +1649,16 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Bond";
+			sourceTree = "<group>";
+		};
+		E77948B5FD8769D2516376466F8D3656 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E6C2D79FF438339E2DE9B3EE5F4D745 /* Pods-JSON2SWIFT */,
+				88DBB13A2B5CEC03E2645D389C61FD5D /* Pods-JSON2SWIFTTests */,
+				1604A4B8855AD6787683E3FFA851BB8C /* Pods-JSwiftExtension */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		F9FDF0418AA84D4B6FCF652E32D9C319 /* Support Files */ = {
@@ -1739,6 +1781,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9B357A48405F7B5D3369FCBAF6C20EF1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59F48FA0B09EB5EE0E86F823DA2EF92E /* Pods-JSwiftExtension-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A74A806F1419023E3021B17EE16D72A5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -1790,7 +1840,7 @@
 			);
 			name = "Pods-JSON2SWIFTTests";
 			productName = "Pods-JSON2SWIFTTests";
-			productReference = E1F2B03B09EA615262DB4A0A4947E11D /* Pods_JSON2SWIFTTests.framework */;
+			productReference = C2F0553CCADCF70F972E4EC488488842 /* Pods_JSON2SWIFTTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		1F1F0AE49B8C2961A529F027E05F7820 /* Differ */ = {
@@ -1807,7 +1857,24 @@
 			);
 			name = Differ;
 			productName = Differ;
-			productReference = F227651D5488399F481C8272FA7D7CCF /* Differ.framework */;
+			productReference = 5205C3DAE7FD3C7980917E7B88B2FE1B /* Differ.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3F017A4504C691A2A6113CDAFDF83395 /* Pods-JSwiftExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F1E67B014FD8714FE0D388390BBF1CE /* Build configuration list for PBXNativeTarget "Pods-JSwiftExtension" */;
+			buildPhases = (
+				C9F21D4AEFF89FF4E157B7B6CF686EE7 /* Sources */,
+				1B6CC18734AA2931AD14F655BF53FBB0 /* Frameworks */,
+				9B357A48405F7B5D3369FCBAF6C20EF1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-JSwiftExtension";
+			productName = "Pods-JSwiftExtension";
+			productReference = A67742B0045C99D40AABD3B03F4A4509 /* Pods_JSwiftExtension.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		7DE738A422935570A6C0C2A6B4A34D0B /* FlatButton */ = {
@@ -1824,7 +1891,7 @@
 			);
 			name = FlatButton;
 			productName = FlatButton;
-			productReference = F70717CEA819EF7AF9B03F6DBCE24148 /* FlatButton.framework */;
+			productReference = 72BDD1784A18E1CA2513B0D7BBF80E3D /* FlatButton.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		93032A0F8583F070C09ECE7D689136C3 /* Pods-JSON2SWIFT */ = {
@@ -1846,7 +1913,7 @@
 			);
 			name = "Pods-JSON2SWIFT";
 			productName = "Pods-JSON2SWIFT";
-			productReference = BBAF9BF87F392039F5F4B2AC235EF53C /* Pods_JSON2SWIFT.framework */;
+			productReference = 59EE0A23C8C9E7DEDEE70F6F76F9B60B /* Pods_JSON2SWIFT.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		AB7F938A826D513F63868C4E1BC00EEB /* Highlightr */ = {
@@ -1864,7 +1931,7 @@
 			);
 			name = Highlightr;
 			productName = Highlightr;
-			productReference = D44E5E84DD044AB4D738887C065E1684 /* Highlightr.framework */;
+			productReference = 1B46C5FEE2DB4674DF6FAD5EE230443A /* Highlightr.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B5329018F7BC54075D3048FF52867FE0 /* Bond */ = {
@@ -1883,7 +1950,7 @@
 			);
 			name = Bond;
 			productName = Bond;
-			productReference = C70A2C0D4961C9DE6267490E118E8074 /* Bond.framework */;
+			productReference = D6509EE881D41EFBDBF389180CF21D18 /* Bond.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C6A2CFBC079820721C02867E16D7DAF9 /* ReactiveKit */ = {
@@ -1900,7 +1967,7 @@
 			);
 			name = ReactiveKit;
 			productName = ReactiveKit;
-			productReference = AA521791A4905A8B6D87A94257A9E2FB /* ReactiveKit.framework */;
+			productReference = AC37434E7E61A9FA512410F969BBE238 /* ReactiveKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		DD7C8BF89FE8053D0A2A2D88BB49CF07 /* Nimble */ = {
@@ -1917,7 +1984,7 @@
 			);
 			name = Nimble;
 			productName = Nimble;
-			productReference = 20F65DFCF73F78DE497A063F48B8F0FB /* Nimble.framework */;
+			productReference = 2D0611784CF0285358DDD0450CBAC983 /* Nimble.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -1937,7 +2004,7 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 122113EE58BDE676EFCA76CF4B402F28 /* Products */;
+			productRefGroup = 331E8171A8B0FDAB34A85965FDA5D58D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -1948,6 +2015,7 @@
 				DD7C8BF89FE8053D0A2A2D88BB49CF07 /* Nimble */,
 				93032A0F8583F070C09ECE7D689136C3 /* Pods-JSON2SWIFT */,
 				1B04D71BE183368D7A0B2D0332350216 /* Pods-JSON2SWIFTTests */,
+				3F017A4504C691A2A6113CDAFDF83395 /* Pods-JSwiftExtension */,
 				C6A2CFBC079820721C02867E16D7DAF9 /* ReactiveKit */,
 			);
 		};
@@ -2372,6 +2440,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C9F21D4AEFF89FF4E157B7B6CF686EE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B4055501EC8A95C8D708659481F4FD8 /* Pods-JSwiftExtension-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F0C3E2B783E562355D1D14B087306756 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2471,7 +2547,7 @@
 /* Begin XCBuildConfiguration section */
 		14F934D4C6F7B3589C59D9E53B149FFD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 538AB0EE3F1D0F5BE1E6EDB56AC12C60 /* Pods-JSON2SWIFT.release.xcconfig */;
+			baseConfigurationReference = B0134CF127BA1ECDDB886F86352B29A8 /* Pods-JSON2SWIFT.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2508,9 +2584,46 @@
 			};
 			name = Release;
 		};
+		233B54C5DD4398EF9150B0A6D399747E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE993987BD91C4C65757531FE8C1EF91 /* Pods-JSwiftExtension.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JSwiftExtension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/Pods-JSwiftExtension/Pods-JSwiftExtension.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JSwiftExtension;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		291D52AAD7A0A5D5B2857EE69293A358 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 868E41CB0C01799DDA0CFBE5E723A22D /* Pods-JSON2SWIFTTests.release.xcconfig */;
+			baseConfigurationReference = 0DF3BF70546CA73A619DA7CCE3D639CD /* Pods-JSON2SWIFTTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2632,7 +2745,7 @@
 		};
 		52AA8401FE2B78B66B68EC818F508F8D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB91FBCDC9F940B68A4813EFE111E5CE /* Pods-JSON2SWIFTTests.debug.xcconfig */;
+			baseConfigurationReference = 27F07381B0244F51D9B670201F2C8467 /* Pods-JSON2SWIFTTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2850,7 +2963,7 @@
 		};
 		931BC91403B2E4725D1B786884C07D34 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7DDC28DB28D87C9A1E111E53A59C01E4 /* Pods-JSON2SWIFT.debug.xcconfig */;
+			baseConfigurationReference = 5A888D08E5CB69EE84B4E74DC15DA413 /* Pods-JSON2SWIFT.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2989,6 +3102,43 @@
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E9E102256B0DDB5E0BE77589C60F52CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAB9BF8C4DE52394805A4BC7022B9696 /* Pods-JSwiftExtension.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JSwiftExtension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/Pods-JSwiftExtension/Pods-JSwiftExtension.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JSwiftExtension;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -3153,6 +3303,15 @@
 			buildConfigurations = (
 				337AD37B27D7FFADF01DD8D7FE35B27B /* Debug */,
 				FC4738C3605827B2CD972C349A860865 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F1E67B014FD8714FE0D388390BBF1CE /* Build configuration list for PBXNativeTarget "Pods-JSwiftExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				233B54C5DD4398EF9150B0A6D399747E /* Debug */,
+				E9E102256B0DDB5E0BE77589C60F52CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

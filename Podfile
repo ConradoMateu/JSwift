@@ -16,4 +16,9 @@ target 'JSON2SWIFT' do
   pod 'SwiftLint'
   end
 
+target 'JSwiftExtension' do
+    inherit! :search_paths
+    # Pods for testing
+end
+
 end

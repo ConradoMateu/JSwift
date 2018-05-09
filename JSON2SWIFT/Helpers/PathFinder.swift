@@ -23,6 +23,7 @@ class PathFinder {
             dialog.canChooseFiles = true
             dialog.canChooseDirectories = false
             dialog.canCreateDirectories = false
+            
         }
         dialog.allowsMultipleSelection = false
         if (dialog.runModal() == NSApplication.ModalResponse.OK) {

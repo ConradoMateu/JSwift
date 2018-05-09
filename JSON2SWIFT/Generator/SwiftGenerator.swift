@@ -11,7 +11,7 @@ import Foundation
 class SwiftGenerator {
     static func generaterFrom(dict: [String: Any], name: String) -> String {
         let completeText = """
-        struct \(name): Codable {
+        struct \(name.cleaned.capitalized): Codable {
         \(getVariablesFrom(dict: dict))
         \(getCodingKeys(dict: dict))
         }\n

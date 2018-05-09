@@ -20,6 +20,7 @@ enum Primitives: String {
     case intArray
     case doubleArray
     case boolArray
-
+    
 }
+
 

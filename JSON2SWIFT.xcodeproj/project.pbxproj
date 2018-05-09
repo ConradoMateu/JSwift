@@ -8,13 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		4E55BB14A6E562220EBAC7D4 /* Pods_JSON2SWIFT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B99A3C73041DDEA664E59EEE /* Pods_JSON2SWIFT.framework */; };
+		52B327C9D534F719F0801137 /* Pods_JSwiftExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 610EC6B44F1A54E9BC985241 /* Pods_JSwiftExtension.framework */; };
 		E208544620A2577A00DC6D6D /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = E208544520A2577A00DC6D6D /* Errors.swift */; };
+		E208544C20A2783600DC6D6D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2772C7B20791E06004BE3E5 /* Cocoa.framework */; };
+		E208544F20A2783600DC6D6D /* SourceEditorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E208544E20A2783600DC6D6D /* SourceEditorExtension.swift */; };
+		E208545120A2783600DC6D6D /* SourceEditorCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = E208545020A2783600DC6D6D /* SourceEditorCommand.swift */; };
+		E208545620A2783600DC6D6D /* JSwiftExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E208544B20A2783500DC6D6D /* JSwiftExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		E21789272098886D00DF4A87 /* Assembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21789262098886D00DF4A87 /* Assembler.swift */; };
 		E2178929209888A900DF4A87 /* DictGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2178928209888A900DF4A87 /* DictGenerator.swift */; };
+		E224377020A2F75300305F46 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EFFBC12048C70300D7C943 /* Extensions.swift */; };
+		E224377120A2F75500305F46 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EDBA2A209F57B00076C82C /* Button.swift */; };
+		E224377220A2F75900305F46 /* PathFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2677E7B207F7F9400315A03 /* PathFinder.swift */; };
+		E224377320A2F75D00305F46 /* Assembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21789262098886D00DF4A87 /* Assembler.swift */; };
+		E224377420A2F75F00305F46 /* SwiftGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E261719A207F85D900ED74C8 /* SwiftGenerator.swift */; };
+		E224377520A2F76200305F46 /* FileGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B0529020497EBC0091C024 /* FileGenerator.swift */; };
+		E224377620A2F76400305F46 /* DictGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2178928209888A900DF4A87 /* DictGenerator.swift */; };
+		E224377720A2F76700305F46 /* PrimitiveTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F4FF1920487B4300E6E7D1 /* PrimitiveTypes.swift */; };
+		E224377820A2F76A00305F46 /* PrimitiveTypeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F4FF1720487AFE00E6E7D1 /* PrimitiveTypeHelper.swift */; };
+		E224377920A2F76C00305F46 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = E208544520A2577A00DC6D6D /* Errors.swift */; };
 		E261719B207F85D900ED74C8 /* SwiftGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E261719A207F85D900ED74C8 /* SwiftGenerator.swift */; };
 		E2677E7C207F7F9400315A03 /* PathFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2677E7B207F7F9400315A03 /* PathFinder.swift */; };
 		E26FD89A2076683D007441B0 /* AssembleJSONTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26FD8992076683D007441B0 /* AssembleJSONTests.swift */; };
-		E28938852095E87C00087807 /* RegexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28938842095E87C00087807 /* RegexTests.swift */; };
 		E28938872095E8E600087807 /* Object.json in Resources */ = {isa = PBXBuildFile; fileRef = E28938862095E8E600087807 /* Object.json */; };
 		E28938892095E90A00087807 /* ArrayObject.json in Resources */ = {isa = PBXBuildFile; fileRef = E28938882095E90A00087807 /* ArrayObject.json */; };
 		E289388D2095EAA000087807 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = E289388C2095EAA000087807 /* JSON.swift */; };
@@ -34,6 +48,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		E208545420A2783600DC6D6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E28BE5692048584E004D8275 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E208544A20A2783500DC6D6D;
+			remoteInfo = JSwiftExtension;
+		};
 		E28BE5842048584F004D8275 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E28BE5692048584E004D8275 /* Project object */;
@@ -50,6 +71,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
+				E208545620A2783600DC6D6D /* JSwiftExtension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -58,18 +80,24 @@
 
 /* Begin PBXFileReference section */
 		3C9CF9EC306FB83539F8BE51 /* Pods-JSON2SWIFTTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSON2SWIFTTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JSON2SWIFTTests/Pods-JSON2SWIFTTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5604C42D195E1D51BCC1478A /* Pods-JSwiftExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSwiftExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSwiftExtension/Pods-JSwiftExtension.release.xcconfig"; sourceTree = "<group>"; };
+		610EC6B44F1A54E9BC985241 /* Pods_JSwiftExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSwiftExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		67D32E60D5D1125C55146555 /* Pods-JSON2SWIFT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSON2SWIFT.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSON2SWIFT/Pods-JSON2SWIFT.release.xcconfig"; sourceTree = "<group>"; };
 		987D263EE57B2EB8EAE31DAD /* Pods-JSON2SWIFT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSON2SWIFT.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JSON2SWIFT/Pods-JSON2SWIFT.debug.xcconfig"; sourceTree = "<group>"; };
 		B4E7B52971762DDFF750DC0E /* Pods-JSON2SWIFTTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSON2SWIFTTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSON2SWIFTTests/Pods-JSON2SWIFTTests.release.xcconfig"; sourceTree = "<group>"; };
 		B99A3C73041DDEA664E59EEE /* Pods_JSON2SWIFT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSON2SWIFT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E208544520A2577A00DC6D6D /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		E208544B20A2783500DC6D6D /* JSwiftExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = JSwiftExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		E208544E20A2783600DC6D6D /* SourceEditorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorExtension.swift; sourceTree = "<group>"; };
+		E208545020A2783600DC6D6D /* SourceEditorCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorCommand.swift; sourceTree = "<group>"; };
+		E208545220A2783600DC6D6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E208545320A2783600DC6D6D /* JSwiftExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JSwiftExtension.entitlements; sourceTree = "<group>"; };
 		E21789262098886D00DF4A87 /* Assembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assembler.swift; sourceTree = "<group>"; };
 		E2178928209888A900DF4A87 /* DictGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictGenerator.swift; sourceTree = "<group>"; };
 		E261719A207F85D900ED74C8 /* SwiftGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGenerator.swift; sourceTree = "<group>"; };
 		E2677E7B207F7F9400315A03 /* PathFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathFinder.swift; sourceTree = "<group>"; };
 		E26FD8992076683D007441B0 /* AssembleJSONTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssembleJSONTests.swift; sourceTree = "<group>"; };
 		E2772C7B20791E06004BE3E5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		E28938842095E87C00087807 /* RegexTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegexTests.swift; sourceTree = "<group>"; };
 		E28938862095E8E600087807 /* Object.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Object.json; sourceTree = "<group>"; };
 		E28938882095E90A00087807 /* ArrayObject.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ArrayObject.json; sourceTree = "<group>"; };
 		E289388C2095EAA000087807 /* JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
@@ -90,10 +118,20 @@
 		E2EFFBC32048CAA200D7C943 /* PrimitiveTypeHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimitiveTypeHelperTests.swift; sourceTree = "<group>"; };
 		E2F4FF1720487AFE00E6E7D1 /* PrimitiveTypeHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimitiveTypeHelper.swift; sourceTree = "<group>"; };
 		E2F4FF1920487B4300E6E7D1 /* PrimitiveTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimitiveTypes.swift; sourceTree = "<group>"; };
+		E769C0F42805DB41EB2D8C32 /* Pods-JSwiftExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSwiftExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JSwiftExtension/Pods-JSwiftExtension.debug.xcconfig"; sourceTree = "<group>"; };
 		FC6D642CF096CF736D718C69 /* Pods_JSON2SWIFTTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSON2SWIFTTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		E208544820A2783500DC6D6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E208544C20A2783600DC6D6D /* Cocoa.framework in Frameworks */,
+				52B327C9D534F719F0801137 /* Pods_JSwiftExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E28BE56E2048584E004D8275 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -120,6 +158,8 @@
 				67D32E60D5D1125C55146555 /* Pods-JSON2SWIFT.release.xcconfig */,
 				3C9CF9EC306FB83539F8BE51 /* Pods-JSON2SWIFTTests.debug.xcconfig */,
 				B4E7B52971762DDFF750DC0E /* Pods-JSON2SWIFTTests.release.xcconfig */,
+				E769C0F42805DB41EB2D8C32 /* Pods-JSwiftExtension.debug.xcconfig */,
+				5604C42D195E1D51BCC1478A /* Pods-JSwiftExtension.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -130,8 +170,20 @@
 				B99A3C73041DDEA664E59EEE /* Pods_JSON2SWIFT.framework */,
 				FC6D642CF096CF736D718C69 /* Pods_JSON2SWIFTTests.framework */,
 				E2772C7B20791E06004BE3E5 /* Cocoa.framework */,
+				610EC6B44F1A54E9BC985241 /* Pods_JSwiftExtension.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E208544D20A2783600DC6D6D /* JSwiftExtension */ = {
+			isa = PBXGroup;
+			children = (
+				E208544E20A2783600DC6D6D /* SourceEditorExtension.swift */,
+				E208545020A2783600DC6D6D /* SourceEditorCommand.swift */,
+				E208545220A2783600DC6D6D /* Info.plist */,
+				E208545320A2783600DC6D6D /* JSwiftExtension.entitlements */,
+			);
+			path = JSwiftExtension;
 			sourceTree = "<group>";
 		};
 		E2132F5620987FD100E85D83 /* JSON */ = {
@@ -187,6 +239,7 @@
 			children = (
 				E28BE5732048584E004D8275 /* JSON2SWIFT */,
 				E28BE5862048584F004D8275 /* JSON2SWIFTTests */,
+				E208544D20A2783600DC6D6D /* JSwiftExtension */,
 				E28BE5722048584E004D8275 /* Products */,
 				08BECBE62A410E3742422F40 /* Pods */,
 				ABA12A95BD0C32062C6A137C /* Frameworks */,
@@ -198,6 +251,7 @@
 			children = (
 				E28BE5712048584E004D8275 /* JSON2SWIFT.app */,
 				E28BE5832048584F004D8275 /* JSON2SWIFTTests.xctest */,
+				E208544B20A2783500DC6D6D /* JSwiftExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -227,7 +281,6 @@
 				E28BE5892048584F004D8275 /* Info.plist */,
 				E2EFFBC32048CAA200D7C943 /* PrimitiveTypeHelperTests.swift */,
 				E26FD8992076683D007441B0 /* AssembleJSONTests.swift */,
-				E28938842095E87C00087807 /* RegexTests.swift */,
 				E289388C2095EAA000087807 /* JSON.swift */,
 			);
 			path = JSON2SWIFTTests;
@@ -236,6 +289,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		E208544A20A2783500DC6D6D /* JSwiftExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E208545720A2783600DC6D6D /* Build configuration list for PBXNativeTarget "JSwiftExtension" */;
+			buildPhases = (
+				E7B64D0A231EF5FAC1B9F25A /* [CP] Check Pods Manifest.lock */,
+				E208544720A2783500DC6D6D /* Sources */,
+				E208544820A2783500DC6D6D /* Frameworks */,
+				E208544920A2783500DC6D6D /* Resources */,
+				2AB0478374D7566FBC6D0679 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSwiftExtension;
+			productName = JSwiftExtension;
+			productReference = E208544B20A2783500DC6D6D /* JSwiftExtension.appex */;
+			productType = "com.apple.product-type.xcode-extension";
+		};
 		E28BE5702048584E004D8275 /* JSON2SWIFT */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E28BE58C2048584F004D8275 /* Build configuration list for PBXNativeTarget "JSON2SWIFT" */;
@@ -252,6 +324,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				E208545520A2783600DC6D6D /* PBXTargetDependency */,
 			);
 			name = JSON2SWIFT;
 			productName = JSON2SWIFT;
@@ -289,6 +362,10 @@
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = conradomateu;
 				TargetAttributes = {
+					E208544A20A2783500DC6D6D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
 					E28BE5702048584E004D8275 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
@@ -320,11 +397,19 @@
 			targets = (
 				E28BE5702048584E004D8275 /* JSON2SWIFT */,
 				E28BE5822048584F004D8275 /* JSON2SWIFTTests */,
+				E208544A20A2783500DC6D6D /* JSwiftExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		E208544920A2783500DC6D6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E28BE56F2048584E004D8275 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -361,6 +446,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JSON2SWIFT/Pods-JSON2SWIFT-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2AB0478374D7566FBC6D0679 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JSwiftExtension/Pods-JSwiftExtension-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		413B588E225ACB899469820A /* [CP] Check Pods Manifest.lock */ = {
@@ -436,6 +536,21 @@
 			shellPath = /bin/sh;
 			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
 		};
+		E7B64D0A231EF5FAC1B9F25A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		F6A4EF9E5857BBB594FB2C35 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -454,6 +569,25 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		E208544720A2783500DC6D6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E224377420A2F75F00305F46 /* SwiftGenerator.swift in Sources */,
+				E208544F20A2783600DC6D6D /* SourceEditorExtension.swift in Sources */,
+				E224377020A2F75300305F46 /* Extensions.swift in Sources */,
+				E224377720A2F76700305F46 /* PrimitiveTypes.swift in Sources */,
+				E224377920A2F76C00305F46 /* Errors.swift in Sources */,
+				E224377820A2F76A00305F46 /* PrimitiveTypeHelper.swift in Sources */,
+				E224377220A2F75900305F46 /* PathFinder.swift in Sources */,
+				E208545120A2783600DC6D6D /* SourceEditorCommand.swift in Sources */,
+				E224377520A2F76200305F46 /* FileGenerator.swift in Sources */,
+				E224377620A2F76400305F46 /* DictGenerator.swift in Sources */,
+				E224377320A2F75D00305F46 /* Assembler.swift in Sources */,
+				E224377120A2F75500305F46 /* Button.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E28BE56D2048584E004D8275 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -479,7 +613,6 @@
 			files = (
 				E26FD89A2076683D007441B0 /* AssembleJSONTests.swift in Sources */,
 				E289388D2095EAA000087807 /* JSON.swift in Sources */,
-				E28938852095E87C00087807 /* RegexTests.swift in Sources */,
 				E2EFFBC42048CAA200D7C943 /* PrimitiveTypeHelperTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -487,6 +620,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		E208545520A2783600DC6D6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E208544A20A2783500DC6D6D /* JSwiftExtension */;
+			targetProxy = E208545420A2783600DC6D6D /* PBXContainerItemProxy */;
+		};
 		E28BE5852048584F004D8275 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E28BE5702048584E004D8275 /* JSON2SWIFT */;
@@ -506,6 +644,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		E208545820A2783600DC6D6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E769C0F42805DB41EB2D8C32 /* Pods-JSwiftExtension.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = JSwiftExtension/JSwiftExtension.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 596PS285KG;
+				INFOPLIST_FILE = JSwiftExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.conradomateu.JSON2SWIFT.JSwiftExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		E208545920A2783600DC6D6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5604C42D195E1D51BCC1478A /* Pods-JSwiftExtension.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = JSwiftExtension/JSwiftExtension.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 596PS285KG;
+				INFOPLIST_FILE = JSwiftExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.conradomateu.JSON2SWIFT.JSwiftExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
 		E28BE58A2048584F004D8275 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -619,6 +795,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = JSON2SWIFT/JSON2SWIFT.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 596PS285KG;
@@ -626,6 +803,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.conradomateu.JSON2SWIFT;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -637,6 +815,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = JSON2SWIFT/JSON2SWIFT.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 596PS285KG;
@@ -644,6 +823,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.conradomateu.JSON2SWIFT;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
@@ -687,6 +867,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		E208545720A2783600DC6D6D /* Build configuration list for PBXNativeTarget "JSwiftExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E208545820A2783600DC6D6D /* Debug */,
+				E208545920A2783600DC6D6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		E28BE56C2048584E004D8275 /* Build configuration list for PBXProject "JSON2SWIFT" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
