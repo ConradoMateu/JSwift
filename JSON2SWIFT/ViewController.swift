@@ -23,19 +23,22 @@ class ViewController: NSViewController, NSTextFieldDelegate, NSTextViewDelegate 
     @IBOutlet var resultView: NSTextView!
 
     @IBAction func openJSONFIle(_ sender: Any) {
-        if let url = PathFinder.execute(withDirectory: false) {
-            let fileOpened = FileGenerator.openJSON(fileURL: url)
-            generateJSON(text: fileOpened!)
-
+        DispatchQueue.main.async {
+            if let url = PathFinder.execute(withDirectory: false) {
+                let fileOpened = FileGenerator.openJSON(fileURL: url)
+                self.generateJSON(text: fileOpened!)
+            }
         }
     }
 
     @IBAction func saveSwiftFIles(_ sender: Any) {
-        if !resultView.string.isEmpty {
-            let path = PathFinder.execute(withDirectory: true)
-            if let path = path {
-                lastRes.forEach {
-                    FileGenerator.generaterFrom(name: $0, text: $1, directory: path)
+        DispatchQueue.main.async {
+            if !self.resultView.string.isEmpty {
+                let path = PathFinder.execute(withDirectory: true)
+                if let path = path {
+                    self.lastRes.forEach {
+                        FileGenerator.generaterFrom(name: $0, text: $1, directory: path)
+                    }
                 }
             }
         }
