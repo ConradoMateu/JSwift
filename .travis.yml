@@ -7,6 +7,6 @@ before_install:
 script:
   - swiftlint
   - set -o pipefail
-  - xcodebuild test -workspace JSON2SWIFT.xcworkspace -scheme JSON2SWIFT -sdk macosx ONLY_ACTIVE_ARCH=NO | xcpretty -c
+  - xcodebuild test -workspace JSwift.xcworkspace -scheme JSwift -sdk macosx ONLY_ACTIVE_ARCH=NO | xcpretty -c
 after_success:
   - bash <(curl -s https://codecov.io/bash)

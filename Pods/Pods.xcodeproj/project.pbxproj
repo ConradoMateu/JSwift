@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00A514F6B8496E9AF3286C3CEFC9F83F /* Pods-JSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CBC34322E4BC43FA365CA0742DAF782 /* Pods-JSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		00C66BFAB15B3EF63290F102B7E4F278 /* parser3.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 3806BE57A8D897E9DE42093866409868 /* parser3.min.js */; };
 		036D3C8CC69C21D0BBE5A42D1AF41D8C /* ExtendedPatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBFD6E72744B7B4FAE964D010D95299 /* ExtendedPatch.swift */; };
 		04D26F0C22F2D5ED618CEFF7E92ADB80 /* agate.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 8E7DA4837F5D314EF2F3041A63971F1B /* agate.min.css */; };
@@ -24,17 +25,16 @@
 		0E68114C0092F2B93B6E025B99471E28 /* NSSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8235030A66AE39F89B39C580CA8190B /* NSSlider.swift */; };
 		0E965E23804B28A14B5A1AF1376AE000 /* accesslog.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 46C8072850C0689CC39850F652F2EBC7 /* accesslog.min.js */; };
 		0EC558A3A573CC82DC844B5AD6DCA326 /* css.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 9D00B16B1E02D4F73A7E2F47052C7323 /* css.min.js */; };
-		102E005621BFB05A02EF592076AD05A8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3826FADDB90E9D67D39947C1024EA6E /* Cocoa.framework */; };
 		1032FB5EC0044C138B43AF7F8E2B1AD3 /* dockerfile.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 4C62462A0F600C650C6A1BD3C75DE88A /* dockerfile.min.js */; };
 		10F68A654BCC09D2C1D50C961ED362ED /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F055D4421979DCCEEED0C7C06C6C478 /* Property.swift */; };
-		133BCD7815E90297929DB9F069B3F41C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3826FADDB90E9D67D39947C1024EA6E /* Cocoa.framework */; };
 		152181D831C4579214868E9FA85C96ED /* prolog.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2345A7B55DC74A4EFBD711D0D451B3F1 /* prolog.min.js */; };
 		15565AF36EC8396AA8FA0438BEA3CCF6 /* clean.min.js in Resources */ = {isa = PBXBuildFile; fileRef = BE8F0937AA5ACA7F16EC495F7AC383B4 /* clean.min.js */; };
 		17C8EE7DF3F57C8F99EAF63C6E61EA99 /* FailureMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B6B190E228C68B56D5CE1A66FB509B /* FailureMessage.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		17EF1A3530A82609EF3DD4988C601648 /* monokai.min.css in Resources */ = {isa = PBXBuildFile; fileRef = AA8F511EDC29ACB61EA4AB2A33EF9E3B /* monokai.min.css */; };
 		182355EF43B495FDAB55D90DA4E3D82B /* go.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1DC6144C5ADCD7614C881972FA1F80E4 /* go.min.js */; };
-		187A935812218CBB8E0229B4DE04CD42 /* Pods-JSwiftExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AFDEFD559EBB6A80DDF6CEC78BD6DC7 /* Pods-JSwiftExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		187A935812218CBB8E0229B4DE04CD42 /* Pods-JSwiftExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D31EE0394BD6CF0BAD7E48522F36B7DC /* Pods-JSwiftExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		18B893F5A29B330EA367FBE0C00F11AC /* googlecode.min.css in Resources */ = {isa = PBXBuildFile; fileRef = B9D4406DD60DE9828C277FE0DBAE3C76 /* googlecode.min.css */; };
+		199D61ADAD22CE515821E3260733AEDF /* Pods-JSwiftTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 55FF6BA99C07394852BC9DB75415A553 /* Pods-JSwiftTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1A3E19B9F5EEB773C3BB61CA42F8BF62 /* DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4593703F580127174AF4C267A2723667 /* DSL.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		1B70495D661EE955C7F2524CFC6AF71D /* arduino-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 04B15CBF7C566FE7C0CFD192760F1CDC /* arduino-light.min.css */; };
 		1B82DE00B1E25FC02166DE6F6F6058AC /* cpp.min.js in Resources */ = {isa = PBXBuildFile; fileRef = CE465F74FD65804BD9331BA5B346A46C /* cpp.min.js */; };
@@ -171,6 +171,7 @@
 		65985C142EE8A74E6E56D5E30A39C79C /* Expectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3AC05CAFED1664436875E6BC096590 /* Expectation.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		67B718519A218927FEE28043C0E46600 /* DynamicSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F359377452C20D584833230BF9606FB9 /* DynamicSubject.swift */; };
 		67F9EE9216000A66B6325BDAF696DD6C /* avrasm.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 0F417E00BDC1CEC2FB347572A03EC22F /* avrasm.min.js */; };
+		680025F29119049E8741DA7B85F2FCDD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3826FADDB90E9D67D39947C1024EA6E /* Cocoa.framework */; };
 		682597A15D0814B29EDB343BBDF77120 /* powershell.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 62043C7DC399D63DCB3377F3F6242179 /* powershell.min.js */; };
 		685D9FEBEC1A6F923B5E8932FCBF4CE0 /* golo.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2302DF3C91CFC2AB93E2D6F9920751DC /* golo.min.js */; };
 		68FD03C72D719117929696B62038B3D7 /* NMBExpectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3664ABB695888C988872D9A940F73790 /* NMBExpectation.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
@@ -209,6 +210,7 @@
 		7DDCEA50502A47EC08BD5D1378391DED /* atom-one-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 642C1F9A8B89A7C2E4EF123716D2FDAD /* atom-one-light.min.css */; };
 		7E0BE3804C6CA5BAF2A8C04A9A14F677 /* school-book.min.css in Resources */ = {isa = PBXBuildFile; fileRef = C15A201C59343E02B3B901E5E304C89D /* school-book.min.css */; };
 		7E0C9AE6468A5DF91F0F4C7A387D725C /* BeAKindOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19806F9D5D4BE60E994466287C676AC1 /* BeAKindOf.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		7E6E01E5B78B1C56763941A061EAEFF7 /* Pods-JSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D88A7B783DF570CF4E8FB7ECCF247FCC /* Pods-JSwift-dummy.m */; };
 		7EB9244B407A0D46A06A5B006B14B20A /* ruleslanguage.min.js in Resources */ = {isa = PBXBuildFile; fileRef = E9F7D5A7C9C70458AB315A48B6D76FBF /* ruleslanguage.min.js */; };
 		80B5F05449238A69DD7293466B404FE3 /* diff.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 6DF9534E34296ECB8F219024E24C5A29 /* diff.min.js */; };
 		80B8D872552B0BC16AECC17C74C44FE8 /* json.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2F9AE8A304D012E2C140E00492FC1773 /* json.min.js */; };
@@ -234,7 +236,6 @@
 		8FC11042E62DD680199EB300EFF75524 /* ocean.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 56C552ADF123261AF552FB65F5E5E4A1 /* ocean.min.css */; };
 		910AA8561AAB7746CA49C5D2C7B108C6 /* gherkin.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 20548E6E736C715519A31947FB57274E /* gherkin.min.js */; };
 		920B5D288D85629F28183BF87DE65A0C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3826FADDB90E9D67D39947C1024EA6E /* Cocoa.framework */; };
-		92238D58F3660386983050C327465BE4 /* Pods-JSON2SWIFTTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31FB3AC5E2EDFDFD488B8BC127793859 /* Pods-JSON2SWIFTTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		925C813CCB4689ADD605E649B5FE20D1 /* mercury.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 05A29A0462E4484A997DBC3BE1B7B36E /* mercury.min.js */; };
 		926340E92DD4EE295CC05E0E45612C13 /* sml.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 7B410EAA2F43280C3B3B3EBAD7357424 /* sml.min.js */; };
 		93595D1A99E8B53D9659F6A98BA4C0CC /* foundation.min.css in Resources */ = {isa = PBXBuildFile; fileRef = DAF9F5CFA8694AC7913D3A536FE7C01B /* foundation.min.css */; };
@@ -250,6 +251,7 @@
 		97F005A89181B6FD27AC2285564F55D1 /* Bindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992BEDFBB2C32B5C6EF24363B3A33528 /* Bindable.swift */; };
 		9876C505F95767039A21B002CFD8F75D /* stan.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 8C9D3B9A4A19A1F7A426DD420BDFED3F /* stan.min.js */; };
 		988EED125395950177DC14AF9BC87D8D /* HaveCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBE7DC774886B27F70EB09DEAA866DB /* HaveCount.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		999A382EB5495EB63D26AF23CD8F5764 /* Pods-JSwiftTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7359B2069D59F3B5A92116E2AFC8BB /* Pods-JSwiftTests-dummy.m */; };
 		99D86E3D54B2C3596A8380149BF6C05F /* ObservableSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2103B2489FC204C922F5370AE84C9222 /* ObservableSet.swift */; };
 		9C862B8D0F6423395E195241F3A6FD4B /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E28A36921AD52D5CA3000B963A29546 /* AppKit.framework */; };
 		9DA2B5EC8B167DB97E7DAD4E1011AE89 /* sql.min.js in Resources */ = {isa = PBXBuildFile; fileRef = A878F7EFF2C08A9F13E59D9C330F57CD /* sql.min.js */; };
@@ -308,7 +310,6 @@
 		B9F9C74ED862BFA0089734450B3CD47C /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041C76FC8183399C2EF958591D61D310 /* Optional.swift */; };
 		B9FE056AB6EAA216EE2C85EE4E5E3E3E /* NSAppearanceCustomization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13709ED36D05CF3ED4BA42D6DE2998F4 /* NSAppearanceCustomization.swift */; };
 		BA0A0F1713B6EB5F6511F60F504D300F /* Patch+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C3A5400B07E6EEE5F798DE450ACF89 /* Patch+Sort.swift */; };
-		BA76D48E9004A44852FD80A5418A3744 /* Pods-JSON2SWIFT-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B354C0584799353E1B5B81F93961BA /* Pods-JSON2SWIFT-dummy.m */; };
 		BC004EBE209AE38E3374BBB27BABC289 /* ProtocolProxyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE9B85E2FD9C767C14829D63C1682F5 /* ProtocolProxyController.swift */; };
 		BC3633870BA266CAC56B2D2D89EC3D6B /* kimbie.dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 916A26EA92DB477A7C4146FD7539035E /* kimbie.dark.min.css */; };
 		BC7B9761322C74FA27969BD55833BA47 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A87D183C2F3FE4289AA114061B2A303 /* Errors.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
@@ -345,7 +346,7 @@
 		D035DAE309FAD95032720D8A67AF8D07 /* r.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 5218EC607B2D5FC8389EE4C95AB11575 /* r.min.js */; };
 		D05688C72D6CB22E22A739AC52797EFB /* jboss-cli.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 69A99CB71665C08C00F1DAFD8232661C /* jboss-cli.min.js */; };
 		D12ACBBA7BE8438E75983CAE99AECCBC /* dracula.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 0E96DCEE95BE99A46402845EEC7165CC /* dracula.min.css */; };
-		D16F425F7D1549835C8BA95BB1CF4601 /* Pods-JSwiftExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5F78E99545137E38D2C8BF30A311E2 /* Pods-JSwiftExtension-dummy.m */; };
+		D16F425F7D1549835C8BA95BB1CF4601 /* Pods-JSwiftExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 741057EB673DD8FCDC0A49BEAC61D1F0 /* Pods-JSwiftExtension-dummy.m */; };
 		D1828F3D3C65EDEFEB5CE65D35131661 /* atelier-dune-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 6A3BB5ECC0621AB040AA42BD3B357DAF /* atelier-dune-dark.min.css */; };
 		D20B9F6DFC4FEF7546A8087AC931A588 /* NSPopUpButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FE5D8BE50AD9FA46CDE2AA7042AE27 /* NSPopUpButton.swift */; };
 		D26B055B00E036BBA77EC253D8B74CDA /* hybrid.min.css in Resources */ = {isa = PBXBuildFile; fileRef = F167E878C9D68A5AB82DB35275EE798B /* hybrid.min.css */; };
@@ -371,8 +372,6 @@
 		DFA1638F9BF8933677840D00DD90FC61 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E8BF7B42A2C5BE4434C87E4D182933 /* Theme.swift */; };
 		DFEBE071976E12506D827FFF7DA150C1 /* twig.min.js in Resources */ = {isa = PBXBuildFile; fileRef = B5D497D2601FEC698A57BA74568DCBB5 /* twig.min.js */; };
 		E006F5E9C40C94B4D1667109DF233A3E /* bash.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 8FFE88C784EF46ED91F88C8C16520A4F /* bash.min.js */; };
-		E09E932E27ECFE80BA6C72852B7A01FA /* Pods-JSON2SWIFT-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A892C89E8E7E810EDC5797AD5815DF3B /* Pods-JSON2SWIFT-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E0C88D4A0EA44D94A0A0FB05D8DCE591 /* Pods-JSON2SWIFTTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82AC55014B5BA4BD6B9CD225012AE5E5 /* Pods-JSON2SWIFTTests-dummy.m */; };
 		E0DE8870D8E11165321F22D7B8E38963 /* dns.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 36AAB3BF58ABB97EFCFBD25E45291D3D /* dns.min.js */; };
 		E247569934A200475DEF3A11293FA260 /* aspectj.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 61AF0011941C0717DF03490031A6E7B8 /* aspectj.min.js */; };
 		E29A8ED1E1CAD7EA5162765F05CFD10F /* nimrod.min.js in Resources */ = {isa = PBXBuildFile; fileRef = F60860314DE3BFBDD9A78949C7406304 /* nimrod.min.js */; };
@@ -391,6 +390,7 @@
 		E7AB625966ECC9C8986B36D1F56E6F63 /* Patch+Apply.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2676B2B4663C05C82148197BF7C508FB /* Patch+Apply.swift */; };
 		E8048EB5DA58038BD2DEB1FB377ADD53 /* Observable2DArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36981AE6265D7DE25E2CCC3B61CE945A /* Observable2DArray.swift */; };
 		E923FC1D15EBC58D28E1A1C03A630A54 /* axapta.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 70578883880EBA30836BCBA839066F94 /* axapta.min.js */; };
+		E93D1F55A0DD8ED6DF8B46C483543ED4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3826FADDB90E9D67D39947C1024EA6E /* Cocoa.framework */; };
 		E9D988B862A8801A9EE1510704D6F863 /* tomorrow-night-bright.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 086ADDB17F144C6ECF4EE5645A93D3EC /* tomorrow-night-bright.min.css */; };
 		EAAA05EBBC34225C0DB45797712E24A1 /* AsyncMatcherWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871312DB0A4FDAFF4ACA575BB24576E7 /* AsyncMatcherWrapper.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		EAE2AAE5EB826B38978692984BB22FDD /* RaisesException.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0883C8013FC4072392CB1603BF305247 /* RaisesException.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
@@ -456,13 +456,6 @@
 			remoteGlobalIDString = C6A2CFBC079820721C02867E16D7DAF9;
 			remoteInfo = ReactiveKit;
 		};
-		29C3CACFA4C56A2971B31214F3EB0D42 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AB7F938A826D513F63868C4E1BC00EEB;
-			remoteInfo = Highlightr;
-		};
 		44529C40F3C7F20638088407B31CEDF6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -470,7 +463,14 @@
 			remoteGlobalIDString = AB7F938A826D513F63868C4E1BC00EEB;
 			remoteInfo = Highlightr;
 		};
-		71AA6D74A0143F17F1FB542AB104AABD /* PBXContainerItemProxy */ = {
+		59CD82B3959316FE710EC2DCBBAA10A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6A2CFBC079820721C02867E16D7DAF9;
+			remoteInfo = ReactiveKit;
+		};
+		6BAB207D9376AEB1B791BBF4F8ACF522 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -484,21 +484,14 @@
 			remoteGlobalIDString = C6A2CFBC079820721C02867E16D7DAF9;
 			remoteInfo = ReactiveKit;
 		};
-		7C34B597B0DD5016287C382C8A965F7F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C6A2CFBC079820721C02867E16D7DAF9;
-			remoteInfo = ReactiveKit;
-		};
-		A908CCB151C00E339E0DDA7D9D682428 /* PBXContainerItemProxy */ = {
+		9E5BDB6D62216A572710D284387C73C3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B5329018F7BC54075D3048FF52867FE0;
 			remoteInfo = Bond;
 		};
-		C6A242A09313C44773BD485C32B37886 /* PBXContainerItemProxy */ = {
+		B7FAF045D4D6BF8B7C3CC14D6A0D7B7B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -512,12 +505,18 @@
 			remoteGlobalIDString = B5329018F7BC54075D3048FF52867FE0;
 			remoteInfo = Bond;
 		};
+		F298FD3A2DA0124BB362E8510E87882A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB7F938A826D513F63868C4E1BC00EEB;
+			remoteInfo = Highlightr;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		01FAF19D9F8F1C4AE2A444ADAE5C8913 /* kotlin.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = kotlin.min.js; path = Pod/Assets/Highlighter/languages/kotlin.min.js; sourceTree = "<group>"; };
 		02C84BF61467B59B337EC015C7285C8C /* bnf.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = bnf.min.js; path = Pod/Assets/Highlighter/languages/bnf.min.js; sourceTree = "<group>"; };
-		03253DD2813EE84EFA2ACC67A37D231C /* Pods-JSON2SWIFTTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JSON2SWIFTTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		041C76FC8183399C2EF958591D61D310 /* Optional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Optional.swift; path = Sources/Optional.swift; sourceTree = "<group>"; };
 		045B9B2B1DD420E895A4ED3921DB2B17 /* nsis.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = nsis.min.js; path = Pod/Assets/Highlighter/languages/nsis.min.js; sourceTree = "<group>"; };
 		04B15CBF7C566FE7C0CFD192760F1CDC /* arduino-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "arduino-light.min.css"; path = "Pod/Assets/styles/arduino-light.min.css"; sourceTree = "<group>"; };
@@ -538,7 +537,6 @@
 		0BCB959CC0C9AEB813822F8875F80F54 /* Differ-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Differ-umbrella.h"; sourceTree = "<group>"; };
 		0D09FDCCDA45160A04D69F307E447B9E /* Differ-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Differ-dummy.m"; sourceTree = "<group>"; };
 		0DD643A7744575DEDFB113196AECF6D5 /* lsl.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = lsl.min.js; path = Pod/Assets/Highlighter/languages/lsl.min.js; sourceTree = "<group>"; };
-		0DF3BF70546CA73A619DA7CCE3D639CD /* Pods-JSON2SWIFTTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSON2SWIFTTests.release.xcconfig"; sourceTree = "<group>"; };
 		0DFA61228FB543B6E05CD326C757BA19 /* Bond-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Bond-dummy.m"; sourceTree = "<group>"; };
 		0E0CD83F3A9FC5C63A6EA71845A9CA2B /* NSImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSImageView.swift; path = Sources/Bond/AppKit/NSImageView.swift; sourceTree = "<group>"; };
 		0E28A36921AD52D5CA3000B963A29546 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/AppKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -561,17 +559,18 @@
 		168D41C9514B8C81F402559FA8089FB9 /* fsharp.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = fsharp.min.js; path = Pod/Assets/Highlighter/languages/fsharp.min.js; sourceTree = "<group>"; };
 		1747792A409DF996303B7598B1456314 /* mipsasm.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = mipsasm.min.js; path = Pod/Assets/Highlighter/languages/mipsasm.min.js; sourceTree = "<group>"; };
 		17FC625575337A71958A70269056401C /* mojolicious.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = mojolicious.min.js; path = Pod/Assets/Highlighter/languages/mojolicious.min.js; sourceTree = "<group>"; };
+		18455BE781BC3D27798482AE80647579 /* Differ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Differ.framework; path = Differ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A5B9EF0297C08ACD714C6012C44935 /* qml.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = qml.min.js; path = Pod/Assets/Highlighter/languages/qml.min.js; sourceTree = "<group>"; };
 		18C4AC29A086B4AD56E975F11EF6D065 /* ir-black.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "ir-black.min.css"; path = "Pod/Assets/styles/ir-black.min.css"; sourceTree = "<group>"; };
 		18F18995CA16139AC113F4C82CDF84AF /* objectivec.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = objectivec.min.js; path = Pod/Assets/Highlighter/languages/objectivec.min.js; sourceTree = "<group>"; };
 		19006A72E5A8D7F844A7B11B2795D4FB /* lisp.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = lisp.min.js; path = Pod/Assets/Highlighter/languages/lisp.min.js; sourceTree = "<group>"; };
 		1962BA70DF1F513D63F88C27DB67A98D /* scheme.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = scheme.min.js; path = Pod/Assets/Highlighter/languages/scheme.min.js; sourceTree = "<group>"; };
-		196DF3E8099AF1005204EFAF04F5B127 /* Pods-JSON2SWIFTTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSON2SWIFTTests-frameworks.sh"; sourceTree = "<group>"; };
 		19806F9D5D4BE60E994466287C676AC1 /* BeAKindOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeAKindOf.swift; path = Sources/Nimble/Matchers/BeAKindOf.swift; sourceTree = "<group>"; };
 		19C5484A195549E8CD8290AF64800288 /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = Sources/Typealiases.swift; sourceTree = "<group>"; };
 		19C6A037DB30E2E34CCBC4672FAC7F9D /* perl.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = perl.min.js; path = Pod/Assets/Highlighter/languages/perl.min.js; sourceTree = "<group>"; };
 		1A331C36F089B03BC10AB074E4AC7032 /* atelier-forest-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "atelier-forest-dark.min.css"; path = "Pod/Assets/styles/atelier-forest-dark.min.css"; sourceTree = "<group>"; };
 		1AA82B64E713F3312B8650FE632D723D /* julia-repl.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = "julia-repl.min.js"; path = "Pod/Assets/Highlighter/languages/julia-repl.min.js"; sourceTree = "<group>"; };
+		1AEF7B7471DB8A4840CADB062156F7F7 /* Pods-JSwift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JSwift-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1B0E399A7317563B84E33695B67EA551 /* python.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = python.min.js; path = Pod/Assets/Highlighter/languages/python.min.js; sourceTree = "<group>"; };
 		1B496FAE25A77329F59CF68F7AEA8A43 /* NoError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NoError.swift; path = Sources/NoError.swift; sourceTree = "<group>"; };
 		1C3F826453CE0F1C9AB3C38BBFA36098 /* smalltalk.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = smalltalk.min.js; path = Pod/Assets/Highlighter/languages/smalltalk.min.js; sourceTree = "<group>"; };
@@ -584,34 +583,31 @@
 		1E9ADC3D99C540FE84B18CCFF4687644 /* xml.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = xml.min.js; path = Pod/Assets/Highlighter/languages/xml.min.js; sourceTree = "<group>"; };
 		20548E6E736C715519A31947FB57274E /* gherkin.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = gherkin.min.js; path = Pod/Assets/Highlighter/languages/gherkin.min.js; sourceTree = "<group>"; };
 		2103B2489FC204C922F5370AE84C9222 /* ObservableSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObservableSet.swift; path = Sources/Bond/Collections/ObservableSet.swift; sourceTree = "<group>"; };
-		210CBFF18BFA217B8A00BF0B5C11E584 /* Pods-JSwiftExtension-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSwiftExtension-resources.sh"; sourceTree = "<group>"; };
 		21665B91846FDFD923784F8A4A547A77 /* fix.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = fix.min.js; path = Pod/Assets/Highlighter/languages/fix.min.js; sourceTree = "<group>"; };
 		21ECC79A234C7B60D8DD2E22F0B33CDA /* Highlightr-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Highlightr-prefix.pch"; sourceTree = "<group>"; };
-		222FAE6A00DA6F9D57DE2DBD902463AD /* Pods-JSON2SWIFT-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSON2SWIFT-frameworks.sh"; sourceTree = "<group>"; };
 		2302DF3C91CFC2AB93E2D6F9920751DC /* golo.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = golo.min.js; path = Pod/Assets/Highlighter/languages/golo.min.js; sourceTree = "<group>"; };
 		231C69EC63AE9FF913CCAE817E3F87F6 /* lasso.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = lasso.min.js; path = Pod/Assets/Highlighter/languages/lasso.min.js; sourceTree = "<group>"; };
 		2345A7B55DC74A4EFBD711D0D451B3F1 /* prolog.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = prolog.min.js; path = Pod/Assets/Highlighter/languages/prolog.min.js; sourceTree = "<group>"; };
+		239A36CF96EB2FBFBFE5AA9250FB8865 /* Pods_JSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JSwiftTests.framework; path = "Pods-JSwiftTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		251881F2E41D22350A461801664FFE79 /* grayscale.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = grayscale.min.css; path = Pod/Assets/styles/grayscale.min.css; sourceTree = "<group>"; };
 		258801AC561C0D3E7FBBACB34ADC8C94 /* ContainElementSatisfying.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContainElementSatisfying.swift; path = Sources/Nimble/Matchers/ContainElementSatisfying.swift; sourceTree = "<group>"; };
-		25B354C0584799353E1B5B81F93961BA /* Pods-JSON2SWIFT-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JSON2SWIFT-dummy.m"; sourceTree = "<group>"; };
 		2676B2B4663C05C82148197BF7C508FB /* Patch+Apply.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Patch+Apply.swift"; path = "Sources/Differ/Patch+Apply.swift"; sourceTree = "<group>"; };
 		2706FE7A0FE4E80C47C521F37FF00839 /* cal.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = cal.min.js; path = Pod/Assets/Highlighter/languages/cal.min.js; sourceTree = "<group>"; };
-		278B413F31119DF6D71666649460ABA7 /* Pods-JSON2SWIFTTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSON2SWIFTTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		27F07381B0244F51D9B670201F2C8467 /* Pods-JSON2SWIFTTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSON2SWIFTTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2943AAF02ECE4E2B52C327A54A184E6A /* ExpectationMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpectationMessage.swift; path = Sources/Nimble/ExpectationMessage.swift; sourceTree = "<group>"; };
+		296A3AF2016A54D59CD3A44D1ABFAA44 /* Pods_JSwiftExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JSwiftExtension.framework; path = "Pods-JSwiftExtension.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AD57AF99DC0FE85E4E868B19E8B0650 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B23E47AC56A19DEC426777DAC43A3D6 /* Match.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Match.swift; path = Sources/Nimble/Matchers/Match.swift; sourceTree = "<group>"; };
 		2BBC5F0EC5648BC7562C54D4908FF390 /* SignalProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SignalProtocol.swift; path = Sources/Bond/Shared/SignalProtocol.swift; sourceTree = "<group>"; };
 		2C91BA1B5D5CD5094CB1A50D5FA46474 /* NSSegmentedControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSSegmentedControl.swift; path = Sources/Bond/AppKit/NSSegmentedControl.swift; sourceTree = "<group>"; };
+		2C9DFAB3B5B790CBFE39BD14BB1DB788 /* Pods-JSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JSwift.modulemap"; sourceTree = "<group>"; };
 		2ED610D462039A9004B6D0158BEE7499 /* processing.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = processing.min.js; path = Pod/Assets/Highlighter/languages/processing.min.js; sourceTree = "<group>"; };
 		2F2E906BAE5AA1EE060068432B23AFAD /* ToSucceed.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToSucceed.swift; path = Sources/Nimble/Matchers/ToSucceed.swift; sourceTree = "<group>"; };
 		2F9AE8A304D012E2C140E00492FC1773 /* json.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = json.min.js; path = Pod/Assets/Highlighter/languages/json.min.js; sourceTree = "<group>"; };
+		30AD6E5087F887CFD904FD24743A7AC3 /* Pods-JSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
 		31341F802F86970E1605E87061A4D350 /* CurrentTestCaseTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CurrentTestCaseTracker.h; path = Sources/NimbleObjectiveC/CurrentTestCaseTracker.h; sourceTree = "<group>"; };
 		315499F17A1E3C9F95B6930CA64210AE /* SignalProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SignalProtocol.swift; path = Sources/SignalProtocol.swift; sourceTree = "<group>"; };
-		31FB3AC5E2EDFDFD488B8BC127793859 /* Pods-JSON2SWIFTTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JSON2SWIFTTests-umbrella.h"; sourceTree = "<group>"; };
 		3200EF3EEDD19CA4F2DE7BB4EB972E48 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		329B08B4D6CE74A39016213F46B32F24 /* rib.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = rib.min.js; path = Pod/Assets/Highlighter/languages/rib.min.js; sourceTree = "<group>"; };
-		32C819FC1382DD927E52E213AFD8B2FD /* Highlightr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Highlightr.framework; path = Highlightr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		33200387710527E903238AA0D8EC44E2 /* EndWith.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EndWith.swift; path = Sources/Nimble/Matchers/EndWith.swift; sourceTree = "<group>"; };
 		337BF4789CB626096E43C725703A04E5 /* DSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DSL.m; path = Sources/NimbleObjectiveC/DSL.m; sourceTree = "<group>"; };
 		346044792A91BB3C43E80D5BE07DF372 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -626,8 +622,11 @@
 		3806BE57A8D897E9DE42093866409868 /* parser3.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = parser3.min.js; path = Pod/Assets/Highlighter/languages/parser3.min.js; sourceTree = "<group>"; };
 		38C3A5400B07E6EEE5F798DE450ACF89 /* Patch+Sort.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Patch+Sort.swift"; path = "Sources/Differ/Patch+Sort.swift"; sourceTree = "<group>"; };
 		3A8BF2B4F9BAB032493056D3E66C88FA /* paraiso-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "paraiso-dark.min.css"; path = "Pod/Assets/styles/paraiso-dark.min.css"; sourceTree = "<group>"; };
+		3AA9686FCC588904B8AB365270E10814 /* Pods-JSwiftTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSwiftTests-resources.sh"; sourceTree = "<group>"; };
 		3B01DCC611748F1D230F910A416FAE85 /* Subjects.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Subjects.swift; path = Sources/Subjects.swift; sourceTree = "<group>"; };
 		3B6F4ED6A2ACB5060F443FFE76365ED6 /* 1c.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = 1c.min.js; path = Pod/Assets/Highlighter/languages/1c.min.js; sourceTree = "<group>"; };
+		3C08092A50AA857BCB0384C1AF309043 /* Pods-JSwift-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSwift-frameworks.sh"; sourceTree = "<group>"; };
+		3CBC34322E4BC43FA365CA0742DAF782 /* Pods-JSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JSwift-umbrella.h"; sourceTree = "<group>"; };
 		3CE180362392C47ACA3CAF6557EEF9F3 /* GenericPatch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GenericPatch.swift; path = Sources/Differ/GenericPatch.swift; sourceTree = "<group>"; };
 		3DD82D7DD95EE5AB833E60CA7F5F0EAA /* Bond.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Bond.xcconfig; sourceTree = "<group>"; };
 		3E8733D2FA997FD1D728210C131D3DE3 /* zephir.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = zephir.min.js; path = Pod/Assets/Highlighter/languages/zephir.min.js; sourceTree = "<group>"; };
@@ -635,7 +634,6 @@
 		4213EA76662DBCE0B5C06AFD293D1A6A /* rust.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = rust.min.js; path = Pod/Assets/Highlighter/languages/rust.min.js; sourceTree = "<group>"; };
 		4271FC3E42D798973EC95AB7AB3A868A /* verilog.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = verilog.min.js; path = Pod/Assets/Highlighter/languages/verilog.min.js; sourceTree = "<group>"; };
 		4370DCE270A2ED00FCDEA2EA950522AD /* thrift.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = thrift.min.js; path = Pod/Assets/Highlighter/languages/thrift.min.js; sourceTree = "<group>"; };
-		43AF0C5DA22A452D8591298C1A120C37 /* Pods_JSON2SWIFT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JSON2SWIFT.framework; path = "Pods-JSON2SWIFT.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4510A5195724859E5463263527810BBE /* NMBStringify.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NMBStringify.m; path = Sources/NimbleObjectiveC/NMBStringify.m; sourceTree = "<group>"; };
 		45440B04BB256BDD24562315B5BEF390 /* julia.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = julia.min.js; path = Pod/Assets/Highlighter/languages/julia.min.js; sourceTree = "<group>"; };
 		4593703F580127174AF4C267A2723667 /* DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DSL.swift; path = Sources/Nimble/DSL.swift; sourceTree = "<group>"; };
@@ -647,39 +645,41 @@
 		4A7755E3475FBB9F665A64E6C877B794 /* Reactive.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reactive.swift; path = Sources/Reactive.swift; sourceTree = "<group>"; };
 		4AAD54912F403E8B3A2A1D99CCE2CE2E /* leaf.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = leaf.min.js; path = Pod/Assets/Highlighter/languages/leaf.min.js; sourceTree = "<group>"; };
 		4B9881C0573E6F403CAABA8A86E2571D /* Highlightr-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Highlightr-umbrella.h"; sourceTree = "<group>"; };
-		4C19FD8A8F2225C3BA4D6F521F432870 /* Pods-JSON2SWIFT-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JSON2SWIFT-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4C62462A0F600C650C6A1BD3C75DE88A /* dockerfile.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = dockerfile.min.js; path = Pod/Assets/Highlighter/languages/dockerfile.min.js; sourceTree = "<group>"; };
 		4CC33EF966A1781DDFE95CD79A42D441 /* BeVoid.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeVoid.swift; path = Sources/Nimble/Matchers/BeVoid.swift; sourceTree = "<group>"; };
 		4D4350FF56B635C8160E64D65421D494 /* CwlBadInstructionException.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CwlBadInstructionException.swift; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlPreconditionTesting/CwlBadInstructionException.swift; sourceTree = "<group>"; };
 		4EC2D6083A540633C4CF5DFC4BBE6110 /* BeAnInstanceOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeAnInstanceOf.swift; path = Sources/Nimble/Matchers/BeAnInstanceOf.swift; sourceTree = "<group>"; };
 		4F1D31FB2E6D01D877334789ADC0BFE1 /* Signal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Signal.swift; path = Sources/Signal.swift; sourceTree = "<group>"; };
 		503D585343A09EB0D3590B787B13763B /* haxe.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = haxe.min.js; path = Pod/Assets/Highlighter/languages/haxe.min.js; sourceTree = "<group>"; };
+		510C500CDECFEE626A95BDF05B7B9338 /* Pods-JSwiftExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSwiftExtension.debug.xcconfig"; sourceTree = "<group>"; };
 		511BD3A788729641790414763CC16F9E /* gcode.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = gcode.min.js; path = Pod/Assets/Highlighter/languages/gcode.min.js; sourceTree = "<group>"; };
 		51EAE94A2BAD82C4C9228BF07E0A628C /* Nimble.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Nimble.modulemap; sourceTree = "<group>"; };
+		520129DE805D033A81FFF328ACDDF995 /* Pods-JSwiftTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JSwiftTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5218EC607B2D5FC8389EE4C95AB11575 /* r.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = r.min.js; path = Pod/Assets/Highlighter/languages/r.min.js; sourceTree = "<group>"; };
 		559CE852DCD413C8EA0B60D014293C89 /* Highlightr.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Highlightr.swift; path = Pod/Classes/Highlightr.swift; sourceTree = "<group>"; };
 		55FA5BA51A6B8C6C000B812DA27E8F08 /* tex.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = tex.min.js; path = Pod/Assets/Highlighter/languages/tex.min.js; sourceTree = "<group>"; };
+		55FF6BA99C07394852BC9DB75415A553 /* Pods-JSwiftTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JSwiftTests-umbrella.h"; sourceTree = "<group>"; };
 		5610C49984C4EE4AFEEC07F3E9B400B3 /* actionscript.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = actionscript.min.js; path = Pod/Assets/Highlighter/languages/actionscript.min.js; sourceTree = "<group>"; };
 		56234EBCB1DC0577B516FC1D096B264F /* shell.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = shell.min.js; path = Pod/Assets/Highlighter/languages/shell.min.js; sourceTree = "<group>"; };
 		56C552ADF123261AF552FB65F5E5E4A1 /* ocean.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = ocean.min.css; path = Pod/Assets/styles/ocean.min.css; sourceTree = "<group>"; };
 		56F0AA4DE68B94565888419631661F06 /* moonscript.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = moonscript.min.js; path = Pod/Assets/Highlighter/languages/moonscript.min.js; sourceTree = "<group>"; };
 		57A9C59387AFECF0BF0ECDF1F0F647D4 /* SourceLocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SourceLocation.swift; path = Sources/Nimble/Utils/SourceLocation.swift; sourceTree = "<group>"; };
 		57CBCF3257BDE985FAC451EF2E7EA2B1 /* ObservableArray.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObservableArray.swift; path = Sources/Bond/Collections/ObservableArray.swift; sourceTree = "<group>"; };
+		59A73755B314FF5A097DF1D96395736E /* Pods-JSwiftExtension-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSwiftExtension-frameworks.sh"; sourceTree = "<group>"; };
+		59DE3608EFA80D4B70624F73D88F2CF6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A37EA9A9DBAFF07BD613EEFAEBD6F66 /* QueryableDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QueryableDataSource.swift; path = Sources/Bond/QueryableDataSource.swift; sourceTree = "<group>"; };
-		5A888D08E5CB69EE84B4E74DC15DA413 /* Pods-JSON2SWIFT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSON2SWIFT.debug.xcconfig"; sourceTree = "<group>"; };
 		5B45777921C885AEE3F7BD889CEF9BEA /* AssertionDispatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssertionDispatcher.swift; path = Sources/Nimble/Adapters/AssertionDispatcher.swift; sourceTree = "<group>"; };
-		5B9434FE12E943104638E1F64C2E02D6 /* ReactiveKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ReactiveKit.framework; path = ReactiveKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BDF937C9C3F7B31B1503EC1F9DE6275 /* NSLayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSLayoutConstraint.swift; path = Sources/Bond/Shared/NSLayoutConstraint.swift; sourceTree = "<group>"; };
 		5D90411BAAA98CD3456268E49AFD85E1 /* Bond.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bond.swift; path = Sources/Bond/Bond.swift; sourceTree = "<group>"; };
 		5DE33BF364BC06ACD861BB9ABAE13CC4 /* CwlCatchBadInstruction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CwlCatchBadInstruction.swift; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlPreconditionTesting/CwlCatchBadInstruction.swift; sourceTree = "<group>"; };
 		5E3DDBFF0DAFA5BB053360AC8A20C070 /* Nimble-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Nimble-dummy.m"; sourceTree = "<group>"; };
-		5EBC18A96AD1ACD47ED4E6DC9D33D921 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5EDAD0B7732ADE777F7838CC7EDB1819 /* CwlMachBadInstructionHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CwlMachBadInstructionHandler.h; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlMachBadInstructionHandler/include/CwlMachBadInstructionHandler.h; sourceTree = "<group>"; };
 		5F3F0C8A3F4BE70271E99EA6DD4FCA93 /* pf.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = pf.min.js; path = Pod/Assets/Highlighter/languages/pf.min.js; sourceTree = "<group>"; };
 		5F63DD74595439153AAD7363815F7A9B /* cos.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = cos.min.js; path = Pod/Assets/Highlighter/languages/cos.min.js; sourceTree = "<group>"; };
 		5F75349E7C877F1EABE856F766890151 /* vbscript.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = vbscript.min.js; path = Pod/Assets/Highlighter/languages/vbscript.min.js; sourceTree = "<group>"; };
 		5F8B8EF2B439D2D8DD86C2714DBA393C /* NimbleXCTestHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NimbleXCTestHandler.swift; path = Sources/Nimble/Adapters/NimbleXCTestHandler.swift; sourceTree = "<group>"; };
 		5F91A36C0FE0F9E65D9396D52BA68D80 /* ocaml.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = ocaml.min.js; path = Pod/Assets/Highlighter/languages/ocaml.min.js; sourceTree = "<group>"; };
+		610DD4ADEBC8981AFD124AE6EF4A81E1 /* Highlightr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Highlightr.framework; path = Highlightr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		612273B27312440F2B8EEDD97FCDD369 /* stylus.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = stylus.min.js; path = Pod/Assets/Highlighter/languages/stylus.min.js; sourceTree = "<group>"; };
 		61AF0011941C0717DF03490031A6E7B8 /* aspectj.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = aspectj.min.js; path = Pod/Assets/Highlighter/languages/aspectj.min.js; sourceTree = "<group>"; };
 		62043C7DC399D63DCB3377F3F6242179 /* powershell.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = powershell.min.js; path = Pod/Assets/Highlighter/languages/powershell.min.js; sourceTree = "<group>"; };
@@ -692,7 +692,6 @@
 		67F90917D0CD1DC777E8832EFB9D1C2D /* rainbow.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = rainbow.min.css; path = Pod/Assets/styles/rainbow.min.css; sourceTree = "<group>"; };
 		68FF05883B4BB85C8D1E53BA3532BDDE /* q.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = q.min.js; path = Pod/Assets/Highlighter/languages/q.min.js; sourceTree = "<group>"; };
 		693723E576C1A76F5CC8F4C2C4EE61A1 /* xcode.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = xcode.min.css; path = Pod/Assets/styles/xcode.min.css; sourceTree = "<group>"; };
-		694584BA3C7BFA35F35667B7E162F794 /* Pods-JSON2SWIFT-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSON2SWIFT-acknowledgements.plist"; sourceTree = "<group>"; };
 		694AF152C08F941172FD2F7D3E8F8C11 /* autoit.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = autoit.min.js; path = Pod/Assets/Highlighter/languages/autoit.min.js; sourceTree = "<group>"; };
 		69A99CB71665C08C00F1DAFD8232661C /* jboss-cli.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = "jboss-cli.min.js"; path = "Pod/Assets/Highlighter/languages/jboss-cli.min.js"; sourceTree = "<group>"; };
 		6A3AC05CAFED1664436875E6BC096590 /* Expectation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expectation.swift; path = Sources/Nimble/Expectation.swift; sourceTree = "<group>"; };
@@ -701,42 +700,47 @@
 		6A77B02858E1B37AFECCE404CDD99738 /* less.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = less.min.js; path = Pod/Assets/Highlighter/languages/less.min.js; sourceTree = "<group>"; };
 		6A79ABA47B6B19EF0AB14CDCBF0303BD /* brainfuck.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = brainfuck.min.js; path = Pod/Assets/Highlighter/languages/brainfuck.min.js; sourceTree = "<group>"; };
 		6B570DB128CE9C333A6CE0337FF51B2D /* paraiso-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "paraiso-light.min.css"; path = "Pod/Assets/styles/paraiso-light.min.css"; sourceTree = "<group>"; };
-		6B6CF94DB7FADB6D8BE2662EAA36D193 /* Pods_JSON2SWIFTTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JSON2SWIFTTests.framework; path = "Pods-JSON2SWIFTTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BBFD6E72744B7B4FAE964D010D95299 /* ExtendedPatch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExtendedPatch.swift; path = Sources/Differ/ExtendedPatch.swift; sourceTree = "<group>"; };
 		6C891044278705391D9403628848F64A /* LoadingProperty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoadingProperty.swift; path = Sources/LoadingProperty.swift; sourceTree = "<group>"; };
 		6CBDDC2005A83FA01FF00A9FECBEAE88 /* BeEmpty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeEmpty.swift; path = Sources/Nimble/Matchers/BeEmpty.swift; sourceTree = "<group>"; };
 		6CD8C83DDE4F04E212DA6AFADBDA7334 /* atelier-plateau-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "atelier-plateau-light.min.css"; path = "Pod/Assets/styles/atelier-plateau-light.min.css"; sourceTree = "<group>"; };
+		6D53C8B331494D492BF237D7248AB2CF /* Pods-JSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D8D2733AC5B2EA0B5485126E7D82C2A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DAFFC55B9D65A9F7B63775C2D8F6244 /* Pods-JSwift-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSwift-resources.sh"; sourceTree = "<group>"; };
 		6DF9534E34296ECB8F219024E24C5A29 /* diff.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = diff.min.js; path = Pod/Assets/Highlighter/languages/diff.min.js; sourceTree = "<group>"; };
+		6E2E04655A552BDA9FF9EF5B008A886E /* Pods-JSwiftExtension-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSwiftExtension-resources.sh"; sourceTree = "<group>"; };
 		6E329FE3A8F7D395768E57BDA6CEA02B /* htmlbars.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = htmlbars.min.js; path = Pod/Assets/Highlighter/languages/htmlbars.min.js; sourceTree = "<group>"; };
 		6E856F534CD5119663CD383E24C66B52 /* CodeAttributedString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CodeAttributedString.swift; path = Pod/Classes/CodeAttributedString.swift; sourceTree = "<group>"; };
 		6FE288A6F6773207C50E280B0E2DDD66 /* gams.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = gams.min.js; path = Pod/Assets/Highlighter/languages/gams.min.js; sourceTree = "<group>"; };
 		70578883880EBA30836BCBA839066F94 /* axapta.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = axapta.min.js; path = Pod/Assets/Highlighter/languages/axapta.min.js; sourceTree = "<group>"; };
 		720DBF669159F2DAAB59CA8B1D8D4A30 /* BeLessThanOrEqual.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeLessThanOrEqual.swift; path = Sources/Nimble/Matchers/BeLessThanOrEqual.swift; sourceTree = "<group>"; };
+		726BACAFA26E851F413A5B083545E437 /* Pods-JSwiftExtension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JSwiftExtension-acknowledgements.markdown"; sourceTree = "<group>"; };
 		72A4448A061E3DB94B944BF2D96B9A19 /* vbnet.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = vbnet.min.js; path = Pod/Assets/Highlighter/languages/vbnet.min.js; sourceTree = "<group>"; };
 		73047686650A4872304BD8B270B263B2 /* openscad.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = openscad.min.js; path = Pod/Assets/Highlighter/languages/openscad.min.js; sourceTree = "<group>"; };
 		734D4B8B66C54F03D7530B11C3FE3768 /* Nimble.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Nimble.xcconfig; sourceTree = "<group>"; };
 		735AD994C0DF19E5C27ECC699E25D07B /* BeNil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeNil.swift; path = Sources/Nimble/Matchers/BeNil.swift; sourceTree = "<group>"; };
+		741057EB673DD8FCDC0A49BEAC61D1F0 /* Pods-JSwiftExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JSwiftExtension-dummy.m"; sourceTree = "<group>"; };
 		7458DE11D0B817D187AF9F2C0C686594 /* NSColorWell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSColorWell.swift; path = Sources/Bond/AppKit/NSColorWell.swift; sourceTree = "<group>"; };
 		752038879A4EB1E386B6E17DBB896E3B /* NSTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSTextField.swift; path = Sources/Bond/AppKit/NSTextField.swift; sourceTree = "<group>"; };
 		7570A5F198F66A69269B730D14CECBED /* BeginWith.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeginWith.swift; path = Sources/Nimble/Matchers/BeginWith.swift; sourceTree = "<group>"; };
 		75E044CC0B84E8D5B1EDD1D76A0FAEAD /* BeGreaterThan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeGreaterThan.swift; path = Sources/Nimble/Matchers/BeGreaterThan.swift; sourceTree = "<group>"; };
 		76B532F2BCA29B8EF36E1CC69642AE1D /* atelier-heath-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "atelier-heath-dark.min.css"; path = "Pod/Assets/styles/atelier-heath-dark.min.css"; sourceTree = "<group>"; };
+		77A3646ECC437E9319566669FEB6B0BD /* Pods-JSwiftTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSwiftTests-frameworks.sh"; sourceTree = "<group>"; };
 		7858C8193D4DA4E00C76683CBE860528 /* step21.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = step21.min.js; path = Pod/Assets/Highlighter/languages/step21.min.js; sourceTree = "<group>"; };
 		7945A8256C9AA2097DFC7F84D710898F /* haskell.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = haskell.min.js; path = Pod/Assets/Highlighter/languages/haskell.min.js; sourceTree = "<group>"; };
+		799754CAA76F89B6EA02D1F2283200A9 /* Pods-JSwift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSwift-acknowledgements.plist"; sourceTree = "<group>"; };
 		7A0A280A1A85B0A2CC88896ED350ED4D /* BNDProtocolProxyBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BNDProtocolProxyBase.m; path = Sources/BNDProtocolProxyBase/BNDProtocolProxyBase.m; sourceTree = "<group>"; };
-		7AFDEFD559EBB6A80DDF6CEC78BD6DC7 /* Pods-JSwiftExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JSwiftExtension-umbrella.h"; sourceTree = "<group>"; };
 		7B410EAA2F43280C3B3B3EBAD7357424 /* sml.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = sml.min.js; path = Pod/Assets/Highlighter/languages/sml.min.js; sourceTree = "<group>"; };
 		7B6121E0BC9B7A5E615E326B3FBF5F5F /* javascript.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = javascript.min.js; path = Pod/Assets/Highlighter/languages/javascript.min.js; sourceTree = "<group>"; };
 		7C7C54AA7F5F346F5194EC0A2C84572A /* CwlCatchException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CwlCatchException.h; path = Carthage/Checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/include/CwlCatchException.h; sourceTree = "<group>"; };
 		7ED87C9D0FD7A19D886C2BBE75C846B9 /* ruby.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = ruby.min.js; path = Pod/Assets/Highlighter/languages/ruby.min.js; sourceTree = "<group>"; };
-		7F5F78E99545137E38D2C8BF30A311E2 /* Pods-JSwiftExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JSwiftExtension-dummy.m"; sourceTree = "<group>"; };
 		7F824BA7E71238A5908E45A033E45132 /* Contain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Contain.swift; path = Sources/Nimble/Matchers/Contain.swift; sourceTree = "<group>"; };
 		7F9DFCC0CEF47B5E74EADBC299A26F72 /* NotificationCenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NotificationCenter.swift; path = Sources/Bond/Shared/NotificationCenter.swift; sourceTree = "<group>"; };
 		7FBFE4DDFC5147ABCC1DE544E52B5A25 /* AdapterProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AdapterProtocols.swift; path = Sources/Nimble/Adapters/AdapterProtocols.swift; sourceTree = "<group>"; };
 		7FC7B22C7FE2BE6390541834D12F5B87 /* Nimble-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nimble-prefix.pch"; sourceTree = "<group>"; };
 		80172F0B67C6728504545BECC9B30F59 /* tomorrow-night-blue.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "tomorrow-night-blue.min.css"; path = "Pod/Assets/styles/tomorrow-night-blue.min.css"; sourceTree = "<group>"; };
 		82191520AAF623D9BBA1AF6FFA49C52A /* pojoaque.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = pojoaque.min.css; path = Pod/Assets/styles/pojoaque.min.css; sourceTree = "<group>"; };
-		82AC55014B5BA4BD6B9CD225012AE5E5 /* Pods-JSON2SWIFTTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JSON2SWIFTTests-dummy.m"; sourceTree = "<group>"; };
+		8253E27217FB0ABC458D8358FDCE33AC /* Bond.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Bond.framework; path = Bond.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		82E1BDFEC78AA375DCB9A01DC09BFF20 /* capnproto.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = capnproto.min.js; path = Pod/Assets/Highlighter/languages/capnproto.min.js; sourceTree = "<group>"; };
 		831AAB1F4BD7CCCCD5B55ACE11FCD7B6 /* fortran.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = fortran.min.js; path = Pod/Assets/Highlighter/languages/fortran.min.js; sourceTree = "<group>"; };
 		83BEC2856686FDFF4B4ED93D9B9D0939 /* basic.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = basic.min.js; path = Pod/Assets/Highlighter/languages/basic.min.js; sourceTree = "<group>"; };
@@ -747,7 +751,6 @@
 		871312DB0A4FDAFF4ACA575BB24576E7 /* AsyncMatcherWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncMatcherWrapper.swift; path = Sources/Nimble/Matchers/AsyncMatcherWrapper.swift; sourceTree = "<group>"; };
 		87EE39691433DF33EBA05CC36A553D12 /* atelier-cave-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "atelier-cave-dark.min.css"; path = "Pod/Assets/styles/atelier-cave-dark.min.css"; sourceTree = "<group>"; };
 		8A08286D8043C6A1FF7B1A88E2E39E8C /* androidstudio.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = androidstudio.min.css; path = Pod/Assets/styles/androidstudio.min.css; sourceTree = "<group>"; };
-		8A15E26F0423CF6AA8EB500CD6D93CD2 /* Pods-JSwiftExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JSwiftExtension.modulemap"; sourceTree = "<group>"; };
 		8A66A2949E3D6FE700D3C18698ABF683 /* ProtocolProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProtocolProxy.swift; path = Sources/Bond/ProtocolProxy.swift; sourceTree = "<group>"; };
 		8A87D183C2F3FE4289AA114061B2A303 /* Errors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Errors.swift; path = Sources/Nimble/Utils/Errors.swift; sourceTree = "<group>"; };
 		8B3E25DA180BAD33F68452FFBA881125 /* ThrowAssertion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThrowAssertion.swift; path = Sources/Nimble/Matchers/ThrowAssertion.swift; sourceTree = "<group>"; };
@@ -767,9 +770,8 @@
 		8F4E510B98A440E7A51668D0C09548E7 /* Nimble-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nimble-umbrella.h"; sourceTree = "<group>"; };
 		8FFE88C784EF46ED91F88C8C16520A4F /* bash.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = bash.min.js; path = Pod/Assets/Highlighter/languages/bash.min.js; sourceTree = "<group>"; };
 		911CCB43C4FA6E24B50E94E02DD39418 /* java.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = java.min.js; path = Pod/Assets/Highlighter/languages/java.min.js; sourceTree = "<group>"; };
-		913EE990D34CBDB9AFA46C0E526AC901 /* Pods-JSwiftExtension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSwiftExtension-acknowledgements.plist"; sourceTree = "<group>"; };
 		916A26EA92DB477A7C4146FD7539035E /* kimbie.dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = kimbie.dark.min.css; path = Pod/Assets/styles/kimbie.dark.min.css; sourceTree = "<group>"; };
-		926EA09D5CA29940D8FA1BD9B2174278 /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Nimble.framework; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93865DBF6C113CD29E7C34F97F092385 /* Pods-JSwiftTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSwiftTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93A74DEB671DA4CAF7268444210414D5 /* color-brewer.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "color-brewer.min.css"; path = "Pod/Assets/styles/color-brewer.min.css"; sourceTree = "<group>"; };
 		93FDE740FE890BBDFFB7DBF01D5BCEF0 /* coffeescript.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = coffeescript.min.js; path = Pod/Assets/Highlighter/languages/coffeescript.min.js; sourceTree = "<group>"; };
@@ -780,28 +782,29 @@
 		980E351878F4D207AF880E0F2D83389F /* purebasic.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = purebasic.min.css; path = Pod/Assets/styles/purebasic.min.css; sourceTree = "<group>"; };
 		9873D3EBBFFBB9CCD1C1B7B2454BABE7 /* Nimble.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Nimble.h; path = Sources/Nimble/Nimble.h; sourceTree = "<group>"; };
 		992BEDFBB2C32B5C6EF24363B3A33528 /* Bindable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bindable.swift; path = Sources/Bindable.swift; sourceTree = "<group>"; };
-		993FAA4C2BE9617970CE7F67B4C05C15 /* Pods-JSwiftExtension-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSwiftExtension-frameworks.sh"; sourceTree = "<group>"; };
 		9953DD28C636C7A0477305BA561089C7 /* crystal.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = crystal.min.js; path = Pod/Assets/Highlighter/languages/crystal.min.js; sourceTree = "<group>"; };
 		9975F764DA0251445B8FFF10AF9E5716 /* tap.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = tap.min.js; path = Pod/Assets/Highlighter/languages/tap.min.js; sourceTree = "<group>"; };
 		9A1C3443AA2484CFF0B4912392804FF8 /* awk.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = awk.min.js; path = Pod/Assets/Highlighter/languages/awk.min.js; sourceTree = "<group>"; };
 		9B71E60C4C47C6FB95E1D639EEEFFEC5 /* mel.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = mel.min.js; path = Pod/Assets/Highlighter/languages/mel.min.js; sourceTree = "<group>"; };
 		9BB631A855BB83824E5EDD742249CF3C /* BeGreaterThanOrEqualTo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeGreaterThanOrEqualTo.swift; path = Sources/Nimble/Matchers/BeGreaterThanOrEqualTo.swift; sourceTree = "<group>"; };
 		9C718B1BD24B9B4707F05DA6A6D7D326 /* tomorrow-night-eighties.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "tomorrow-night-eighties.min.css"; path = "Pod/Assets/styles/tomorrow-night-eighties.min.css"; sourceTree = "<group>"; };
+		9C963BAF3F2E0523EEFD3482CB71763A /* Pods-JSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		9C9B26B5E909BA5B1B9B19ED087456EB /* http.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = http.min.js; path = Pod/Assets/Highlighter/languages/http.min.js; sourceTree = "<group>"; };
 		9CAE7AD20C03FADC8AB46B1581E38864 /* Functional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Functional.swift; path = Sources/Nimble/Utils/Functional.swift; sourceTree = "<group>"; };
+		9CFBB24AA5581DFDA55E9C28DF27E917 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D00B16B1E02D4F73A7E2F47052C7323 /* css.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = css.min.js; path = Pod/Assets/Highlighter/languages/css.min.js; sourceTree = "<group>"; };
 		9D7189B7C55010E7C41DFFA131BF95E1 /* scala.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = scala.min.js; path = Pod/Assets/Highlighter/languages/scala.min.js; sourceTree = "<group>"; };
 		9DBAA32DDAA0CABCC8392A9BCE20C53F /* atelier-dune-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "atelier-dune-light.min.css"; path = "Pod/Assets/styles/atelier-dune-light.min.css"; sourceTree = "<group>"; };
 		9DDF1A3DFB2B7BE2D438CB624968D2C4 /* NMBExceptionCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMBExceptionCapture.h; path = Sources/NimbleObjectiveC/NMBExceptionCapture.h; sourceTree = "<group>"; };
 		9E02CB0493B84EC5DE65CBBCF8FD86E4 /* routeros.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = routeros.min.css; path = Pod/Assets/styles/routeros.min.css; sourceTree = "<group>"; };
 		9F706C6F74392AFBF15C1B6E35D90030 /* Bond-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bond-prefix.pch"; sourceTree = "<group>"; };
-		A09CB8752B004322580B4F0EB5E39127 /* Pods_JSwiftExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JSwiftExtension.framework; path = "Pods-JSwiftExtension.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0C0C72B2B7BE0908B64C8FBB42C3543 /* BNDProtocolProxyBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BNDProtocolProxyBase.h; path = Sources/BNDProtocolProxyBase/include/BNDProtocolProxyBase.h; sourceTree = "<group>"; };
 		A0CBE439623D77EB053D68382F09A22A /* ini.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = ini.min.js; path = Pod/Assets/Highlighter/languages/ini.min.js; sourceTree = "<group>"; };
 		A15D06916831A03D3428D3A21E75F48B /* NSStatusBarButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSStatusBarButton.swift; path = Sources/Bond/AppKit/NSStatusBarButton.swift; sourceTree = "<group>"; };
 		A2F8E13CFE3DA54B6ED67FFCBEC0D4CC /* oxygene.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = oxygene.min.js; path = Pod/Assets/Highlighter/languages/oxygene.min.js; sourceTree = "<group>"; };
 		A3826FADDB90E9D67D39947C1024EA6E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
 		A387EA8624399F3535EAC76A65145DA5 /* hopscotch.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = hopscotch.min.css; path = Pod/Assets/styles/hopscotch.min.css; sourceTree = "<group>"; };
+		A3F3F7AC42FA3689F0ADB6128EFC4D60 /* Pods-JSwiftTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JSwiftTests.modulemap"; sourceTree = "<group>"; };
 		A41C714CF4B3881EE91D9157E4A2BA01 /* Predicate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Predicate.swift; path = Sources/Nimble/Matchers/Predicate.swift; sourceTree = "<group>"; };
 		A42A3BD92C78C7ACFF18401C7428925D /* xl.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = xl.min.js; path = Pod/Assets/Highlighter/languages/xl.min.js; sourceTree = "<group>"; };
 		A4CD3BAEC6BCA5764E4FF5C52BD1EC5C /* purebasic.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = purebasic.min.js; path = Pod/Assets/Highlighter/languages/purebasic.min.js; sourceTree = "<group>"; };
@@ -810,7 +813,6 @@
 		A7C2785C93BE59BDE68A069C4FE281F1 /* dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = dark.min.css; path = Pod/Assets/styles/dark.min.css; sourceTree = "<group>"; };
 		A862061B8269CACD057DA0EF3AF60E57 /* elixir.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = elixir.min.js; path = Pod/Assets/Highlighter/languages/elixir.min.js; sourceTree = "<group>"; };
 		A878F7EFF2C08A9F13E59D9C330F57CD /* sql.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = sql.min.js; path = Pod/Assets/Highlighter/languages/sql.min.js; sourceTree = "<group>"; };
-		A892C89E8E7E810EDC5797AD5815DF3B /* Pods-JSON2SWIFT-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JSON2SWIFT-umbrella.h"; sourceTree = "<group>"; };
 		AA8F511EDC29ACB61EA4AB2A33EF9E3B /* monokai.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = monokai.min.css; path = Pod/Assets/styles/monokai.min.css; sourceTree = "<group>"; };
 		ABD2E4106094F049FBF11A167B6F33EC /* atelier-cave-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "atelier-cave-light.min.css"; path = "Pod/Assets/styles/atelier-cave-light.min.css"; sourceTree = "<group>"; };
 		ABEDF35113EDDD355286FF4A198F81C5 /* SignalProtocol+Arities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SignalProtocol+Arities.swift"; path = "Sources/SignalProtocol+Arities.swift"; sourceTree = "<group>"; };
@@ -820,11 +822,7 @@
 		AE1FB28B1B020FD9E4C130B20932B910 /* NSButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSButton.swift; path = Sources/Bond/AppKit/NSButton.swift; sourceTree = "<group>"; };
 		AE54569ECC2332F294548D2B9F88FA4F /* BeIdenticalTo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeIdenticalTo.swift; path = Sources/Nimble/Matchers/BeIdenticalTo.swift; sourceTree = "<group>"; };
 		AE5F2AD1F1CE72C38567B9637AFADE21 /* routeros.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = routeros.min.js; path = Pod/Assets/Highlighter/languages/routeros.min.js; sourceTree = "<group>"; };
-		AEC42CA49B38BBA43AC4014696C98A2D /* Bond.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Bond.framework; path = Bond.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFCE5CA31B070C97B86E12CFD2B6FEFC /* matlab.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = matlab.min.js; path = Pod/Assets/Highlighter/languages/matlab.min.js; sourceTree = "<group>"; };
-		B0134CF127BA1ECDDB886F86352B29A8 /* Pods-JSON2SWIFT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSON2SWIFT.release.xcconfig"; sourceTree = "<group>"; };
-		B01A7F61B5A94FF01F251CD60FED3F89 /* Pods-JSwiftExtension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JSwiftExtension-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B051FD1F1DD66F74CE7638F84CD350E5 /* Differ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Differ.framework; path = Differ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0A3F172FF3074250F84CB2795CDF102 /* puppet.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = puppet.min.js; path = Pod/Assets/Highlighter/languages/puppet.min.js; sourceTree = "<group>"; };
 		B0E824630C31E084A5D101D64B1BC795 /* vs2015.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = vs2015.min.css; path = Pod/Assets/styles/vs2015.min.css; sourceTree = "<group>"; };
 		B116507F31AA7408B0B61D99B6CE7D2B /* Differ.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Differ.modulemap; sourceTree = "<group>"; };
@@ -838,12 +836,9 @@
 		B55041AAE130033E306D968C02882111 /* erb.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = erb.min.js; path = Pod/Assets/Highlighter/languages/erb.min.js; sourceTree = "<group>"; };
 		B557074207695F1399C872207FA94CE4 /* pony.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = pony.min.js; path = Pod/Assets/Highlighter/languages/pony.min.js; sourceTree = "<group>"; };
 		B5D497D2601FEC698A57BA74568DCBB5 /* twig.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = twig.min.js; path = Pod/Assets/Highlighter/languages/twig.min.js; sourceTree = "<group>"; };
-		B614D85F4D9ACD69FA93830B7F451204 /* Pods-JSON2SWIFTTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JSON2SWIFTTests.modulemap"; sourceTree = "<group>"; };
 		B6AF406E5DC7BA54297226D89E4F11F0 /* DSL+Wait.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DSL+Wait.swift"; path = "Sources/Nimble/DSL+Wait.swift"; sourceTree = "<group>"; };
 		B6FFF61C06997679DF12CC9A180740A9 /* php.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = php.min.js; path = Pod/Assets/Highlighter/languages/php.min.js; sourceTree = "<group>"; };
-		B7E665DDBAF1DF22A8605B54177F4177 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8235030A66AE39F89B39C580CA8190B /* NSSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSSlider.swift; path = Sources/Bond/AppKit/NSSlider.swift; sourceTree = "<group>"; };
-		B82E9964FABCCCAE372B7CC162E8307E /* Pods-JSON2SWIFTTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSON2SWIFTTests-resources.sh"; sourceTree = "<group>"; };
 		B86871238F56DA12C8149B4E679E8350 /* NSObject+KVO.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+KVO.swift"; path = "Sources/Bond/Shared/NSObject+KVO.swift"; sourceTree = "<group>"; };
 		B8A11F93FAA0BEA42F6B24945C4B8533 /* delphi.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = delphi.min.js; path = Pod/Assets/Highlighter/languages/delphi.min.js; sourceTree = "<group>"; };
 		B8E8BF7B42A2C5BE4434C87E4D182933 /* Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Theme.swift; path = Pod/Classes/Theme.swift; sourceTree = "<group>"; };
@@ -859,7 +854,6 @@
 		BD238224C7BF15479E7BAFC26E20707D /* ExecutionContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExecutionContext.swift; path = Sources/ExecutionContext.swift; sourceTree = "<group>"; };
 		BDFB7F079D74E816CCCC079BD63F3830 /* arta.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = arta.min.css; path = Pod/Assets/styles/arta.min.css; sourceTree = "<group>"; };
 		BE8F0937AA5ACA7F16EC495F7AC383B4 /* clean.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = clean.min.js; path = Pod/Assets/Highlighter/languages/clean.min.js; sourceTree = "<group>"; };
-		BE993987BD91C4C65757531FE8C1EF91 /* Pods-JSwiftExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSwiftExtension.debug.xcconfig"; sourceTree = "<group>"; };
 		BEFAF89FA2CA25D46874575C9805C7F7 /* mach_excServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mach_excServer.h; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlMachBadInstructionHandler/mach_excServer.h; sourceTree = "<group>"; };
 		BF618B8FAEDD8036F0EDC85C16B0D31F /* ThrowError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThrowError.swift; path = Sources/Nimble/Matchers/ThrowError.swift; sourceTree = "<group>"; };
 		BF65BB3CE7FA40D7ED30FE3A8E5EBB7A /* NSTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSTextView.swift; path = Sources/Bond/AppKit/NSTextView.swift; sourceTree = "<group>"; };
@@ -879,11 +873,11 @@
 		C5606C8E5D2F9F0292773BC466FE4654 /* tp.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = tp.min.js; path = Pod/Assets/Highlighter/languages/tp.min.js; sourceTree = "<group>"; };
 		C6D85F336E9E3A3A72A121245A22317A /* Patch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Patch.swift; path = Sources/Differ/Patch.swift; sourceTree = "<group>"; };
 		C74C3023B952EDAAA466214C4D770228 /* hy.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = hy.min.js; path = Pod/Assets/Highlighter/languages/hy.min.js; sourceTree = "<group>"; };
+		C78F6A1DCDAD460349672521D2CF0291 /* Pods-JSwiftExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSwiftExtension.release.xcconfig"; sourceTree = "<group>"; };
 		C7DBE4298761E2B7B964E74FFFEAB5D5 /* cs.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = cs.min.js; path = Pod/Assets/Highlighter/languages/cs.min.js; sourceTree = "<group>"; };
 		C85DDC0366010037AE5BF0E37781ED1E /* Highlightr.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Highlightr.xcconfig; sourceTree = "<group>"; };
 		C95631CB613AB9675FDC4703CBE809C8 /* rsl.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = rsl.min.js; path = Pod/Assets/Highlighter/languages/rsl.min.js; sourceTree = "<group>"; };
 		C9684BC86293F3CC1328E96848720340 /* DSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DSL.h; path = Sources/NimbleObjectiveC/DSL.h; sourceTree = "<group>"; };
-		CA10F1E82C44E94034BCCE5E00B80C6C /* Pods-JSON2SWIFT-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSON2SWIFT-resources.sh"; sourceTree = "<group>"; };
 		CB70D1D31E8D75ABBDE34B29C6EDD300 /* zenburn.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = zenburn.min.css; path = Pod/Assets/styles/zenburn.min.css; sourceTree = "<group>"; };
 		CCA0B36C74EB30917135EBEF78B2432F /* scss.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = scss.min.js; path = Pod/Assets/Highlighter/languages/scss.min.js; sourceTree = "<group>"; };
 		CCCBDC15EE8409754A9696136F56B6F0 /* scilab.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = scilab.min.js; path = Pod/Assets/Highlighter/languages/scilab.min.js; sourceTree = "<group>"; };
@@ -899,14 +893,16 @@
 		D1FEE5ACEE31949B2F6E0336F09B17D1 /* ExtendedDiff.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExtendedDiff.swift; path = Sources/Differ/ExtendedDiff.swift; sourceTree = "<group>"; };
 		D21FB52B12E376846AD1C2E38A64E0E9 /* yaml.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = yaml.min.js; path = Pod/Assets/Highlighter/languages/yaml.min.js; sourceTree = "<group>"; };
 		D25C80DB0744EFCCB9EDD0D64CF236D2 /* atelier-estuary-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "atelier-estuary-dark.min.css"; path = "Pod/Assets/styles/atelier-estuary-dark.min.css"; sourceTree = "<group>"; };
-		D2E1B21B886A8F5F423C36F220E18B70 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2FE5D8BE50AD9FA46CDE2AA7042AE27 /* NSPopUpButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSPopUpButton.swift; path = Sources/Bond/AppKit/NSPopUpButton.swift; sourceTree = "<group>"; };
+		D31EE0394BD6CF0BAD7E48522F36B7DC /* Pods-JSwiftExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JSwiftExtension-umbrella.h"; sourceTree = "<group>"; };
 		D32FEB83F06AC1B0EC5827B1FAD31300 /* solarized-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "solarized-dark.min.css"; path = "Pod/Assets/styles/solarized-dark.min.css"; sourceTree = "<group>"; };
 		D33A0A6F1789A015A457C717BF8C2BA2 /* github-gist.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "github-gist.min.css"; path = "Pod/Assets/styles/github-gist.min.css"; sourceTree = "<group>"; };
 		D387EC1C8E24FD4E8D01484CF90AC849 /* ReactiveKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReactiveKit-dummy.m"; sourceTree = "<group>"; };
+		D564445BB8AC123C5F787C8108646422 /* Pods_JSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JSwift.framework; path = "Pods-JSwift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5E7861C49FC4E54BE0DD14278A79FAB /* dos.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = dos.min.js; path = Pod/Assets/Highlighter/languages/dos.min.js; sourceTree = "<group>"; };
 		D67A5EAC05322ED141BF5F2A6E95102C /* NMBExceptionCapture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NMBExceptionCapture.m; path = Sources/NimbleObjectiveC/NMBExceptionCapture.m; sourceTree = "<group>"; };
 		D696C76E41679D27BFEE6E35725F13B9 /* LoadingSignal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoadingSignal.swift; path = Sources/LoadingSignal.swift; sourceTree = "<group>"; };
+		D88A7B783DF570CF4E8FB7ECCF247FCC /* Pods-JSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JSwift-dummy.m"; sourceTree = "<group>"; };
 		D8B9491CA463CFA4942DA3B5C085C5C9 /* atelier-plateau-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "atelier-plateau-dark.min.css"; path = "Pod/Assets/styles/atelier-plateau-dark.min.css"; sourceTree = "<group>"; };
 		D93CF09CE9F6C2164A7CAF0B111B09A0 /* darkula.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = darkula.min.css; path = Pod/Assets/styles/darkula.min.css; sourceTree = "<group>"; };
 		D9D104480FEF3CC6B1FCFE6B34DEF424 /* elm.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = elm.min.js; path = Pod/Assets/Highlighter/languages/elm.min.js; sourceTree = "<group>"; };
@@ -946,7 +942,6 @@
 		E9B6B190E228C68B56D5CE1A66FB509B /* FailureMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FailureMessage.swift; path = Sources/Nimble/FailureMessage.swift; sourceTree = "<group>"; };
 		E9F7D5A7C9C70458AB315A48B6D76FBF /* ruleslanguage.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = ruleslanguage.min.js; path = Pod/Assets/Highlighter/languages/ruleslanguage.min.js; sourceTree = "<group>"; };
 		EAAF80AEF0DBD1A25A1E345EA9C40B76 /* maxima.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = maxima.min.js; path = Pod/Assets/Highlighter/languages/maxima.min.js; sourceTree = "<group>"; };
-		EAB9BF8C4DE52394805A4BC7022B9696 /* Pods-JSwiftExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSwiftExtension.release.xcconfig"; sourceTree = "<group>"; };
 		EB464B4865DC0D69B733C3E356437193 /* ReactiveKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ReactiveKit.modulemap; sourceTree = "<group>"; };
 		EB9E9BC4548F5AF7B5DC402BE38C9309 /* atelier-savanna-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "atelier-savanna-dark.min.css"; path = "Pod/Assets/styles/atelier-savanna-dark.min.css"; sourceTree = "<group>"; };
 		EBBBE33A3DE4BAAA200E749EA05905F3 /* nix.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = nix.min.js; path = Pod/Assets/Highlighter/languages/nix.min.js; sourceTree = "<group>"; };
@@ -954,12 +949,16 @@
 		EC1DABFF9BE5264EB8223A7A30C73718 /* Differ.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Differ.xcconfig; sourceTree = "<group>"; };
 		EC2F1FF21F92853AD955C61E0A469C4F /* arduino.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = arduino.min.js; path = Pod/Assets/Highlighter/languages/arduino.min.js; sourceTree = "<group>"; };
 		EC56C51A927BC5791E961A30862EC677 /* NSControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSControl.swift; path = Sources/Bond/AppKit/NSControl.swift; sourceTree = "<group>"; };
+		EF7359B2069D59F3B5A92116E2AFC8BB /* Pods-JSwiftTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JSwiftTests-dummy.m"; sourceTree = "<group>"; };
 		F04292289463C413921B0B198C3F2D9C /* ExtendedPatch+Apply.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ExtendedPatch+Apply.swift"; path = "Sources/Differ/ExtendedPatch+Apply.swift"; sourceTree = "<group>"; };
 		F0D365B82A60E562E283E17158D90E2B /* NSMenuItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSMenuItem.swift; path = Sources/Bond/AppKit/NSMenuItem.swift; sourceTree = "<group>"; };
 		F0DC8E1BEA19B0DA025A10E98BBAB399 /* brown-paper.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "brown-paper.min.css"; path = "Pod/Assets/styles/brown-paper.min.css"; sourceTree = "<group>"; };
+		F0E2DF93B38176AA94D931332498C0A5 /* Pods-JSwiftExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JSwiftExtension.modulemap"; sourceTree = "<group>"; };
 		F167E878C9D68A5AB82DB35275EE798B /* hybrid.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = hybrid.min.css; path = Pod/Assets/styles/hybrid.min.css; sourceTree = "<group>"; };
 		F16DCE4150B84CA73571234F22AF877C /* codepen-embed.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = "codepen-embed.min.css"; path = "Pod/Assets/styles/codepen-embed.min.css"; sourceTree = "<group>"; };
 		F24B9836DAAF255FFCEE2A9CDD8B07A6 /* NMBObjCMatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NMBObjCMatcher.swift; path = Sources/Nimble/Adapters/NMBObjCMatcher.swift; sourceTree = "<group>"; };
+		F2739797CFE1184496B0F74A38C73913 /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Nimble.framework; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2C2BF68F2D6B2F3A434ACD17ACA8830 /* ReactiveKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ReactiveKit.framework; path = ReactiveKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F33A81DE00291AF14040D259D70A65E4 /* LinkedList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LinkedList.swift; path = Sources/Differ/LinkedList.swift; sourceTree = "<group>"; };
 		F359377452C20D584833230BF9606FB9 /* DynamicSubject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicSubject.swift; path = Sources/Bond/DynamicSubject.swift; sourceTree = "<group>"; };
 		F44FE503B6C54A9364F1D809D78291B9 /* ReactiveKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReactiveKit-prefix.pch"; sourceTree = "<group>"; };
@@ -977,9 +976,10 @@
 		F7C5F1C12E2FB47785E60500CA18EA96 /* NestedDiff.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NestedDiff.swift; path = Sources/Differ/NestedDiff.swift; sourceTree = "<group>"; };
 		F7E1A122DB34156F62A98613D3DEADB3 /* Equal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Equal.swift; path = Sources/Nimble/Matchers/Equal.swift; sourceTree = "<group>"; };
 		F864477943EDA9A2FEF3CE5BEDEC4C43 /* clojure-repl.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = "clojure-repl.min.js"; path = "Pod/Assets/Highlighter/languages/clojure-repl.min.js"; sourceTree = "<group>"; };
+		F86915BBA800C8BC5F3F6A9FDDDE6D4F /* Pods-JSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSwift.release.xcconfig"; sourceTree = "<group>"; };
+		F86E934AA09C4D7ADF1B6143585E53D6 /* Pods-JSwiftExtension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSwiftExtension-acknowledgements.plist"; sourceTree = "<group>"; };
 		F8D394A5DCA036F7160C7F5969EE6D1A /* Connectable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Connectable.swift; path = Sources/Connectable.swift; sourceTree = "<group>"; };
 		F8EB846F2E6B947CBBFAB103DE2997F6 /* vs.min.css */ = {isa = PBXFileReference; includeInIndex = 1; name = vs.min.css; path = Pod/Assets/styles/vs.min.css; sourceTree = "<group>"; };
-		FC2976DAE19923400262B96928D5F492 /* Pods-JSON2SWIFT.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JSON2SWIFT.modulemap"; sourceTree = "<group>"; };
 		FC452C179BB3698380FBD610BDC2CF96 /* ReactiveKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReactiveKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD5BA4BC7AE8E24B19B679977B0485CC /* gauss.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = gauss.min.js; path = Pod/Assets/Highlighter/languages/gauss.min.js; sourceTree = "<group>"; };
 		FDC7BE94F7DCE391A9FA84469D076A53 /* asciidoc.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = asciidoc.min.js; path = Pod/Assets/Highlighter/languages/asciidoc.min.js; sourceTree = "<group>"; };
@@ -989,11 +989,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0C405A35169483197A62704C4E071558 /* Frameworks */ = {
+		1C50FC004AE97E52B0CF63DDED175E8C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				133BCD7815E90297929DB9F069B3F41C /* Cocoa.framework in Frameworks */,
+				E93D1F55A0DD8ED6DF8B46C483543ED4 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1002,14 +1002,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD52EF17F9DC30C06E0FEA5B012B490C /* Cocoa.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4F298BB7F3DCDA8FBAED8BA030D76EFE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				102E005621BFB05A02EF592076AD05A8 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1056,6 +1048,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FE08ED4F125DC4851497BDC9151382F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				680025F29119049E8741DA7B85F2FCDD /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -1073,6 +1073,21 @@
 			path = "../Target Support Files/Bond";
 			sourceTree = "<group>";
 		};
+		10AA91BA81603FD1E20D8878F90A6054 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8253E27217FB0ABC458D8358FDCE33AC /* Bond.framework */,
+				18455BE781BC3D27798482AE80647579 /* Differ.framework */,
+				610DD4ADEBC8981AFD124AE6EF4A81E1 /* Highlightr.framework */,
+				F2739797CFE1184496B0F74A38C73913 /* Nimble.framework */,
+				D564445BB8AC123C5F787C8108646422 /* Pods_JSwift.framework */,
+				296A3AF2016A54D59CD3A44D1ABFAA44 /* Pods_JSwiftExtension.framework */,
+				239A36CF96EB2FBFBFE5AA9250FB8865 /* Pods_JSwiftTests.framework */,
+				F2C2BF68F2D6B2F3A434ACD17ACA8830 /* ReactiveKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		1167F4CB00C8F8F3F16EAEF73599EE61 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -1087,22 +1102,22 @@
 			path = "../Target Support Files/Differ";
 			sourceTree = "<group>";
 		};
-		1604A4B8855AD6787683E3FFA851BB8C /* Pods-JSwiftExtension */ = {
+		2F0DA63ACA97D6A0A95371FEA19D39EE /* Pods-JSwift */ = {
 			isa = PBXGroup;
 			children = (
-				5EBC18A96AD1ACD47ED4E6DC9D33D921 /* Info.plist */,
-				8A15E26F0423CF6AA8EB500CD6D93CD2 /* Pods-JSwiftExtension.modulemap */,
-				B01A7F61B5A94FF01F251CD60FED3F89 /* Pods-JSwiftExtension-acknowledgements.markdown */,
-				913EE990D34CBDB9AFA46C0E526AC901 /* Pods-JSwiftExtension-acknowledgements.plist */,
-				7F5F78E99545137E38D2C8BF30A311E2 /* Pods-JSwiftExtension-dummy.m */,
-				993FAA4C2BE9617970CE7F67B4C05C15 /* Pods-JSwiftExtension-frameworks.sh */,
-				210CBFF18BFA217B8A00BF0B5C11E584 /* Pods-JSwiftExtension-resources.sh */,
-				7AFDEFD559EBB6A80DDF6CEC78BD6DC7 /* Pods-JSwiftExtension-umbrella.h */,
-				BE993987BD91C4C65757531FE8C1EF91 /* Pods-JSwiftExtension.debug.xcconfig */,
-				EAB9BF8C4DE52394805A4BC7022B9696 /* Pods-JSwiftExtension.release.xcconfig */,
+				59DE3608EFA80D4B70624F73D88F2CF6 /* Info.plist */,
+				2C9DFAB3B5B790CBFE39BD14BB1DB788 /* Pods-JSwift.modulemap */,
+				1AEF7B7471DB8A4840CADB062156F7F7 /* Pods-JSwift-acknowledgements.markdown */,
+				799754CAA76F89B6EA02D1F2283200A9 /* Pods-JSwift-acknowledgements.plist */,
+				D88A7B783DF570CF4E8FB7ECCF247FCC /* Pods-JSwift-dummy.m */,
+				3C08092A50AA857BCB0384C1AF309043 /* Pods-JSwift-frameworks.sh */,
+				6DAFFC55B9D65A9F7B63775C2D8F6244 /* Pods-JSwift-resources.sh */,
+				3CBC34322E4BC43FA365CA0742DAF782 /* Pods-JSwift-umbrella.h */,
+				9C963BAF3F2E0523EEFD3482CB71763A /* Pods-JSwift.debug.xcconfig */,
+				F86915BBA800C8BC5F3F6A9FDDDE6D4F /* Pods-JSwift.release.xcconfig */,
 			);
-			name = "Pods-JSwiftExtension";
-			path = "Target Support Files/Pods-JSwiftExtension";
+			name = "Pods-JSwift";
+			path = "Target Support Files/Pods-JSwift";
 			sourceTree = "<group>";
 		};
 		321859C9C62C54457E2165576146B517 /* Frameworks */ = {
@@ -1208,45 +1223,9 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				321859C9C62C54457E2165576146B517 /* Frameworks */,
 				E9F5B8A9F4A720C28BB3743297E9C00F /* Pods */,
-				C1F2BB6F6664617E8E7E3360E2AA0EFA /* Products */,
-				E77948B5FD8769D2516376466F8D3656 /* Targets Support Files */,
+				10AA91BA81603FD1E20D8878F90A6054 /* Products */,
+				E935CB8FE1C4F61B13BF0903D9933297 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		7E6C2D79FF438339E2DE9B3EE5F4D745 /* Pods-JSON2SWIFT */ = {
-			isa = PBXGroup;
-			children = (
-				D2E1B21B886A8F5F423C36F220E18B70 /* Info.plist */,
-				FC2976DAE19923400262B96928D5F492 /* Pods-JSON2SWIFT.modulemap */,
-				4C19FD8A8F2225C3BA4D6F521F432870 /* Pods-JSON2SWIFT-acknowledgements.markdown */,
-				694584BA3C7BFA35F35667B7E162F794 /* Pods-JSON2SWIFT-acknowledgements.plist */,
-				25B354C0584799353E1B5B81F93961BA /* Pods-JSON2SWIFT-dummy.m */,
-				222FAE6A00DA6F9D57DE2DBD902463AD /* Pods-JSON2SWIFT-frameworks.sh */,
-				CA10F1E82C44E94034BCCE5E00B80C6C /* Pods-JSON2SWIFT-resources.sh */,
-				A892C89E8E7E810EDC5797AD5815DF3B /* Pods-JSON2SWIFT-umbrella.h */,
-				5A888D08E5CB69EE84B4E74DC15DA413 /* Pods-JSON2SWIFT.debug.xcconfig */,
-				B0134CF127BA1ECDDB886F86352B29A8 /* Pods-JSON2SWIFT.release.xcconfig */,
-			);
-			name = "Pods-JSON2SWIFT";
-			path = "Target Support Files/Pods-JSON2SWIFT";
-			sourceTree = "<group>";
-		};
-		88DBB13A2B5CEC03E2645D389C61FD5D /* Pods-JSON2SWIFTTests */ = {
-			isa = PBXGroup;
-			children = (
-				B7E665DDBAF1DF22A8605B54177F4177 /* Info.plist */,
-				B614D85F4D9ACD69FA93830B7F451204 /* Pods-JSON2SWIFTTests.modulemap */,
-				03253DD2813EE84EFA2ACC67A37D231C /* Pods-JSON2SWIFTTests-acknowledgements.markdown */,
-				278B413F31119DF6D71666649460ABA7 /* Pods-JSON2SWIFTTests-acknowledgements.plist */,
-				82AC55014B5BA4BD6B9CD225012AE5E5 /* Pods-JSON2SWIFTTests-dummy.m */,
-				196DF3E8099AF1005204EFAF04F5B127 /* Pods-JSON2SWIFTTests-frameworks.sh */,
-				B82E9964FABCCCAE372B7CC162E8307E /* Pods-JSON2SWIFTTests-resources.sh */,
-				31FB3AC5E2EDFDFD488B8BC127793859 /* Pods-JSON2SWIFTTests-umbrella.h */,
-				27F07381B0244F51D9B670201F2C8467 /* Pods-JSON2SWIFTTests.debug.xcconfig */,
-				0DF3BF70546CA73A619DA7CCE3D639CD /* Pods-JSON2SWIFTTests.release.xcconfig */,
-			);
-			name = "Pods-JSON2SWIFTTests";
-			path = "Target Support Files/Pods-JSON2SWIFTTests";
 			sourceTree = "<group>";
 		};
 		8F2F2460E11648A8947CF7B6595DAAD2 /* Highlightr */ = {
@@ -1612,19 +1591,40 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		C1F2BB6F6664617E8E7E3360E2AA0EFA /* Products */ = {
+		BFB744603EDF98428ABCA9FA288A17B0 /* Pods-JSwiftTests */ = {
 			isa = PBXGroup;
 			children = (
-				AEC42CA49B38BBA43AC4014696C98A2D /* Bond.framework */,
-				B051FD1F1DD66F74CE7638F84CD350E5 /* Differ.framework */,
-				32C819FC1382DD927E52E213AFD8B2FD /* Highlightr.framework */,
-				926EA09D5CA29940D8FA1BD9B2174278 /* Nimble.framework */,
-				43AF0C5DA22A452D8591298C1A120C37 /* Pods_JSON2SWIFT.framework */,
-				6B6CF94DB7FADB6D8BE2662EAA36D193 /* Pods_JSON2SWIFTTests.framework */,
-				A09CB8752B004322580B4F0EB5E39127 /* Pods_JSwiftExtension.framework */,
-				5B9434FE12E943104638E1F64C2E02D6 /* ReactiveKit.framework */,
+				9CFBB24AA5581DFDA55E9C28DF27E917 /* Info.plist */,
+				A3F3F7AC42FA3689F0ADB6128EFC4D60 /* Pods-JSwiftTests.modulemap */,
+				520129DE805D033A81FFF328ACDDF995 /* Pods-JSwiftTests-acknowledgements.markdown */,
+				93865DBF6C113CD29E7C34F97F092385 /* Pods-JSwiftTests-acknowledgements.plist */,
+				EF7359B2069D59F3B5A92116E2AFC8BB /* Pods-JSwiftTests-dummy.m */,
+				77A3646ECC437E9319566669FEB6B0BD /* Pods-JSwiftTests-frameworks.sh */,
+				3AA9686FCC588904B8AB365270E10814 /* Pods-JSwiftTests-resources.sh */,
+				55FF6BA99C07394852BC9DB75415A553 /* Pods-JSwiftTests-umbrella.h */,
+				6D53C8B331494D492BF237D7248AB2CF /* Pods-JSwiftTests.debug.xcconfig */,
+				30AD6E5087F887CFD904FD24743A7AC3 /* Pods-JSwiftTests.release.xcconfig */,
 			);
-			name = Products;
+			name = "Pods-JSwiftTests";
+			path = "Target Support Files/Pods-JSwiftTests";
+			sourceTree = "<group>";
+		};
+		CFA7D69C80865BC2D620135CC030CA8A /* Pods-JSwiftExtension */ = {
+			isa = PBXGroup;
+			children = (
+				6D8D2733AC5B2EA0B5485126E7D82C2A /* Info.plist */,
+				F0E2DF93B38176AA94D931332498C0A5 /* Pods-JSwiftExtension.modulemap */,
+				726BACAFA26E851F413A5B083545E437 /* Pods-JSwiftExtension-acknowledgements.markdown */,
+				F86E934AA09C4D7ADF1B6143585E53D6 /* Pods-JSwiftExtension-acknowledgements.plist */,
+				741057EB673DD8FCDC0A49BEAC61D1F0 /* Pods-JSwiftExtension-dummy.m */,
+				59A73755B314FF5A097DF1D96395736E /* Pods-JSwiftExtension-frameworks.sh */,
+				6E2E04655A552BDA9FF9EF5B008A886E /* Pods-JSwiftExtension-resources.sh */,
+				D31EE0394BD6CF0BAD7E48522F36B7DC /* Pods-JSwiftExtension-umbrella.h */,
+				510C500CDECFEE626A95BDF05B7B9338 /* Pods-JSwiftExtension.debug.xcconfig */,
+				C78F6A1DCDAD460349672521D2CF0291 /* Pods-JSwiftExtension.release.xcconfig */,
+			);
+			name = "Pods-JSwiftExtension";
+			path = "Target Support Files/Pods-JSwiftExtension";
 			sourceTree = "<group>";
 		};
 		CFB926FAD436C5179447F0936786FBF3 /* Support Files */ = {
@@ -1641,12 +1641,12 @@
 			path = "../Target Support Files/ReactiveKit";
 			sourceTree = "<group>";
 		};
-		E77948B5FD8769D2516376466F8D3656 /* Targets Support Files */ = {
+		E935CB8FE1C4F61B13BF0903D9933297 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7E6C2D79FF438339E2DE9B3EE5F4D745 /* Pods-JSON2SWIFT */,
-				88DBB13A2B5CEC03E2645D389C61FD5D /* Pods-JSON2SWIFTTests */,
-				1604A4B8855AD6787683E3FFA851BB8C /* Pods-JSwiftExtension */,
+				2F0DA63ACA97D6A0A95371FEA19D39EE /* Pods-JSwift */,
+				CFA7D69C80865BC2D620135CC030CA8A /* Pods-JSwiftExtension */,
+				BFB744603EDF98428ABCA9FA288A17B0 /* Pods-JSwiftTests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -1756,11 +1756,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		869375D1392E758F157ADD13F3703938 /* Headers */ = {
+		9296A5C5B4328CF0E279A7A88061B67A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E09E932E27ECFE80BA6C72852B7A01FA /* Pods-JSON2SWIFT-umbrella.h in Headers */,
+				199D61ADAD22CE515821E3260733AEDF /* Pods-JSwiftTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1781,35 +1781,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DB1B00E3B97F8A579AB4A4D01D7AB383 /* Headers */ = {
+		E1AD02686AF21DF8B641DA796C2E952F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92238D58F3660386983050C327465BE4 /* Pods-JSON2SWIFTTests-umbrella.h in Headers */,
+				00A514F6B8496E9AF3286C3CEFC9F83F /* Pods-JSwift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1B04D71BE183368D7A0B2D0332350216 /* Pods-JSON2SWIFTTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BCD1FE1AD06BBC5D1FC03FEC687CE083 /* Build configuration list for PBXNativeTarget "Pods-JSON2SWIFTTests" */;
-			buildPhases = (
-				31B29FE7F9DF5E3A4B44645F20F1A9AB /* Sources */,
-				4F298BB7F3DCDA8FBAED8BA030D76EFE /* Frameworks */,
-				DB1B00E3B97F8A579AB4A4D01D7AB383 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D189A780F6BBCB8CE619D13F1519CA8A /* PBXTargetDependency */,
-			);
-			name = "Pods-JSON2SWIFTTests";
-			productName = "Pods-JSON2SWIFTTests";
-			productReference = 6B6CF94DB7FADB6D8BE2662EAA36D193 /* Pods_JSON2SWIFTTests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		1F1F0AE49B8C2961A529F027E05F7820 /* Differ */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB9B8BD33D6953EA8AE1878E8B6640D4 /* Build configuration list for PBXNativeTarget "Differ" */;
@@ -1824,28 +1806,7 @@
 			);
 			name = Differ;
 			productName = Differ;
-			productReference = B051FD1F1DD66F74CE7638F84CD350E5 /* Differ.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		56DA281D56038918653E205C6253C63B /* Pods-JSON2SWIFT */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BFFE443CFD565D5A177E11A2A95B7D46 /* Build configuration list for PBXNativeTarget "Pods-JSON2SWIFT" */;
-			buildPhases = (
-				F31C227AF5FAB96927E5B3D945E4758D /* Sources */,
-				0C405A35169483197A62704C4E071558 /* Frameworks */,
-				869375D1392E758F157ADD13F3703938 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D1AA5C55B2B8160B4E235199BCF30074 /* PBXTargetDependency */,
-				0A2F987979BF8977F1402A9BCE3234D1 /* PBXTargetDependency */,
-				8D0BDEC1C55285CA4BF760DA4814C433 /* PBXTargetDependency */,
-				D030FB332FA8AE6D74AEC827CA7401A5 /* PBXTargetDependency */,
-			);
-			name = "Pods-JSON2SWIFT";
-			productName = "Pods-JSON2SWIFT";
-			productReference = 43AF0C5DA22A452D8591298C1A120C37 /* Pods_JSON2SWIFT.framework */;
+			productReference = 18455BE781BC3D27798482AE80647579 /* Differ.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		8D49DA71BF9A1F7CC2DE3BAF018EFE92 /* Pods-JSwiftExtension */ = {
@@ -1866,7 +1827,7 @@
 			);
 			name = "Pods-JSwiftExtension";
 			productName = "Pods-JSwiftExtension";
-			productReference = A09CB8752B004322580B4F0EB5E39127 /* Pods_JSwiftExtension.framework */;
+			productReference = 296A3AF2016A54D59CD3A44D1ABFAA44 /* Pods_JSwiftExtension.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		AB7F938A826D513F63868C4E1BC00EEB /* Highlightr */ = {
@@ -1884,7 +1845,7 @@
 			);
 			name = Highlightr;
 			productName = Highlightr;
-			productReference = 32C819FC1382DD927E52E213AFD8B2FD /* Highlightr.framework */;
+			productReference = 610DD4ADEBC8981AFD124AE6EF4A81E1 /* Highlightr.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B5329018F7BC54075D3048FF52867FE0 /* Bond */ = {
@@ -1903,7 +1864,7 @@
 			);
 			name = Bond;
 			productName = Bond;
-			productReference = AEC42CA49B38BBA43AC4014696C98A2D /* Bond.framework */;
+			productReference = 8253E27217FB0ABC458D8358FDCE33AC /* Bond.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C6A2CFBC079820721C02867E16D7DAF9 /* ReactiveKit */ = {
@@ -1920,7 +1881,7 @@
 			);
 			name = ReactiveKit;
 			productName = ReactiveKit;
-			productReference = 5B9434FE12E943104638E1F64C2E02D6 /* ReactiveKit.framework */;
+			productReference = F2C2BF68F2D6B2F3A434ACD17ACA8830 /* ReactiveKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		DD7C8BF89FE8053D0A2A2D88BB49CF07 /* Nimble */ = {
@@ -1937,7 +1898,46 @@
 			);
 			name = Nimble;
 			productName = Nimble;
-			productReference = 926EA09D5CA29940D8FA1BD9B2174278 /* Nimble.framework */;
+			productReference = F2739797CFE1184496B0F74A38C73913 /* Nimble.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E2DA59096A385F82B9D19FA247A7773B /* Pods-JSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D040B52870F77852B3ABD48130DDEA60 /* Build configuration list for PBXNativeTarget "Pods-JSwiftTests" */;
+			buildPhases = (
+				F1E24D3EC79D94293163706512E300EC /* Sources */,
+				FE08ED4F125DC4851497BDC9151382F6 /* Frameworks */,
+				9296A5C5B4328CF0E279A7A88061B67A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5199F9D3B3E943AF87794DCD4FCB2395 /* PBXTargetDependency */,
+			);
+			name = "Pods-JSwiftTests";
+			productName = "Pods-JSwiftTests";
+			productReference = 239A36CF96EB2FBFBFE5AA9250FB8865 /* Pods_JSwiftTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F4EEFE2510A8DF09498C7AAD5C27B1DF /* Pods-JSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B7CF3F9A23DD666B026E86239F4597C /* Build configuration list for PBXNativeTarget "Pods-JSwift" */;
+			buildPhases = (
+				2CC0E739B7977984A69BDD345F569752 /* Sources */,
+				1C50FC004AE97E52B0CF63DDED175E8C /* Frameworks */,
+				E1AD02686AF21DF8B641DA796C2E952F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D6F147E9356AE14DA5AE89DBBF46FF9 /* PBXTargetDependency */,
+				4F7738AE46F87DB685FC243981D20E8E /* PBXTargetDependency */,
+				738BF6DC6C3013BCDBDBD1308ED72DE7 /* PBXTargetDependency */,
+				FDF93AF6448413B50DD1BAAEB369B7AB /* PBXTargetDependency */,
+			);
+			name = "Pods-JSwift";
+			productName = "Pods-JSwift";
+			productReference = D564445BB8AC123C5F787C8108646422 /* Pods_JSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -1957,7 +1957,7 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = C1F2BB6F6664617E8E7E3360E2AA0EFA /* Products */;
+			productRefGroup = 10AA91BA81603FD1E20D8878F90A6054 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -1965,9 +1965,9 @@
 				1F1F0AE49B8C2961A529F027E05F7820 /* Differ */,
 				AB7F938A826D513F63868C4E1BC00EEB /* Highlightr */,
 				DD7C8BF89FE8053D0A2A2D88BB49CF07 /* Nimble */,
-				56DA281D56038918653E205C6253C63B /* Pods-JSON2SWIFT */,
-				1B04D71BE183368D7A0B2D0332350216 /* Pods-JSON2SWIFTTests */,
+				F4EEFE2510A8DF09498C7AAD5C27B1DF /* Pods-JSwift */,
 				8D49DA71BF9A1F7CC2DE3BAF018EFE92 /* Pods-JSwiftExtension */,
+				E2DA59096A385F82B9D19FA247A7773B /* Pods-JSwiftTests */,
 				C6A2CFBC079820721C02867E16D7DAF9 /* ReactiveKit */,
 			);
 		};
@@ -2280,11 +2280,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		31B29FE7F9DF5E3A4B44645F20F1A9AB /* Sources */ = {
+		2CC0E739B7977984A69BDD345F569752 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0C88D4A0EA44D94A0A0FB05D8DCE591 /* Pods-JSON2SWIFTTests-dummy.m in Sources */,
+				7E6E01E5B78B1C56763941A061EAEFF7 /* Pods-JSwift-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2418,11 +2418,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F31C227AF5FAB96927E5B3D945E4758D /* Sources */ = {
+		F1E24D3EC79D94293163706512E300EC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA76D48E9004A44852FD80A5418A3744 /* Pods-JSON2SWIFT-dummy.m in Sources */,
+				999A382EB5495EB63D26AF23CD8F5764 /* Pods-JSwiftTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2437,12 +2437,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0A2F987979BF8977F1402A9BCE3234D1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Differ;
-			target = 1F1F0AE49B8C2961A529F027E05F7820 /* Differ */;
-			targetProxy = 71AA6D74A0143F17F1FB542AB104AABD /* PBXContainerItemProxy */;
-		};
 		0A41E31D69E61A30A452ED48B716DE19 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Bond;
@@ -2461,29 +2455,29 @@
 			target = 1F1F0AE49B8C2961A529F027E05F7820 /* Differ */;
 			targetProxy = 0678A579A63FF878A2C687842E8880A3 /* PBXContainerItemProxy */;
 		};
-		8D0BDEC1C55285CA4BF760DA4814C433 /* PBXTargetDependency */ = {
+		4F7738AE46F87DB685FC243981D20E8E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = Highlightr;
-			target = AB7F938A826D513F63868C4E1BC00EEB /* Highlightr */;
-			targetProxy = 29C3CACFA4C56A2971B31214F3EB0D42 /* PBXContainerItemProxy */;
+			name = Differ;
+			target = 1F1F0AE49B8C2961A529F027E05F7820 /* Differ */;
+			targetProxy = 6BAB207D9376AEB1B791BBF4F8ACF522 /* PBXContainerItemProxy */;
 		};
-		D030FB332FA8AE6D74AEC827CA7401A5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ReactiveKit;
-			target = C6A2CFBC079820721C02867E16D7DAF9 /* ReactiveKit */;
-			targetProxy = 7C34B597B0DD5016287C382C8A965F7F /* PBXContainerItemProxy */;
-		};
-		D189A780F6BBCB8CE619D13F1519CA8A /* PBXTargetDependency */ = {
+		5199F9D3B3E943AF87794DCD4FCB2395 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Nimble;
 			target = DD7C8BF89FE8053D0A2A2D88BB49CF07 /* Nimble */;
-			targetProxy = C6A242A09313C44773BD485C32B37886 /* PBXContainerItemProxy */;
+			targetProxy = B7FAF045D4D6BF8B7C3CC14D6A0D7B7B /* PBXContainerItemProxy */;
 		};
-		D1AA5C55B2B8160B4E235199BCF30074 /* PBXTargetDependency */ = {
+		6D6F147E9356AE14DA5AE89DBBF46FF9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Bond;
 			target = B5329018F7BC54075D3048FF52867FE0 /* Bond */;
-			targetProxy = A908CCB151C00E339E0DDA7D9D682428 /* PBXContainerItemProxy */;
+			targetProxy = 9E5BDB6D62216A572710D284387C73C3 /* PBXContainerItemProxy */;
+		};
+		738BF6DC6C3013BCDBDBD1308ED72DE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Highlightr;
+			target = AB7F938A826D513F63868C4E1BC00EEB /* Highlightr */;
+			targetProxy = F298FD3A2DA0124BB362E8510E87882A /* PBXContainerItemProxy */;
 		};
 		D409B38959516D795EB2AAE9A1E77641 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -2503,87 +2497,15 @@
 			target = C6A2CFBC079820721C02867E16D7DAF9 /* ReactiveKit */;
 			targetProxy = 7A6382E378F98E881D15D9C153FA8930 /* PBXContainerItemProxy */;
 		};
+		FDF93AF6448413B50DD1BAAEB369B7AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ReactiveKit;
+			target = C6A2CFBC079820721C02867E16D7DAF9 /* ReactiveKit */;
+			targetProxy = 59CD82B3959316FE710EC2DCBBAA10A4 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		241EBA4342F9252CE8DA587E3E5834FB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B0134CF127BA1ECDDB886F86352B29A8 /* Pods-JSON2SWIFT.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_VERSION = A;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-JSON2SWIFT/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MODULEMAP_FILE = "Target Support Files/Pods-JSON2SWIFT/Pods-JSON2SWIFT.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_JSON2SWIFT;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		291D52AAD7A0A5D5B2857EE69293A358 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0DF3BF70546CA73A619DA7CCE3D639CD /* Pods-JSON2SWIFTTests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_VERSION = A;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-JSON2SWIFTTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MODULEMAP_FILE = "Target Support Files/Pods-JSON2SWIFTTests/Pods-JSON2SWIFTTests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_JSON2SWIFTTests;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		337AD37B27D7FFADF01DD8D7FE35B27B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2632,46 +2554,6 @@
 			};
 			name = Debug;
 		};
-		52AA8401FE2B78B66B68EC818F508F8D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 27F07381B0244F51D9B670201F2C8467 /* Pods-JSON2SWIFTTests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_VERSION = A;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-JSON2SWIFTTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MODULEMAP_FILE = "Target Support Files/Pods-JSON2SWIFTTests/Pods-JSON2SWIFTTests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_JSON2SWIFTTests;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		5352076068374844E6D8D2A723ADF0E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3DD82D7DD95EE5AB833E60CA7F5F0EAA /* Bond.xcconfig */;
@@ -2703,46 +2585,6 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5510F4C7E088807B0ECA8E7F7F3558E7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A888D08E5CB69EE84B4E74DC15DA413 /* Pods-JSON2SWIFT.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_VERSION = A;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-JSON2SWIFT/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MODULEMAP_FILE = "Target Support Files/Pods-JSON2SWIFT/Pods-JSON2SWIFT.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_JSON2SWIFT;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -2818,6 +2660,46 @@
 			};
 			name = Release;
 		};
+		73219850DCB002F9575573268E23FB0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C963BAF3F2E0523EEFD3482CB71763A /* Pods-JSwift.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/Pods-JSwift/Pods-JSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JSwift;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		74A159E89B821D6CC81CFCBBD66D0CB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C85DDC0366010037AE5BF0E37781ED1E /* Highlightr.xcconfig */;
@@ -2890,9 +2772,48 @@
 			};
 			name = Debug;
 		};
+		9270497947B3FE68CB39B0674C616DB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30AD6E5087F887CFD904FD24743A7AC3 /* Pods-JSwiftTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JSwiftTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/Pods-JSwiftTests/Pods-JSwiftTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JSwiftTests;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		B8B064650FC071C7FF8DA988B48DFC03 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE993987BD91C4C65757531FE8C1EF91 /* Pods-JSwiftExtension.debug.xcconfig */;
+			baseConfigurationReference = 510C500CDECFEE626A95BDF05B7B9338 /* Pods-JSwiftExtension.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2932,7 +2853,7 @@
 		};
 		CFD7C6A77F6437917358536834408A62 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EAB9BF8C4DE52394805A4BC7022B9696 /* Pods-JSwiftExtension.release.xcconfig */;
+			baseConfigurationReference = C78F6A1DCDAD460349672521D2CF0291 /* Pods-JSwiftExtension.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -3075,6 +2996,85 @@
 			};
 			name = Release;
 		};
+		EABE0992A9AC239630D7ABB1EA98ECA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D53C8B331494D492BF237D7248AB2CF /* Pods-JSwiftTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JSwiftTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/Pods-JSwiftTests/Pods-JSwiftTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JSwiftTests;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F24F5914F44B1DBB59E407D9D5DB6913 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F86915BBA800C8BC5F3F6A9FDDDE6D4F /* Pods-JSwift.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/Pods-JSwift/Pods-JSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JSwift;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		F559899CE947C10060C0609DE4FDDB1E /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C85DDC0366010037AE5BF0E37781ED1E /* Highlightr.xcconfig */;
@@ -3193,6 +3193,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1B7CF3F9A23DD666B026E86239F4597C /* Build configuration list for PBXNativeTarget "Pods-JSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73219850DCB002F9575573268E23FB0F /* Debug */,
+				F24F5914F44B1DBB59E407D9D5DB6913 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -3229,24 +3238,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BCD1FE1AD06BBC5D1FC03FEC687CE083 /* Build configuration list for PBXNativeTarget "Pods-JSON2SWIFTTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				52AA8401FE2B78B66B68EC818F508F8D /* Debug */,
-				291D52AAD7A0A5D5B2857EE69293A358 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BFFE443CFD565D5A177E11A2A95B7D46 /* Build configuration list for PBXNativeTarget "Pods-JSON2SWIFT" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5510F4C7E088807B0ECA8E7F7F3558E7 /* Debug */,
-				241EBA4342F9252CE8DA587E3E5834FB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		C5A1D2A52810E5822485CD1E5C67FCF6 /* Build configuration list for PBXNativeTarget "ReactiveKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -3261,6 +3252,15 @@
 			buildConfigurations = (
 				FB0D746A40134C5629BF777AD5431CCC /* Debug */,
 				E6BA8AF640CE058F48C495F437703788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D040B52870F77852B3ABD48130DDEA60 /* Build configuration list for PBXNativeTarget "Pods-JSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EABE0992A9AC239630D7ABB1EA98ECA9 /* Debug */,
+				9270497947B3FE68CB39B0674C616DB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

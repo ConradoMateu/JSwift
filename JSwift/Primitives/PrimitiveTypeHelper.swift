@@ -25,12 +25,12 @@ class PrimitiveTypeHelper {
             return .object
         } else if (type as? [String]) != nil {
             return .stringArray
+        }   else if (type as? [Bool]) != nil{
+            return .boolArray
         } else if (type as? [Int]) != nil {
             return .intArray
         } else if (type as? [Double]) != nil {
             return .doubleArray
-        } else if (type as? [Bool]) != nil{
-            return .boolArray
         } else if (type as? Bool) != nil {
             return .bool
         } else if(type as? Int) != nil {

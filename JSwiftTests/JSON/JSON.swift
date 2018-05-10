@@ -7,7 +7,7 @@
 //
 
 import Foundation
-@testable import JSON2SWIFT
+@testable import JSwift
 
 class JSON {
     func get(named: String) -> String? {

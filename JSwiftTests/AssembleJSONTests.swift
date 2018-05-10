@@ -8,7 +8,7 @@
 
 import XCTest
 import Nimble
-@testable import JSON2SWIFT
+@testable import JSwift
 
 class AssembleJSONTests: XCTestCase {
 
@@ -25,8 +25,15 @@ class AssembleJSONTests: XCTestCase {
     func testShouldAssembleTheExactNumberOfFiles() {
         let json = JSON().get(named: "JSON")
         let assembler = Assembler()
-        assembler.assemble(json: json!, name: "Main")
-        expect(assembler.numberOfFilesCreated).to(equal(4))
+        do{
+            try assembler.transform(json: json!, name: "Main")
+        } catch Errors.incorrectJSON{
+            print("Incorrect JSON")
+        } catch let error {
+            print(error)
+        }
+
+        expect(assembler.numberOfFilesCreated).to(equal(6))
     }
 
 }
