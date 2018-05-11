@@ -51,6 +51,10 @@ class ViewController: NSViewController, NSTextFieldDelegate, NSTextViewDelegate 
                 self.cleanResultField()
                 self.generateJSON(text: text)
 
+            }else {
+                self.cleanResultField()
+                self.cleanJSONField()
+                self.saveFilesButton.isHidden = true
             }
         }
     }
@@ -60,6 +64,11 @@ extension ViewController {
     func cleanResultField(){
         self.resultView.layoutManager?.replaceTextStorage(NSTextStorage(attributedString: NSMutableAttributedString(string: "")))
     }
+
+    func cleanJSONField(){
+    self.JSONTextField.layoutManager?.replaceTextStorage(NSTextStorage(attributedString: NSMutableAttributedString(string: "")))
+    }
+
     func generateJSON(text: String) {
         self.JSONTextField.string = ""
         self.JSONTextField.textStorage?.append(self.highlight(language: "json", theme: "paraiso-dark", text: text)!)
