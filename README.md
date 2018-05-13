@@ -1,55 +1,18 @@
 
 
 <p align="center">
-  <img src="./Art/JSWIFTLOGO.png" alt="drawing" style="width: 300px;"/>
+  <img src="./Art/JSWIFTLOGO.png" alt="drawing" width="450" height="450"/>
 </p>
 
 
 Easily conversion of JSON into Codable Structs supported by Swift 4
 
-- [Features](#features)
-- [Component Libraries](#component-libraries)
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Features](#features)
 - [Credits](#credits)
 - [License](#license)
-
-## Features
-
-- [ ] Codable Alamofire Support
-- [ ] Cocopods Library 
-- [ ] Swift Dictionary Mapping Support
-
-## Usage
-
-### User Interface
-
-Paste your JSON or open a JSON file:
-
-![Alt Text](https://media.giphy.com/media/mPzOSufN2bkZwgXqwg/giphy.gif)
-
-### Extension
-
-Selecting JSON using XCode:
-
-![Alt Text](https://media.giphy.com/media/1g2JAtxGpTNAg4tSQs/giphy.gif)
-
-Using copied JSON from your Clipboard:
-
-![Alt Text](https://media.giphy.com/media/2kNswBCM2hUj9ZnTwJ/giphy.gif)
-
-
-
-Once you have your codable structs created, you can easily retrieve data using:
-
-```swift
-let url = URL(string: "http://yourjsonurl.com")
-let task = URLSession.shared.dataTask(with: url!) { (data, response, error) in	
-	let response = try JSONDecoder().decode(Main.self, from: data!)
-}
-task.resume()
-```
 
 ## Requirements
 
@@ -61,7 +24,7 @@ task.resume()
 
 ### Download the App
 
-- Download the App
+- Download last jSwift's release
 
 #### XCodeExtesion
 - Run the app, then quit. Do not delete the App
@@ -84,6 +47,42 @@ Soon available in App Store 🙌
 - Go to System Preferences -> Extensions -> Xcode Source Editor and enable the JSwiftExtension extension
 - The menu item should now be available from Xcode's Editor menu
 
+
+## Usage
+
+### User Interface
+
+Paste your JSON or open a JSON file:
+
+![Alt Text](https://media.giphy.com/media/mPzOSufN2bkZwgXqwg/giphy.gif)
+
+### Extension
+
+Selecting JSON using XCode:
+
+![Alt Text](https://media.giphy.com/media/1g2JAtxGpTNAg4tSQs/giphy.gif)
+
+Using copied JSON from your Clipboard:
+
+![Alt Text](https://media.giphy.com/media/2kNswBCM2hUj9ZnTwJ/giphy.gif)
+
+
+Once you have your codable structs created, you can easily retrieve data using:
+
+```swift
+let url = URL(string: "http://yourjsonurl.com")
+let task = URLSession.shared.dataTask(with: url!) { (data, response, error) in	
+	let response = try JSONDecoder().decode(Main.self, from: data!)
+}
+task.resume()
+```
+
+
+## Features
+
+- [ ] Codable Alamofire Support
+- [ ] Cocopods Library 
+- [ ] Swift Dictionary Mapping Support
 
 ## Credits
 
