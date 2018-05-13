@@ -24,7 +24,7 @@ Easily conversion of JSON into Codable Structs supported by Swift 4
 
 ### Download the App
 
-- Download last jSwift's release
+- Download JSwift's last release
 
 #### XCodeExtesion
 - Run the app, then quit. Do not delete the App
