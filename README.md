@@ -61,7 +61,7 @@ task.resume()
 
 ### Download the App
 
-- Download the App
+- Download last jSwift's release
 
 #### XCodeExtesion
 - Run the app, then quit. Do not delete the App
