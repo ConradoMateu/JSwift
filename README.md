@@ -1,7 +1,7 @@
 
 
 <p align="center">
-  <img src="./Art/JSWIFTLOGO.png" alt="drawing" style="width: 200px;"/>
+  <img src="./Art/JSWIFTLOGO.png" alt="drawing" width="200" height="400"/>
 </p>
 
 
