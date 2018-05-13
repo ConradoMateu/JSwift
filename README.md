@@ -4,6 +4,7 @@
   <img src="./Art/JSWIFTLOGO.png" alt="drawing" width="450" height="450"/>
 </p>
 
+[![Build Status](https://travis-ci.org/ConradoMateu/JSwift.svg?branch=master)](https://travis-ci.org/ConradoMateu/JSwift)
 
 Easily conversion of JSON into Codable Structs supported by Swift 4
 
@@ -71,7 +72,7 @@ Once you have your codable structs created, you can easily retrieve data using:
 
 ```swift
 let url = URL(string: "http://yourjsonurl.com")
-let task = URLSession.shared.dataTask(with: url!) { (data, response, error) in	
+let task = URLSession.shared.dataTask(with: url!) { (data, response, error) in
 	let response = try JSONDecoder().decode(Main.self, from: data!)
 }
 task.resume()
@@ -81,7 +82,7 @@ task.resume()
 ## Features
 
 - [ ] Codable Alamofire Support
-- [ ] Cocopods Library 
+- [ ] Cocopods Library
 - [ ] Swift Dictionary Mapping Support
 
 ## Credits
