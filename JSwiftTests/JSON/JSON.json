@@ -1,1 +1,45 @@
-
+{
+    "id": "5af4d0c0bdec95a06bbb91d1",
+    "index": 0,
+    "guid": "a39be507-5e44-4e7a-8734-e4972bd4e13b",
+    "isActive": true,
+    "balance": "$3,592.10",
+    "picture": "http://placehold.it/32x32",
+    "age": 27,
+    "eyeColor": "green",
+    "name": "Rita Oliver",
+    "gender": "female",
+    "company": "GEEKETRON",
+    "email": "ritaoliver@geeketron.com",
+    "phone": "+1 (922) 518-3675",
+    "address": "341 Irving Street, Boyd, Indiana, 4442",
+    "about": "Adipisicing irure cupidatat esse exercitation non. Irure non ullamco labore mollit ullamco in excepteur veniam exercitation non sint. Excepteur adipisicing ut consequat tempor. Occaecat mollit ut incididunt minim. Lorem ea culpa ullamco in officia incididunt ut consectetur proident consectetur.\r\n",
+    "registered": "2015-09-02T06:23:25 -02:00",
+    "latitude": -4.015895,
+    "longitude": -132.280678,
+    "tags": [
+             "et",
+             "commodo",
+             "ea",
+             "dolor",
+             "in",
+             "laboris",
+             "commodo"
+             ],
+    "friends": [
+                {
+                "id": 0,
+                "name": "Darlene Long"
+                },
+                {
+                "id": 1,
+                "name": "Wynn Langley"
+                },
+                {
+                "id": 2,
+                "name": "Bass Walton"
+                }
+                ],
+    "greeting": "Hello, Rita Oliver! You have 2 unread messages.",
+    "favoriteFruit": "strawberry"
+}

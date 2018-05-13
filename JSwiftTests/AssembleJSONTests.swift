@@ -33,7 +33,7 @@ class AssembleJSONTests: XCTestCase {
             print(error)
         }
 
-        expect(assembler.numberOfFilesCreated).to(equal(6))
+        expect(assembler.numberOfFilesCreated).to(equal(2))
     }
 
 }
