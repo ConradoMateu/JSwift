@@ -1,6 +1,0 @@
-framework module Pods_JSON2SWIFTTests {
-  umbrella header "Pods-JSON2SWIFTTests-umbrella.h"
-
-  export *
-  module * { export * }
-}
