@@ -45,7 +45,7 @@ Soon available in App Store 🙌
 - Select the application target and then Product > Archive
 - Export the archive as a macOS App
 - Run the app, then quit. Do not delete the App
-- Go to System Preferences -> Extensions -> Xcode Source Editor and enable the JSwiftExtension extension
+- Go to System Preferences -> Extensions -> Xcode Source Editor and enable the JSwiftExtension
 - The menu item should now be available from Xcode's Editor menu
 
 
