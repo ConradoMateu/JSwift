@@ -87,7 +87,7 @@ task.resume()
 
 ## Credits
 
-Thanks to my friend Seb Holt for doing JSwift's logo
+Thanks to my friend [Seb Holt](https://smh.design) for doing JSwift's logo
 
 
 ## License
