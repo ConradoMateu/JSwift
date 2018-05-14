@@ -1,7 +1,7 @@
 
 
 <p align="center">
-  <img src="./Art/JSWIFTLOGO.png" alt="drawing" width="450" height="450"/>
+  <img src="./Art/JSWIFTLOGO.png" alt="drawing" width="45%" height="45%"/>
 </p>
 
 [![Build Status](https://travis-ci.org/ConradoMateu/JSwift.svg?branch=master)](https://travis-ci.org/ConradoMateu/JSwift)
@@ -72,11 +72,7 @@ Once you have your codable structs created, you can easily retrieve data using:
 
 ```swift
 let url = URL(string: "http://yourjsonurl.com")
-<<<<<<< HEAD
 let task = URLSession.shared.dataTask(with: url!) { (data, response, error) in
-=======
-let task = URLSession.shared.dataTask(with: url!) { (data, response, error) in
->>>>>>> 4470aced0f384fbba635cb24772514757dfcab45
 	let response = try JSONDecoder().decode(Main.self, from: data!)
 }
 task.resume()
@@ -86,11 +82,7 @@ task.resume()
 ## Features
 
 - [ ] Codable Alamofire Support
-<<<<<<< HEAD
 - [ ] Cocopods Library
-=======
-- [ ] Cocopods Library
->>>>>>> 4470aced0f384fbba635cb24772514757dfcab45
 - [ ] Swift Dictionary Mapping Support
 
 ## Credits

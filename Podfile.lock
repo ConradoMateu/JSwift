@@ -1,15 +1,27 @@
 PODS:
+  - Bond (6.7.0):
+    - Differ (~> 1.0)
+    - ReactiveKit (~> 3.8)
+  - Differ (1.0.3)
+  - Highlightr (2.0.0)
   - Nimble (7.0.3)
+  - ReactiveKit (3.9.3)
   - SwiftLint (0.25.0)
 
 DEPENDENCIES:
+  - Bond
+  - Highlightr
   - Nimble (~> 7.0.0)
   - SwiftLint
 
 SPEC CHECKSUMS:
+  Bond: 06ece4b283fb69047d9997e285147d0abcf52ce3
+  Differ: 0c220ac75542f5f17f91b1303b85bf07d871ecd7
+  Highlightr: e68a91ed9067ef0a787b920dd9becbd9935c2b79
   Nimble: 7f5a9c447a33002645a071bddafbfb24ea70e0ac
+  ReactiveKit: 8163ec428d11cea4d3c7be07ba3a3ddd4cb80e8f
   SwiftLint: e14651157288e9e01d6e1a71db7014fb5744a8ea
 
-PODFILE CHECKSUM: e347630b551c22ea81814ce4b238c172821145a6
+PODFILE CHECKSUM: 7c2f906bf2b1b467d593bb8f4be5044ef264a598
 
 COCOAPODS: 1.2.1
