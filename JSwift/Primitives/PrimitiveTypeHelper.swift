@@ -31,7 +31,7 @@ class PrimitiveTypeHelper {
             return .intArray
         } else if (type as? [Double]) != nil {
             return .doubleArray
-        } else if (type as? Bool) != nil {
+        } else if isBool(type) {
             return .bool
         } else if(type as? Int) != nil {
             return .int
@@ -39,8 +39,13 @@ class PrimitiveTypeHelper {
             return .double
         } else if (type as? String) != nil{
             return .string
-        }else{
+        }else {
             return nil
         }
+    }
+
+
+    static func isBool(_ element: AnyObject) -> Bool {
+        return type(of: element).description() == "__NSCFBoolean"
     }
 }
