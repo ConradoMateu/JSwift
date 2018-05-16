@@ -31,7 +31,7 @@ class PrimitiveTypeHelper {
             return .intArray
         } else if (type as? [Double]) != nil {
             return .doubleArray
-        } else if (type as? Bool) != nil {
+        } else if isBool(type) {
             return .bool
         } else if(type as? Int) != nil {
             return .int
@@ -42,5 +42,10 @@ class PrimitiveTypeHelper {
         }else{
             return nil
         }
+    }
+
+
+    static func isBool(_ element: AnyObject) -> Bool {
+        return (self as? Bool) != nil && (self as? Int) != 1 && (self as? Int) != 0
     }
 }
