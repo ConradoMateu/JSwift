@@ -59,8 +59,8 @@ class PrimitiveTypeHelperTests: XCTestCase {
     }
 
     func testInferShouldReturnBool() {
-        let stringToInfer = true
-        let infer = PrimitiveTypeHelper.infer(type: stringToInfer as AnyObject)
+        let stringToInfer = true as AnyObject
+        let infer = PrimitiveTypeHelper.infer(type: stringToInfer)
         expect(infer).to(equal(Primitives.bool))
     }
 

@@ -39,13 +39,13 @@ class PrimitiveTypeHelper {
             return .double
         } else if (type as? String) != nil{
             return .string
-        }else{
+        }else {
             return nil
         }
     }
 
 
     static func isBool(_ element: AnyObject) -> Bool {
-        return (self as? Bool) != nil && (self as? Int) != 1 && (self as? Int) != 0
+        return type(of: element).description() == "__NSCFBoolean"
     }
 }
